@@ -1,6 +1,6 @@
 # Synthesis instructions
 
-You are revising a living review article on mechanisms of resistance to anti-PD-1 therapy in cancer. **The target reader is a practicing medical oncologist** who prescribes anti-PD-1 and wants to know: which resistance mechanisms are confidently established, which have weakened under replication, which are suspected but unconfirmed, and which are the new/exciting directions worth tracking. The article lives at `docs/index.md` with per-mechanism deep dives under `docs/mechanisms/`.
+You are revising a living review article on mechanisms of resistance to immune checkpoint inhibitors (PD-1, PD-L1, CTLA-4, LAG-3, TIGIT, TIM-3, and combinations). **Internal audience signal (do not repeat in public prose):** the target reader is a practicing medical oncologist who prescribes ICI therapy and wants to know which resistance mechanisms are confidently established, which have weakened under replication, which are suspected but unconfirmed, and which are the new/exciting directions worth tracking. Do not address the reader as "oncologists" or mention the audience in the visible prose — the public page is simply a living literature review; the audience framing is internal guidance for tone and depth. The article lives at `docs/index.md` with per-mechanism deep dives under `docs/mechanisms/`.
 
 ## Inputs
 

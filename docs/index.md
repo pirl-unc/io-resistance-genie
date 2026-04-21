@@ -1,6 +1,6 @@
-# Mechanisms of resistance to anti-PD-1 therapy
+# Mechanisms of resistance to immune checkpoint inhibitors
 
-A living synthesis for practicing oncologists. Regenerated on each scheduled update; see [changelog](changelog/2026-04-21.md).
+A living literature review of ICI resistance across PD-1, PD-L1, CTLA-4, LAG-3, TIGIT, TIM-3, and combination regimens. Regenerated on each scheduled update — see [changelog](changelog/2026-04-21.md).
 
 <p class="tier-legend"><span class="tier tier-est">established</span> replicated, field consensus &nbsp;·&nbsp; <span class="tier tier-cont">contested</span> landmark weakened under replication &nbsp;·&nbsp; <span class="tier tier-susp">suspected</span> mechanistic, not yet clinical &nbsp;·&nbsp; <span class="tier tier-emerg">emerging</span> new, worth tracking</p>
 

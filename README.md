@@ -2,7 +2,7 @@
 
 > **WIP / experiment.** Early-stage prototype of a self-updating literature synthesis. Expect things to move.
 
-A living literature review on mechanisms of resistance to anti-PD1 therapy in cancer. A scheduled Claude Code agent scans new PubMed and bioRxiv/medRxiv papers weekly, triages for relevance and novelty, extracts structured mechanistic findings, and revises the synthesis to reflect genuinely new knowledge.
+A living literature review on mechanisms of resistance to immune checkpoint inhibitors (PD-1, PD-L1, CTLA-4, LAG-3, TIGIT, TIM-3, and combinations). A scheduled Claude Code agent scans new PubMed and bioRxiv/medRxiv papers weekly, triages for relevance and novelty, extracts structured mechanistic findings, and revises the synthesis to reflect genuinely new knowledge.
 
 **Site:** https://pirl-unc.github.io/io-resistance-genie/
 
