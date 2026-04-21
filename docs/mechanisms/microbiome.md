@@ -22,10 +22,10 @@
 - **FMT from anti-PD-1 responders can rescue anti-PD-1-refractory melanoma.** Baruch 2021 (phase I, 3/10 objective responses)[^pmid:33303685] and Davar 2021 (phase II, 6/15 clinical benefit including ~20% ORR)[^pmid:33542131] converge independently. **This is the most surprising and actionable microbiome finding to date** — it implies that some proportion of anti-PD-1 refractoriness reflects a reversible host-microbiome state rather than tumor-intrinsic escape.
 - The Davar study showed a mechanistic signature: reduced intratumoral IL-8+ myeloid cells, increased CD8+ T cell activation, consistent with microbiome-driven TME reprogramming. This is the first plausible mechanistic link between gut state and tumor immune state beyond correlative signatures.
 
-## How to apply at the bedside
+## Practical takeaways
 
 - **Antibiotics:** avoid unnecessary antibiotic exposure in the 1–2 months around ICI initiation. This is the most robust clinical implication of the microbiome literature.
-- **Probiotics / specific supplementation:** not evidence-based. Commercial probiotics should not be prescribed as ICI adjuncts outside a clinical trial.
+- **Probiotics / specific supplementation:** not evidence-based as ICI adjuncts outside a clinical trial.
 - **Diet:** high-fiber diet shows associations with better ICI outcomes in observational data but is not rigorously established as causal in humans.
 - **FMT:** investigational. 20–30% response rates in small refractory trials are promising enough to support ongoing trials but not standard of care.
 

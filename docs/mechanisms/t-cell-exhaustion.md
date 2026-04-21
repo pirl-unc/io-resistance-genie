@@ -22,7 +22,7 @@
 - **M2 TAM-derived PGE2 drives TIGIT upregulation on PD-1+ CD8 T cells in MSS colorectal cancer**[^pmid:41196020], creating terminally exhausted PD-1+TIGIT+ cells and blunting anti-PD-L1. COX2 inhibition, PGE2 receptor antagonism, or TIGIT blockade each restore activity preclinically. Specific combinatorial rationale for an indication where PD-1 monotherapy has consistently failed.
 - **Anti-TIM-3 (TQB2618) + anti-PD-1 penpulimab achieves 52% ORR in PD-1-pretreated classical Hodgkin lymphoma**[^pmid:41963080] (n=21 phase Ib). Salvage signal in a setting where re-engaging checkpoint biology was not expected to yield substantial response.
 
-## How to apply at the bedside
+## Practical takeaways
 
 - A heavily PD-1+ infiltrate by IHC is not automatically a good prognostic marker — without stem-like progenitor cells, the proliferative response to blockade can be muted.
 - The field's post-PD-1 checkpoint pipeline — LAG-3, TIGIT, TIM-3, and now KLRG1 — is adding real options, though most remain investigational.

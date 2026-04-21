@@ -21,7 +21,7 @@
 - **Single-cell spatial transcriptomics defines six tissue niches that stratify neoadjuvant PD-1/PD-L1 response in cSCC better than PD-L1 IHC**[^pmid:41617396]. High antigen-presentation / B-plasma / inflammatory-keratinocyte niches enrich responders; proliferative-keratinocyte / low-APC-myeloid / fibroblast-rich-EMT niches dominate non-responders. Niche-based biomarkers may eventually outperform single-marker IHC.
 - **LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab in anti-PD-1-refractory melanoma** reprograms the myeloid compartment and restores ICI-responsive immune signatures in 24 patients[^pmid:41888981]. Biomarker-level evidence; small single-arm; but few interventions reliably rescue refractory melanoma.
 
-## How to apply at the bedside
+## Practical takeaways
 
 - Inflamed vs. excluded vs. desert remains a useful pre-treatment mental model. A patient with high CD8 at the invasive margin but non-response may have a downstream exhaustion or metabolic problem; a patient with a desert tumor faces a different biology (likely WNT/β-catenin, STK11, low TMB, or low DC recruitment).
 - **Do not count on TGF-β-targeting agents to rescue excluded tumors yet.** The clinical data on bintrafusp alfa, galunisertib, NIS793 are disappointing despite strong preclinical rationale.

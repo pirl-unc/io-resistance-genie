@@ -19,7 +19,7 @@
 
 - **IFN-γ → IRF1 → AGPAT3 → ether-phospholipid remodeling → ferroptosis sensitivity** (this period)[^pmid:41807033]. Extends IFN-γ consequences beyond antigen presentation and apoptosis to a lipidomic vulnerability. AGPAT3 loss impairs IFN-γ-mediated tumor elimination; higher tumor AGPAT3 correlates with improved ICI survival in retrospective analysis. Preclinical / associative; no pharmacologic AGPAT3 modulator tested.
 
-## How to apply at the bedside
+## Practical takeaways
 
 - A tumor showing high baseline PD-L1 in response to an inflamed TME suggests intact IFN-γ signaling (good PD-1 response prospect). A tumor with poor PD-L1 despite CD8 infiltration raises the possibility of JAK/STAT pathway defect.
 - JAK1/2 LOF testing is not standard of care but may help triage patients on the edge of an ICI decision, particularly in primary non-response after initial high-TMB expectations.

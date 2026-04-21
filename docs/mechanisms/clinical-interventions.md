@@ -25,7 +25,7 @@
 - **ATOMIC phase 3 (NEJM 2026): adjuvant atezolizumab + mFOLFOX6 in stage III dMMR colon cancer, HR 0.50**[^pmid:41880612]. 3-year DFS 86.3% vs 76.2%; 40.9-month median follow-up; grade 3/4 AEs 84.1% vs 71.9%. OS not yet mature. Extends ICI benefit to the adjuvant dMMR setting. A large new patient population will now experience prolonged ICI exposure.
 - **Anti-TIM-3 (TQB2618) + anti-PD-1 penpulimab in PD-1-pretreated classical Hodgkin lymphoma** achieves 52% ORR in 21 evaluable patients[^pmid:41963080]. Salvage signal in a setting where re-engaging checkpoint biology was not expected.
 
-## How to apply at the bedside
+## Practical takeaways
 
 - **1L NSCLC PD-L1 ≥50%:** single-agent pembrolizumab is standard; KEYNOTE-024 data are durable.
 - **Metastatic melanoma:** nivolumab + ipilimumab vs single-agent PD-1 is an individualized decision based on disease burden, PD-L1 status, and patient fitness for immune-related toxicity; the combination's largest relative benefit is in PD-L1-negative disease.

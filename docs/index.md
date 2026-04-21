@@ -11,9 +11,8 @@ A living literature review of ICI resistance across PD-1, PD-L1, CTLA-4, LAG-3, 
 - <span class="tier tier-est">established</span> **dMMR/MSI-H is the single most reliable ICI biomarker across histologies** (Le 2017)[^pmid:28596308]; basis of the first tissue-agnostic FDA approval. Confirmed in KEYNOTE-177 for 1L dMMR mCRC[^pmid:33264544] — but not uniformly predictive (see contradictions).
 - <span class="tier tier-est">established</span> **JAK1/JAK2 and B2M LOF cause acquired anti-PD-1 resistance in melanoma** (Zaretsky 2016)[^pmid:27433843]; rare (<5%) but biochemically definitive. JAK1/2 LOF also drives a subset of primary resistance (Shin 2017)[^pmid:27903500]. PTPN2 loss in tumor cells is the inverse — a sensitizer that amplifies IFN-γ response (Manguso 2017)[^pmid:28723893], now in clinical development.
 - <span class="tier tier-est">established</span> **KRAS-mutant NSCLC with STK11/LKB1 co-mutation is primary ICI-refractory** despite TMB-intermediate/high status (Skoulidis 2018)[^pmid:29773717]. Now used in NSCLC trial stratification.
-- <span class="tier tier-est">established</span> **PD-1 + CTLA-4 combination improves PFS over single-agent PD-1 in advanced melanoma** (CheckMate 067)[^pmid:26027431], at ~55% grade 3/4 TRAE cost. Durable OS plateau out to 6.5+ years.
-- <span class="tier tier-est">established</span> **Pembrolizumab monotherapy first-line for NSCLC with PD-L1 TPS ≥50% is standard of care** (KEYNOTE-024)[^pmid:27718847]; 5-year OS benefit confirmed despite crossover.
-- <span class="tier tier-est">established</span> **Ipilimumab inaugurated the durable-survival-plateau paradigm** (Hodi 2010)[^pmid:20525992]: 20–26% of patients on a long-term OS plateau at 10 years. The nivolumab phase I (Topalian 2012)[^pmid:22658127] then demonstrated anti-PD-1 activity in NSCLC and RCC, expanding the paradigm beyond melanoma.
+- <span class="tier tier-est">established</span> **PD-1 + CTLA-4 combination rescues a meaningful fraction of single-agent PD-1 non-responders in melanoma**, with the largest relative benefit in PD-L1-negative tumors (CheckMate 067)[^pmid:26027431] — indicating CTLA-4 and PD-1 address partly-complementary resistance mechanisms. ~55% grade 3/4 TRAE cost.
+- <span class="tier tier-est">established</span> **PD-L1 IHC (TPS ≥50%) prospectively identifies the NSCLC sub-population for whom single-agent PD-1 blockade is sufficient** (KEYNOTE-024)[^pmid:27718847]. The PD-L1-low population defines the monotherapy resistance group; they now receive chemo-IO by default.
 - <span class="tier tier-est">established</span> **Response depends on a stem-like Tcf1+PD-1+ CD8+ progenitor pool, not reinvigoration of terminally exhausted effectors** (Siddiqui 2019, Sade-Feldman 2018, Miller 2019)[^pmid:30635237][^pmid:30388456]. Explains why a heavily PD-1+ infiltrate is not enough if it lacks the stem-like subset.
 - <span class="tier tier-est">established</span> **TOX is the master transcription factor of the exhausted chromatin state** (Alfei 2019 and concurrent work)[^pmid:31207603]. Epigenetic fixation of exhaustion is a durable barrier to reinvigoration — and TOX ablation impairs both exhaustion *and* persistence, so it is not a simple therapeutic brake.
 - <span class="tier tier-est">established</span> **TGF-β signaling in peritumoral fibroblasts drives T-cell exclusion** (Mariathasan 2018 in urothelial[^pmid:29443960]; Tauriello 2018 in MSS CRC GEMM[^pmid:29443964]). **But clinical translation has failed — see contradictions.**
@@ -57,14 +56,14 @@ Known initial findings that later weakened under replication or didn't translate
 - <span class="tier tier-emerg">emerging</span> **Single-cell spatial profiling defines six niches stratifying neoadjuvant cSCC response better than PD-L1 IHC**[^pmid:41617396]. Niche-composition biomarkers may eventually outperform single-marker IHC.
 - <span class="tier tier-emerg">emerging</span> **hMENA TGF-β-driven CAF signature validated against OAK phase III**[^pmid:41592891] — a clinically anchored exclusion biomarker despite the TGF-β clinical translation gap on the drug side.
 
-## Questions an oncologist likely has — quick answers
+## Practical questions & quick answers
 
-- **Should I still order PD-L1 IHC?** Yes, for 1L NSCLC selection (TPS ≥50% standard for pembro monotherapy). Less useful elsewhere; increasingly replaced by tumor-type-specific algorithms.
-- **Does my patient's dMMR status guarantee benefit?** No. KEYNOTE-177[^pmid:33264544] PFS was biphasic with ~29% primary progression. dMMR is necessary-but-not-sufficient in mCRC.
-- **Should I worry about antibiotic exposure around ICI initiation?** Yes — the antibiotic-harm signal is the most robustly replicated microbiome observation. Specific probiotic or taxonomy-guided interventions are not clinically ready.
+- **Is PD-L1 IHC still clinically useful?** Yes, for 1L NSCLC selection (TPS ≥50% standard for pembro monotherapy). Less useful elsewhere; increasingly replaced by tumor-type-specific algorithms.
+- **Does dMMR status guarantee benefit?** No. KEYNOTE-177[^pmid:33264544] PFS was biphasic with ~29% primary progression. dMMR is necessary-but-not-sufficient in mCRC.
+- **Does peri-ICI antibiotic exposure matter?** Yes — the antibiotic-harm signal is the most robustly replicated microbiome observation. Specific probiotic or taxonomy-guided interventions are not clinically ready.
 - **Can anti-PD-1-refractory patients be rescued?** Emerging positive signals: FMT from a responder donor (~20–30% response in small trials), TIM-3 combination in PD-1-pretreated cHL (52% ORR n=21), LOAd703 oncolytic in melanoma (biomarker-level). None are standard of care yet.
-- **Should I test for STK11/KEAP1 in KRAS-mutant NSCLC?** It guides prognosis on ICI and supports clinical trial stratification, though no FDA-level companion biomarker yet.
-- **Is there a prospective biomarker beyond PD-L1 / TMB / dMMR / STK11 that's ready for clinical use?** Not yet. HLA LOH, HED/deltaHED, microbiome, IPRES, PBRM1, bTMB — all research-only or have failed prospective validation.
+- **Is STK11/KEAP1 testing informative in KRAS-mutant NSCLC?** Yes — it guides prognosis on ICI and supports clinical trial stratification, though no FDA-level companion biomarker yet.
+- **Is there a prospective biomarker beyond PD-L1 / TMB / dMMR / STK11 ready for clinical use?** Not yet. HLA LOH, HED/deltaHED, microbiome, IPRES, PBRM1, bTMB — all research-only or have failed prospective validation.
 - **What about hyperprogression?** Definitions vary; the literature is contested. Natural history and pseudoprogression confound the phenomenon. Not actionable today.
 
 See per-mechanism deep dives in the navigation. The [papers appendix](papers.md) lists every paper ingested (N>1,000) with links.
@@ -83,8 +82,6 @@ See per-mechanism deep dives in the navigation. The [papers appendix](papers.md)
 [^pmid:29773717]: Skoulidis 2018 Cancer Discov — STK11/LKB1 in KRAS-mutant NSCLC ICI. [Link](https://pubmed.ncbi.nlm.nih.gov/29773717/).
 [^pmid:26027431]: Larkin 2015 NEJM — CheckMate 067 nivo+ipi vs mono in melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/26027431/).
 [^pmid:27718847]: Reck 2016 NEJM — KEYNOTE-024 pembrolizumab 1L NSCLC PD-L1 ≥50%. [Link](https://pubmed.ncbi.nlm.nih.gov/27718847/).
-[^pmid:20525992]: Hodi 2010 NEJM — ipilimumab phase 3 in metastatic melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/20525992/).
-[^pmid:22658127]: Topalian 2012 NEJM — anti-PD-1 phase 1 in solid tumors. [Link](https://pubmed.ncbi.nlm.nih.gov/22658127/).
 [^pmid:30635237]: Siddiqui 2019 Immunity — stem-like Tcf1+PD-1+ CD8 subset. [Link](https://pubmed.ncbi.nlm.nih.gov/30635237/).
 [^pmid:30388456]: Sade-Feldman 2018 Cell — CD8 T cell states and melanoma ICI response. [Link](https://pubmed.ncbi.nlm.nih.gov/30388456/).
 [^pmid:31207603]: Alfei 2019 Nature — TOX reinforces exhausted CD8 phenotype. [Link](https://pubmed.ncbi.nlm.nih.gov/31207603/).

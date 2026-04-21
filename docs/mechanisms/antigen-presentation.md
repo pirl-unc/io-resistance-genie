@@ -24,7 +24,7 @@
 - **PAR-2 (F2RL1) activation suppresses DC antigen presentation in lung cancer.** A selective negative allosteric modulator (I-117) restores presentation and synergizes with anti-PD-1 in preclinical models — novel GPCR-to-APC axis with a druggable lead (this period's literature).
 - **Tumor B2M expression as a TMB/PD-L1-independent response biomarker in R/M HNSCC progressing on anti-PD-1** (multi-omics 2026). Moves B2M from "LOF = resistance" framing toward a graded expression biomarker.
 
-## How to apply at the bedside
+## Practical takeaways
 
 - HLA LOH detection (LOHHLA, companion tools) is *not yet* a clinical-grade decision aid; report it as risk context, not a disqualification.
 - dMMR / MSI-H remains the strongest single biomarker, but KEYNOTE-177's biphasic PFS warns that a subset will fail immediately; early radiologic reassessment at ~2 months is worth considering.

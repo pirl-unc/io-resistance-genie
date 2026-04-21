@@ -22,7 +22,7 @@
 
 The recent literature in this period places increasing emphasis on **metabolic inputs operating on multiple different substrates at once**: CD8 killing capacity (ferroptosis via AGPAT3), PD-L1 protein stability (palmitoylation, lactylation), macrophage polarization (arginine), and TAM-driven TIGIT induction. These are not a single "metabolic resistance" mechanism but a heterogeneous set of plausible druggable inputs.
 
-## How to apply at the bedside
+## Practical takeaways
 
 - Hypoalbuminemia remains an informative prognostic marker; whether arginine supplementation should become part of ICI practice is not yet evidence-based.
 - Do not expect the next-generation metabolic combo (CD39/CD73, IDO2, arginase inhibitors) to be a uniform benefit; learn from the IDO experience that preclinical rationale alone does not guarantee clinical benefit.
