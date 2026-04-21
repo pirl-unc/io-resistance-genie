@@ -49,4 +49,14 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Mechanisms:
+    - Antigen presentation: mechanisms/antigen-presentation.md
+    - IFN-γ signaling: mechanisms/ifn-gamma.md
+    - TME exclusion: mechanisms/tme-exclusion.md
+    - Tumor-intrinsic signaling: mechanisms/tumor-intrinsic.md
+    - T-cell exhaustion: mechanisms/t-cell-exhaustion.md
+    - Metabolic: mechanisms/metabolic.md
+    - Clinical interventions: mechanisms/clinical-interventions.md
+  - Changelog:
+    - 2026-04-21 (seed): changelog/2026-04-21.md
   - Papers: papers.md

@@ -1,0 +1,125 @@
+{
+  "last_run": "2026-04-21T14:00:00+00:00",
+  "synthesis_summary": "Seed synthesis built from 18 extractions (triaged from 1,000 candidates, 2026-01-20 to 2026-04-21). Current headline claims: (1) HLA evolutionary divergence deltaHED inverts the TMB-centric biomarker view across three cohorts; (2) post-translational regulation of PD-L1 itself (palmitoylation at Cys272 via HILPDA/KLF5 and lactylation at K280 via AARS1) is emerging as a druggable layer; (3) PD-1 may have a homeostatic survival role protecting clonally expanding T cells from RICD, potentially inverting part of the release-the-brakes framing; (4) KLRG1 is nominated as a novel checkpoint axis; (5) ATOMIC phase 3 extends ICI benefit to adjuvant stage III dMMR colon cancer (HR 0.50). Mechanism classes with substantial content: antigen_presentation, ifn_gamma_signaling, tme_exclusion, tumor_intrinsic_signaling, t_cell_exhaustion, metabolic, clinical_intervention. Microbiome is empty in the seed.",
+  "top_claims": [
+    {
+      "text": "HLA-I evolutionary divergence between germline and somatic alleles (deltaHED) predicts worse PD-1 outcomes despite higher TMB and neoantigen load, across POLARIS-02 RM/NPC, melanoma, and JUPITER-06 ESCC cohorts.",
+      "mechanism_class": "antigen_presentation",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41601354"]
+    },
+    {
+      "text": "IFN-γ-induced IRF1 upregulates AGPAT3, which remodels lipids toward polyunsaturated ether phospholipids that sensitize tumors to ferroptosis; higher AGPAT3 correlates with better ICI survival.",
+      "mechanism_class": "ifn_gamma_signaling",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41807033"]
+    },
+    {
+      "text": "Single-cell spatial transcriptomics in cSCC defines six niches (antigen-presenting, B/plasma, inflammatory keratinocyte responder-enriched; proliferative keratinocyte, low-APC myeloid, fibroblast-EMT non-responder-dominant) that outperform PD-L1 IHC.",
+      "mechanism_class": "tme_exclusion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41617396"]
+    },
+    {
+      "text": "hMENA-high TGF-β-driven CAFs propagate an ICT-resistance program whose 9-gene signature is validated against the OAK phase III trial in NSCLC.",
+      "mechanism_class": "tme_exclusion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41592891"]
+    },
+    {
+      "text": "TROP2 associates with claudin-7 to form a tight-junction barrier excluding T cells from TNBC; TROP2 loss or hRS7 targeting restores infiltration and anti-PD-1 efficacy.",
+      "mechanism_class": "tme_exclusion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41932810"]
+    },
+    {
+      "text": "Intratumoral LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab reprograms myeloid compartments and restores ICI-responsive signatures in 24 anti-PD-1-refractory stage IV melanoma patients.",
+      "mechanism_class": "tme_exclusion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41888981"]
+    },
+    {
+      "text": "HILPDA stabilizes KLF5 via HSP90 to drive fatty acid synthesis; the resulting palmitate palmitoylates PD-L1 at Cys272, stabilizing membrane PD-L1. TRIM21 engagement by fenretinide degrades HILPDA and restores anti-PD-1 efficacy.",
+      "mechanism_class": "tumor_intrinsic_signaling",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41876831"]
+    },
+    {
+      "text": "Lactate drives AARS1-catalyzed lactylation of PD-L1 at K280, blocking HUWE1-mediated ubiquitination and stabilizing PD-L1. Counterintuitively, exogenous sodium lactate enhanced anti-PD-L1 efficacy in preclinical models — mechanism requires reconciliation.",
+      "mechanism_class": "tumor_intrinsic_signaling",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41864972"]
+    },
+    {
+      "text": "Tumor-intrinsic NOTCH3 transcriptionally upregulates PVR via RBPJ in CRC, engaging TIGIT; low/mutant NOTCH3 independently predicts better ICB survival in 102-patient institutional + MSKCC cohorts.",
+      "mechanism_class": "tumor_intrinsic_signaling",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41808828"]
+    },
+    {
+      "text": "PKMYT1 inhibition with clinical-grade RP-6306 activates cGAS-STING and converts immune-cold castration-resistant prostate cancer to anti-PD-L1-responsive disease in syngeneic preclinical models.",
+      "mechanism_class": "tumor_intrinsic_signaling",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41617394"]
+    },
+    {
+      "text": "Transient PD-1 upregulation on clonally expanding human CD4+ and CD8+ T cells protects them from restimulation-induced cell death by attenuating proximal TCR/CD28 signaling. In vitro only; implies anti-PD-1 could accelerate effector-T-cell attrition in some regimes.",
+      "mechanism_class": "t_cell_exhaustion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41748562"]
+    },
+    {
+      "text": "KLRG1 is upregulated on CD8+ T cells after checkpoint therapy and in anti-PD-1-resistant melanoma; KLRG1 or N-cadherin loss plus a novel anti-human KLRG1 mAb reduce tumor progression through combined CD8, NK, and gamma-delta T effects.",
+      "mechanism_class": "t_cell_exhaustion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41956544"]
+    },
+    {
+      "text": "T cell-intrinsic VISTA enforces CD8 dysfunction; its loss synergizes with CTLA-4 blockade (but does not by itself yield durable control). A VISTA-deficient cytotoxic signature correlates with favorable ICI outcomes.",
+      "mechanism_class": "t_cell_exhaustion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41837284"]
+    },
+    {
+      "text": "In MSS CRC, M2-TAM-derived PGE2 via COX1/2 drives TIGIT upregulation on PD-1+ CD8 T cells to generate a terminally exhausted phenotype; COX2 inhibition or TIGIT blockade restores anti-PD-L1 activity in preclinical models.",
+      "mechanism_class": "t_cell_exhaustion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41196020"]
+    },
+    {
+      "text": "Anti-TIM-3 TQB2618 + anti-PD-1 penpulimab achieves 52% ORR (1 CR, 10 PRs) in 21 post-PD-1-failure r/r classical Hodgkin lymphoma patients in phase Ib NCT05400876.",
+      "mechanism_class": "t_cell_exhaustion",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41963080"]
+    },
+    {
+      "text": "Hypoalbuminemia causally drives ICI resistance in LLC-bearing mice by impairing macrophage arginine biosynthesis; TAM depletion or dietary arginine supplementation rescues anti-PD-1/PD-L1 efficacy.",
+      "mechanism_class": "metabolic",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41940988"]
+    },
+    {
+      "text": "ATOMIC phase 3 (NEJM, n=712): adjuvant atezolizumab + mFOLFOX6 in stage III dMMR colon cancer cuts 3-year DFS events roughly in half (86.3% vs 76.2%; HR 0.50, 95% CI 0.35-0.73, p<0.001); OS not mature; grade 3/4 AEs 84.1% vs 71.9%.",
+      "mechanism_class": "clinical_intervention",
+      "confidence": "high",
+      "supporting_paper_ids": ["41880612"]
+    },
+    {
+      "text": "An 8-gene k-TSP classifier combined with mucinous histology identifies a 15% subgroup of dMMR/MSI-H mCRC patients with very large benefit from anti-CTLA-4 + anti-PD-1 over anti-PD-1-based monotherapy (HR 0.10 for 24-month PFS; 72.2% vs 13.8%). Retrospective; n=25 in the positive subgroup.",
+      "mechanism_class": "clinical_intervention",
+      "confidence": "medium",
+      "supporting_paper_ids": ["41950572"]
+    }
+  ],
+  "mechanism_summaries": {
+    "antigen_presentation": "deltaHED (HLA evolutionary divergence) predicts worse PD-1 outcomes despite higher TMB across three cohorts; challenges TMB-centric biomarker view. Classical β2M LOH, HLA-I LOH, TAP/proteasome defects remain the field backbone but did not surface in this seed window.",
+    "ifn_gamma_signaling": "IFN-γ-IRF1-AGPAT3 axis extends the IFN-γ killing paradigm into lipid metabolism; AGPAT3 drives polyunsaturated ether phospholipids that sensitize to ferroptosis. Classical JAK1/JAK2/STAT1 loss-of-function remains foundational but did not surface in this seed.",
+    "tme_exclusion": "Multiple distinct exclusion programs coexist. Spatial niches stratify cSCC response better than PD-L1. hMENA TGF-β CAFs validated in OAK phase III. TROP2-claudin-7 tight-junction barriers exclude T cells in TNBC. LOAd703 reprograms myeloid compartment in anti-PD-1-refractory melanoma.",
+    "tumor_intrinsic_signaling": "Emerging theme: post-translational regulation of PD-L1. HILPDA-KLF5-palmitate drives PD-L1 palmitoylation at Cys272 (fenretinide rescues). AARS1 lactylates PD-L1 at K280 blocking HUWE1 ubiquitination. NOTCH3-RBPJ-PVR couples tumor-intrinsic to TIGIT axis in CRC. PKMYT1 inhibition activates cGAS-STING in CRPC.",
+    "t_cell_exhaustion": "Most conceptually provocative finding: PD-1 may protect clonally expanding T cells from RICD (in vitro human; needs in vivo validation). KLRG1 nominated as novel checkpoint axis with a novel anti-human mAb. T-intrinsic VISTA enforces dysfunction and synergizes with CTLA-4 blockade. TAM-PGE2-TIGIT explains MSS CRC non-response. Anti-TIM-3 + PD-1 salvages 52% of PD-1-pretreated cHL.",
+    "metabolic": "Hypoalbuminemia-macrophage-arginine axis reframes a common prognostic biomarker as a mechanism-anchored, reversible driver. Overlaps with tumor-intrinsic PD-L1 PTM regulation (lactate/palmitate inputs).",
+    "microbiome": "No entries in the seed synthesis — watch for gut composition, antibiotic effects, and FMT intervention studies.",
+    "clinical_intervention": "ATOMIC phase 3 extends ICI benefit to adjuvant stage III dMMR colon cancer (HR 0.50). 8-gene k-TSP + mucinous biomarker identifies dMMR/MSI-H mCRC subgroup with large anti-CTLA-4 addition benefit (HR 0.10 in n=25 subgroup). LOAd703 shows biomarker-level rescue in anti-PD-1-refractory melanoma."
+  },
+  "version": 1
+}
