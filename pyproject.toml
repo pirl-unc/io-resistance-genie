@@ -1,0 +1,10 @@
+[project]
+name = "io-resistance-genie"
+version = "0.0.1"
+description = "Living literature synthesis on mechanisms of resistance to anti-PD1 therapy"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mkdocs-material>=9.5",
+    "pymdown-extensions>=10.0",
+]
