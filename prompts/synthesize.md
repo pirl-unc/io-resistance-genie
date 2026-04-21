@@ -8,14 +8,27 @@ You are revising a living review article on mechanisms of resistance to anti-PD-
 2. `new_extractions` — list of `PaperExtraction` records from this run.
 3. Current `docs/index.md` and relevant `docs/mechanisms/*.md`.
 
+## Preservation principle (read this first)
+
+**Your default action is to preserve the existing text verbatim.** This document is a living synthesis read by the same oncologist week after week; they notice when prose drifts. Day-to-day stylistic churn erodes trust.
+
+Concrete rules:
+
+- **Before writing, read the current `docs/index.md` in full** and the relevant `docs/mechanisms/*.md` pages. Treat them as the starting point, not a blank slate.
+- **For each bullet in the prior document, the default is: keep it unchanged, in its existing position.** Only edit a bullet if this run's extractions directly address it.
+- **Do not rephrase for style.** If the existing wording is defensible, leave it. Identical claim wording across runs is a feature, not a bug.
+- **Do not reorder existing bullets** unless a reclassification demands it (e.g., moving an `established` claim into the `contested` section because new evidence weakened it).
+- **Do not remove citations.** Every `[^pmid:...]` and `[^doi:...]` that appears in the prior version must appear somewhere in the new version (they can move between sections, but they cannot vanish). A stability check (`scripts/check_stability.py`) enforces this at commit time.
+- **Word count is expected to grow over time, not shrink.** Dropping below 70% of prior word count trips the stability check.
+
 ## Task
 
-For each new extraction, classify against the existing synthesis:
+For each new extraction, classify against the existing synthesis and apply the matching edit pattern:
 
-- `confirms` — consistent with an existing `established` claim; no text change usually needed.
-- `refines` — nuances an existing claim. Edit the relevant section, update `evidence_tier` if the strength of evidence has shifted.
-- `challenges` — contradicts an existing claim. Move the affected claim from `established` to `contested`, present both sides, cite the new finding.
-- `novel` — introduces a finding not yet represented. Add to the appropriate `suspected` or `emerging` bucket depending on evidence strength.
+- `confirms` — consistent with an existing `established` claim. **Default: no text change.** You may strengthen a `confidence.reasoning` note in `knowledge_state.json` but the visible prose usually does not change.
+- `refines` — adds nuance to an existing bullet. **Edit that specific bullet in place; preserve its position.** Append the new qualifier as a trailing clause. Do not rewrite the whole claim.
+- `challenges` — contradicts an existing `established` bullet. **Move the bullet from "What has held up" to "Where the field has contradicted itself".** Preserve the original claim text; add a sentence describing the contradicting evidence and its citation.
+- `novel` — not represented at all. **Add a new bullet at the END of the appropriate tier section**, after existing bullets. Do not re-order what's already there.
 
 Then produce:
 
@@ -76,13 +89,20 @@ Use these rough heuristics:
 
 ## Safety checks — fail the run without committing if any trip
 
-- `docs/index.md` must not drop below 50% of its prior word count (catches catastrophic rewrites).
-- Every `[^pmid:...]` and `[^doi:...]` citation must exist in `data/papers.jsonl`.
-- Every claim in the synthesis must carry a tier tag (`[est]`, `[cont]`, `[susp]`, `[emerg]`).
+Mechanical (enforced by `scripts/check_stability.py` invoked by the trigger):
+
+- **Preservation:** every `[^pmid:...]` and `[^doi:...]` citation in the prior committed version of each edited file must appear somewhere in the new version.
+- **Retention:** new version of each edited file must be ≥70% of its prior word count.
+- **Structure:** every tier-section heading present in the prior version must remain present.
+
+Editorial (the agent itself must verify before writing):
+
+- Every `[^pmid:...]` / `[^doi:...]` citation must correspond to a record in `data/papers.jsonl`.
+- Every claim on the home page must carry a pill; every claim on a mechanism page must sit inside the correct tier section.
 - Changelog entries may only reference paper_ids present in this run's extractions.
 - `data/knowledge_state.json` must pass `KnowledgeState.model_validate_json`.
 
-Write the log of any failures to `run/errors.log` and abort without committing.
+On failure, write the log to `run/errors.log` and abort without committing.
 
 ## What not to do
 

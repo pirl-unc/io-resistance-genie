@@ -54,14 +54,26 @@ Load:
 - This run's extractions
 - Current `docs/index.md` and any relevant `docs/mechanisms/*.md`
 
-Apply `prompts/synthesize.md`. Produce:
+Apply `prompts/synthesize.md`. **Read the existing `docs/index.md` and relevant `docs/mechanisms/*.md` in full first — the preservation principle there is load-bearing: default action is to keep existing bullets verbatim.** Produce:
 
-- Rewritten `docs/index.md`
-- Rewritten `docs/mechanisms/<class>.md` for any changed mechanism class
+- Updated `docs/index.md` (preserve existing bullets; edit surgically)
+- Updated `docs/mechanisms/<class>.md` for any changed mechanism class (same preservation rule)
 - `docs/changelog/YYYY-MM-DD.md` (only if `refines`/`challenges`/`novel` items exist)
 - Updated `data/knowledge_state.json` (validate with `KnowledgeState.model_validate_json(...)`)
 
-Run the safety checks in `prompts/synthesize.md` before writing. **If any check fails, abort without committing and write the failure to `run/errors.log`.**
+After writing, **run the stability check on every modified doc**:
+
+```bash
+CHANGED=$(git diff --name-only -- 'docs/*.md' 'docs/**/*.md')
+for f in $CHANGED; do
+  python scripts/check_stability.py --old-ref HEAD --new "$f" || {
+    echo "[abort] stability check failed on $f — see run/errors.log" >> run/errors.log
+    exit 1
+  }
+done
+```
+
+If any check fails, **abort without committing**; append the failure details to `run/errors.log`.
 
 ## 5. Rebuild the paper appendix
 
@@ -93,7 +105,8 @@ The `pages.yml` workflow will rebuild and redeploy the site automatically.
 ## Invariants (never violate)
 
 - Never commit if any safety check fails.
-- Never commit if `docs/index.md` shrinks by more than 50% vs. its prior version.
+- Never commit if `scripts/check_stability.py` returns non-zero on any modified doc.
+- The synthesis rewrite must preserve prior citations, tier headings, and ≥70% of prior word count per file. When in doubt, preserve the existing text verbatim.
 - Never invent PMIDs or DOIs. Every citation must trace to a record in `data/papers.jsonl`.
 - Never bypass pydantic validation. On validation error, write to `run/errors.log`, skip that record, continue.
 - Never delete entries from `data/papers.jsonl` or `data/extractions.jsonl` — these are append-only.
