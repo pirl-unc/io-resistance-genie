@@ -1,22 +1,22 @@
 # T-cell exhaustion
 
-## Confidently known [est]
+## Confidently known
 
 - **Response to PD-1 blockade depends on a Tcf1+PD-1+ CD8+ stem-like progenitor pool, not on reinvigoration of terminally exhausted effectors.** Siddiqui 2019 (Immunity)[^pmid:30635237] established in mouse tumor models that ablation of the stem-like subset abolishes ICI efficacy. Sade-Feldman 2018 (Cell)[^pmid:30388456] validated the TCF7-high vs TCF7-low CD8 axis in human melanoma scRNA-seq + IF. This reframes why a heavily PD-1+ infiltrate is insufficient without the stem-like compartment.
 - **TOX is the master transcription factor of the exhausted chromatin state** (Alfei 2019 Nature[^pmid:31207603] and concurrent work). Necessary and sufficient to program the exhaustion transcriptome and epigenome; induced via NFAT2 and acts feed-forward. Exhaustion is chromatin-fixed.
 - **The "release the brakes" framing is an oversimplification.** Early PD-1 blockade models implied that blocking PD-1 "reactivates" exhausted effector cells. The TCF7/stem-like progenitor work makes it clearer that the operative mechanism is *proliferative expansion of the progenitor pool*, not reactivation of terminally differentiated effectors.
 
-## Contradictions / surprises [cont]
+## Contradictions / surprises
 
 - **TOX ablation impairs both exhaustion *and* T-cell persistence.** The initial hope that TOX antagonism could reverse exhaustion therapeutically has been tempered: TOX-deficient CD8+ cells fail to persist under chronic antigen and die faster. TOX is more accurately a cell-intrinsic survival/differentiation program under chronic antigen than a simple brake on effector function. Direct "drug TOX" strategies should be approached carefully.
 - **Exhaustion is not a single state.** Progenitor / transitional / terminal subsets have distinct biology (Miller 2019 Nat Immunol and related). Clinical biomarkers that sum across these subsets (e.g., bulk PD-1+ IHC) average across functionally different populations.
 
-## Suspected but unconfirmed [susp]
+## Suspected but unconfirmed
 
 - **PD-1 expression on clonally expanding T cells partially *protects* them from restimulation-induced cell death** (in vitro human primary T cells)[^pmid:41748562]. PD-L1 engagement attenuates TCR/CD28 signaling and modulates pro/anti-apoptotic proteins. If replicated in vivo, would mean anti-PD-1 could in some regimes *accelerate* effector-T-cell attrition — a direct challenge to the release-the-brakes framing. **High-priority validation target.**
 - **T cell-intrinsic VISTA enforces CD8 dysfunction** (distinct from myeloid VISTA)[^pmid:41837284]; loss synergizes with anti-CTLA-4. Direct relevance to PD-1 resistance is inferred.
 
-## Emerging [emerg]
+## Emerging
 
 - **KLRG1 nominated as a novel inhibitory checkpoint** in anti-PD-1-resistant melanoma[^pmid:41956544]. KLRG1 upregulated on CD8 T cells after checkpoint therapy; KLRG1-high TILs enriched in anti-PD-1-refractory tumors. A novel anti-human KLRG1 mAb reduces tumor progression in humanized KLRG1 knock-in mice via combined CD8, NK, and γδ-T effects. Mechanistically distinct from the established PD-1/CTLA-4/LAG-3/TIM-3 set.
 - **M2 TAM-derived PGE2 drives TIGIT upregulation on PD-1+ CD8 T cells in MSS colorectal cancer**[^pmid:41196020], creating terminally exhausted PD-1+TIGIT+ cells and blunting anti-PD-L1. COX2 inhibition, PGE2 receptor antagonism, or TIGIT blockade each restore activity preclinically. Specific combinatorial rationale for an indication where PD-1 monotherapy has consistently failed.

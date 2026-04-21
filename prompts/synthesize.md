@@ -23,12 +23,12 @@ Then produce:
 
 Target length: **~1500–3000 words**. Mandatory structure with four top-level buckets:
 
-- **What has held up** (`[est]` claims — durable consensus, replicated, often clinically validated)
-- **Where the field has contradicted itself / surprises** (`[cont]` claims — once-landmark findings weakened by replication; clinically important for calibration)
-- **Suspected but unconfirmed** (`[susp]` claims — mechanistically coherent, preclinical or single-cohort; watch list)
-- **New directions worth watching** (`[emerg]` claims — recent findings worth tracking; too new to be settled)
+- **What has held up** (`established` claims — durable consensus, replicated, often clinically validated)
+- **Where the field has contradicted itself / surprises** (`contested` claims — once-landmark findings weakened by replication; clinically important for calibration)
+- **Suspected but unconfirmed** (`suspected` claims — mechanistically coherent, preclinical or single-cohort; watch list)
+- **New directions worth watching** (`emerging` claims — recent findings worth tracking; too new to be settled)
 
-Every claim must carry its tier tag (`[est]`, `[cont]`, `[susp]`, `[emerg]`) inline at the start, and must have at least one inline citation of the form `[^pmid:12345678]`. Every citation must correspond to a paper in `data/papers.jsonl`.
+On the **home page**, every bullet begins with a color-coded pill span: `<span class="tier tier-est">established</span>`, `<span class="tier tier-cont">contested</span>`, `<span class="tier tier-susp">suspected</span>`, or `<span class="tier tier-emerg">emerging</span>` (CSS defined in `docs/stylesheets/tiers.css`). On **mechanism pages**, the tier is communicated by the section header (`## Confidently known`, `## Contradictions / surprises`, `## Suspected but unconfirmed`, `## Emerging`) — do not repeat pills per-bullet on mechanism pages. Every claim must have at least one inline citation of the form `[^pmid:12345678]`; every citation must correspond to a paper in `data/papers.jsonl`.
 
 Close with:
 - **Questions an oncologist likely has — quick answers** (bulleted, practical — "Should I still order PD-L1 IHC?", "Does dMMR guarantee benefit?", "Can anti-PD-1-refractory patients be rescued?", etc.)
