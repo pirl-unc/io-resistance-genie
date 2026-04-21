@@ -1,30 +1,35 @@
 # Metabolic resistance
 
-Metabolic programming of the tumor microenvironment — adenosine, tryptophan/IDO, lactate, amino acid availability, lipid mediators — sits at the intersection of tumor cell biology, stromal biology, and immune cell biology. One new finding this period has clear mechanistic grounding.
+## Confidently known [est]
 
-## Hypoalbuminemia causally drives ICI resistance via macrophage arginine metabolism
+- **Immune-suppressive metabolism in the TME is real and multi-layered.** The established frameworks cover adenosine (CD39/CD73), tryptophan/kynurenine (IDO/TDO), lactate/Warburg, arginine depletion (arginase I), and lipid mediators (PGE2 from COX1/2). Each has preclinical support and some level of clinical translation. However, pharmacologic targeting has been a persistent disappointment: **IDO inhibitors (epacadostat)** failed in combination with pembrolizumab (ECHO-301) despite compelling biology, and adenosine-axis combinations have produced modest-at-best clinical effects so far.
 
-Chen *et al.* showed in LLC-bearing C57BL/6 mice that **low-protein-diet-induced hypoalbuminemia drives ICI resistance**[^pmid:41940988]. Mechanistically, hypoalbuminemia impaired **macrophage arginine biosynthesis**, producing an immunosuppressive TME with reduced CD8+ infiltration and expanded TAMs. Causality was established by two rescues: **TAM depletion** or **dietary arginine supplementation** reversed the immunosuppressive phenotype and restored anti-PD-1/PD-L1 efficacy.
+## Contradictions / surprises [cont]
 
-**Why this matters.** Hypoalbuminemia has long been used as a prognostic marker in oncology (component of NLR-PLR indices, nutritional risk scores). This work reframes it not merely as a correlate of disease severity but as a **mechanism-anchored, potentially reversible driver of ICI resistance** via a specific macrophage metabolic circuit. If it holds clinically, it would motivate dietary or supplementation interventions as adjunctive to PD-1 blockade in at-risk patients.
+- **IDO clinical translation failed despite strong preclinical rationale.** ECHO-301 (epacadostat + pembrolizumab in melanoma) did not improve PFS/OS over pembrolizumab monotherapy. The TME metabolic target class is biologically compelling but clinically harder than single-agent ICI.
 
-**Caveats.** Single syngeneic tumor model (LLC); dietary manipulation may not fully recapitulate cancer cachexia biology; no patient-level intervention data. The preclinical-to-clinical translation gap for nutritional immune-modulation interventions has been long.
+## Suspected but unconfirmed [susp]
 
-## Related: metabolic inputs to PD-L1 regulation
+- **Hypoalbuminemia causally drives ICI resistance via macrophage arginine biosynthesis impairment** (LLC mouse model)[^pmid:41940988]. TAM depletion or dietary arginine supplementation rescues anti-PD-1 efficacy. Would recast a routine prognostic lab as a reversible driver. Single preclinical model; no patient-level intervention data.
+- **Lactate → AARS1 → PD-L1 K280 lactylation** is also a metabolic input (see [tumor-intrinsic](tumor-intrinsic.md))[^pmid:41864972]. The paradoxical finding that exogenous lactate *enhances* anti-PD-L1 efficacy in preclinical models needs reconciliation.
+- **HILPDA-driven lipogenesis → PD-L1 palmitoylation** connects lipid metabolism directly to PD-L1 stability[^pmid:41876831]. See [tumor-intrinsic](tumor-intrinsic.md).
 
-Two findings covered under [tumor-intrinsic signaling](tumor-intrinsic.md) fit naturally here too:
+## Emerging [emerg]
 
-- **Lactate → AARS1 → PD-L1 K280 lactylation**[^pmid:41864972] links the Warburg axis directly to PD-L1 protein stability.
-- **HILPDA-driven lipogenesis → PD-L1 palmitoylation at Cys272**[^pmid:41876831] links lipid metabolism to checkpoint regulation via a distinct PTM.
+- **M2 TAM-PGE2 → TIGIT axis in MSS CRC** (see [t-cell-exhaustion](t-cell-exhaustion.md))[^pmid:41196020] — a concrete combinatorial target set (COX2i, PGE2R antagonist, TIGIT blockade) in an indication where PD-1 has consistently failed.
 
-Together with the IFN-γ → IRF1 → AGPAT3 ferroptosis axis in [IFN-γ signaling](ifn-gamma.md), the picture is of **metabolic inputs operating on multiple distinct substrates** (CD8 killing capacity via ferroptosis, PD-L1 protein stability via two PTMs, macrophage polarization via arginine). These are not a single "metabolic resistance" mechanism but a set.
+## Theme
 
-## What's not in this seed
+The recent literature in this period places increasing emphasis on **metabolic inputs operating on multiple different substrates at once**: CD8 killing capacity (ferroptosis via AGPAT3), PD-L1 protein stability (palmitoylation, lactylation), macrophage polarization (arginine), and TAM-driven TIGIT induction. These are not a single "metabolic resistance" mechanism but a heterogeneous set of plausible druggable inputs.
 
-Adenosine / CD39 / CD73 biology, tryptophan / IDO / kynurenine axis, lipid mediators beyond the above (cholesterol, PGE2 as a distinct topic), hypoxia-driven metabolic rewiring, and intratumoral pH did not surface in the top-ranked set from this three-month window but are central background that should be expected to appear.
+## How to apply at the bedside
+
+- Hypoalbuminemia remains an informative prognostic marker; whether arginine supplementation should become part of ICI practice is not yet evidence-based.
+- Do not expect the next-generation metabolic combo (CD39/CD73, IDO2, arginase inhibitors) to be a uniform benefit; learn from the IDO experience that preclinical rationale alone does not guarantee clinical benefit.
 
 ---
 
-[^pmid:41940988]: Hypoalbuminemia, macrophage arginine metabolism, and ICI resistance. PMID [41940988](https://pubmed.ncbi.nlm.nih.gov/41940988/).
-[^pmid:41864972]: AARS1-mediated PD-L1 K280 lactylation. PMID [41864972](https://pubmed.ncbi.nlm.nih.gov/41864972/).
-[^pmid:41876831]: HILPDA-KLF5-palmitoylation axis. PMID [41876831](https://pubmed.ncbi.nlm.nih.gov/41876831/).
+[^pmid:41940988]: Hypoalbuminemia / arginine 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41940988/).
+[^pmid:41864972]: AARS1 PD-L1 lactylation 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41864972/).
+[^pmid:41876831]: HILPDA PD-L1 palmitoylation 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41876831/).
+[^pmid:41196020]: TAM-PGE2-TIGIT 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41196020/).

@@ -1,51 +1,39 @@
-# T-cell exhaustion and intrinsic biology
+# T-cell exhaustion
 
-T-cell exhaustion is the operational substrate on which PD-1 blockade acts. Recent work both extends the catalog of inhibitory receptors beyond the canonical PD-1/CTLA-4/LAG-3/TIM-3 set and — more unexpectedly — **questions whether PD-1 signaling itself is purely suppressive**.
+## Confidently known [est]
 
-## PD-1 protects clonally expanding T cells from restimulation-induced cell death
+- **Response to PD-1 blockade depends on a Tcf1+PD-1+ CD8+ stem-like progenitor pool, not on reinvigoration of terminally exhausted effectors.** Siddiqui 2019 (Immunity)[^pmid:30635237] established in mouse tumor models that ablation of the stem-like subset abolishes ICI efficacy. Sade-Feldman 2018 (Cell)[^pmid:30388456] validated the TCF7-high vs TCF7-low CD8 axis in human melanoma scRNA-seq + IF. This reframes why a heavily PD-1+ infiltrate is insufficient without the stem-like compartment.
+- **TOX is the master transcription factor of the exhausted chromatin state** (Alfei 2019 Nature[^pmid:31207603] and concurrent work). Necessary and sufficient to program the exhaustion transcriptome and epigenome; induced via NFAT2 and acts feed-forward. Exhaustion is chromatin-fixed.
+- **The "release the brakes" framing is an oversimplification.** Early PD-1 blockade models implied that blocking PD-1 "reactivates" exhausted effector cells. The TCF7/stem-like progenitor work makes it clearer that the operative mechanism is *proliferative expansion of the progenitor pool*, not reactivation of terminally differentiated effectors.
 
-Among the most foundationally challenging recent findings, an *in vitro* study of human primary CD4+ and CD8+ T cells showed that **transient upregulation of PD-1 on clonally expanding effector cells protects them from restimulation-induced cell death (RICD)**[^pmid:41748562]. PD-L1 engagement of PD-1 attenuated proximal TCR/CD28 signaling, modulated pro- and anti-apoptotic proteins, and rescued T cells from RICD in a dose- and synapse-proximity-dependent manner, with the strongest rescue under CD28 co-ligation. Terminally differentiated PD-1-low CD8 effectors were only moderately protected — the protective effect maps onto freshly expanding, PD-1-high clones.
+## Contradictions / surprises [cont]
 
-**The implication.** Anti-PD-1 blockade in the release-the-brakes framing "unleashes" effector function. This study suggests PD-1 also has a homeostatic survival role during clonal expansion; blockade could therefore *sensitize* some populations to activation-induced cell death in a regime where continued antigen exposure drives repeated TCR engagement. This is a distinct mechanistic channel from classical "exhaustion reversal" and could help explain variable durability of response.
+- **TOX ablation impairs both exhaustion *and* T-cell persistence.** The initial hope that TOX antagonism could reverse exhaustion therapeutically has been tempered: TOX-deficient CD8+ cells fail to persist under chronic antigen and die faster. TOX is more accurately a cell-intrinsic survival/differentiation program under chronic antigen than a simple brake on effector function. Direct "drug TOX" strategies should be approached carefully.
+- **Exhaustion is not a single state.** Progenitor / transitional / terminal subsets have distinct biology (Miller 2019 Nat Immunol and related). Clinical biomarkers that sum across these subsets (e.g., bulk PD-1+ IHC) average across functionally different populations.
 
-**Caveats.** In vitro human primary T cell system only. No *in vivo* or patient-level validation. Clinical relevance depends on whether an analogous regime of continuous high antigen exposure + PD-1 blockade occurs in patients. A high-priority validation target.
+## Suspected but unconfirmed [susp]
 
-## KLRG1: a novel inhibitory checkpoint in anti-PD-1-resistant melanoma
+- **PD-1 expression on clonally expanding T cells partially *protects* them from restimulation-induced cell death** (in vitro human primary T cells)[^pmid:41748562]. PD-L1 engagement attenuates TCR/CD28 signaling and modulates pro/anti-apoptotic proteins. If replicated in vivo, would mean anti-PD-1 could in some regimes *accelerate* effector-T-cell attrition — a direct challenge to the release-the-brakes framing. **High-priority validation target.**
+- **T cell-intrinsic VISTA enforces CD8 dysfunction** (distinct from myeloid VISTA)[^pmid:41837284]; loss synergizes with anti-CTLA-4. Direct relevance to PD-1 resistance is inferred.
 
-Lou *et al.* introduced **KLRG1 as a novel inhibitory checkpoint axis** beyond the established set[^pmid:41956544]. KLRG1 is upregulated on CD8 T cells after checkpoint therapy; KLRG1-high TILs were enriched in anti-PD-1-resistant melanoma patient tumors. KLRG1 genetic knockout, tumor N-cadherin (the KLRG1 ligand) deletion, and a **novel anti-human KLRG1 monoclonal antibody** all reduced tumor progression through combined CD8 T, NK, and gamma-delta T cell effects. The mAb was tested in humanized KLRG1 knock-in mice.
+## Emerging [emerg]
 
-The KLRG1-cadherin axis nominates a checkpoint mechanistically distinct from PD-1, CTLA-4, LAG-3, and TIM-3 — and provides a pharmacologic lead.
+- **KLRG1 nominated as a novel inhibitory checkpoint** in anti-PD-1-resistant melanoma[^pmid:41956544]. KLRG1 upregulated on CD8 T cells after checkpoint therapy; KLRG1-high TILs enriched in anti-PD-1-refractory tumors. A novel anti-human KLRG1 mAb reduces tumor progression in humanized KLRG1 knock-in mice via combined CD8, NK, and γδ-T effects. Mechanistically distinct from the established PD-1/CTLA-4/LAG-3/TIM-3 set.
+- **M2 TAM-derived PGE2 drives TIGIT upregulation on PD-1+ CD8 T cells in MSS colorectal cancer**[^pmid:41196020], creating terminally exhausted PD-1+TIGIT+ cells and blunting anti-PD-L1. COX2 inhibition, PGE2 receptor antagonism, or TIGIT blockade each restore activity preclinically. Specific combinatorial rationale for an indication where PD-1 monotherapy has consistently failed.
+- **Anti-TIM-3 (TQB2618) + anti-PD-1 penpulimab achieves 52% ORR in PD-1-pretreated classical Hodgkin lymphoma**[^pmid:41963080] (n=21 phase Ib). Salvage signal in a setting where re-engaging checkpoint biology was not expected to yield substantial response.
 
-**Caveats.** No clinical efficacy data yet; humanized mouse models imperfectly predict patient response.
+## How to apply at the bedside
 
-## T cell-intrinsic VISTA enforces CD8 dysfunction and synergizes with anti-CTLA-4
-
-Xu *et al.* dissected cell-intrinsic vs. myeloid VISTA and found **T cell-intrinsic VISTA enforces CD8 dysfunction**[^pmid:41837284]. Its deletion enhanced early CD8 priming and expansion, but durable tumor control required combination with CTLA-4 blockade because trans-VISTA on myeloid cells and compensatory CTLA-4 upregulation sustained dysfunction. A VISTA-deficient cytotoxic T cell transcriptional signature correlated with favorable ICI outcomes in patient cohorts.
-
-The study positions VISTA as a tractable combination-IO target whose benefit may depend on co-blockade of CTLA-4. Direct relevance to PD-1 resistance is inferred from shared dysfunction programs, not directly tested.
-
-## TAM-PGE2 drives PD-1+TIGIT+ terminal exhaustion in MSS CRC
-
-Li *et al.* dissected why MSS colorectal cancer resists PD-L1 blockade: **M2-like TAMs produce PGE2 via COX1/2**, which drives TIGIT upregulation on PD-1+ CD8 T cells, generating a terminally exhausted phenotype[^pmid:41196020]. M2-TAM depletion, COX2 inhibition, PGE2-receptor inhibition, or TIGIT blockade reduced TIGIT, restored CD8 function, and improved PD-L1 blockade activity in preclinical models. Human CRC transcriptomics corroborated the TAM-COX-TIGIT axis.
-
-This provides a specific combinatorial rationale (COX2i or TIGIT blockade + PD-L1) for an indication in which single-agent PD-1 has consistently failed.
-
-## Anti-TIM-3 + anti-PD-1 salvages PD-1-pretreated classical Hodgkin lymphoma
-
-In a phase Ib trial (NCT05400876), **anti-TIM-3 (TQB2618, 600 mg Q3W) + anti-PD-1 (penpulimab, 200 mg Q3W)** produced clinically meaningful responses in relapsed/refractory classical Hodgkin lymphoma patients who had already failed prior PD-1/PD-L1 therapy[^pmid:41963080]. ORR was **52% (1 CR, 10 PRs) in 21 evaluable patients**, with grade ≥3 TRAEs in 24% and median DOR/OS not reached at 14.1-month median follow-up.
-
-**Why this is notable.** cHL is already highly responsive to single-agent PD-1 (owing to 9p24.1 amplification and Reed-Sternberg PD-L1 reliance); the question is whether re-engaging checkpoint biology after prior PD-1 failure can salvage. A 52% ORR is a strong signal, though the cohort is small and single-arm.
-
-**Caveats.** Small phase Ib (n=21 evaluable); Chinese sites only; DOR/OS immature.
-
-## What's not in this seed
-
-Classical exhaustion transcription factors (TOX, TCF7/TCF1, NR4A), terminal vs progenitor exhaustion biology, alternative checkpoints beyond KLRG1 (e.g., TIGIT as an isolated topic, BTLA, NKG2A, HHLA2), and the epigenetic fixation of exhaustion (stable chromatin states) did not surface in this three-month window but are core background that will likely appear as the window expands.
+- A heavily PD-1+ infiltrate by IHC is not automatically a good prognostic marker — without stem-like progenitor cells, the proliferative response to blockade can be muted.
+- The field's post-PD-1 checkpoint pipeline — LAG-3, TIGIT, TIM-3, and now KLRG1 — is adding real options, though most remain investigational.
 
 ---
 
-[^pmid:41748562]: PD-1 protects clonally expanding T cells from restimulation-induced cell death. PMID [41748562](https://pubmed.ncbi.nlm.nih.gov/41748562/).
-[^pmid:41956544]: KLRG1 as a novel checkpoint in anti-PD-1-resistant melanoma. PMID [41956544](https://pubmed.ncbi.nlm.nih.gov/41956544/).
-[^pmid:41837284]: T cell-intrinsic VISTA synergizing with CTLA-4 blockade. PMID [41837284](https://pubmed.ncbi.nlm.nih.gov/41837284/).
-[^pmid:41196020]: TAM-PGE2-TIGIT axis in MSS CRC. PMID [41196020](https://pubmed.ncbi.nlm.nih.gov/41196020/).
-[^pmid:41963080]: Anti-TIM-3 + penpulimab in PD-1-pretreated cHL. PMID [41963080](https://pubmed.ncbi.nlm.nih.gov/41963080/).
+[^pmid:30635237]: Siddiqui 2019 Immunity. [Link](https://pubmed.ncbi.nlm.nih.gov/30635237/).
+[^pmid:30388456]: Sade-Feldman 2018 Cell. [Link](https://pubmed.ncbi.nlm.nih.gov/30388456/).
+[^pmid:31207603]: Alfei 2019 Nature TOX. [Link](https://pubmed.ncbi.nlm.nih.gov/31207603/).
+[^pmid:41748562]: PD-1 RICD protection 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41748562/).
+[^pmid:41837284]: T-intrinsic VISTA 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41837284/).
+[^pmid:41956544]: KLRG1 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41956544/).
+[^pmid:41196020]: TAM-PGE2-TIGIT MSS CRC 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41196020/).
+[^pmid:41963080]: Anti-TIM-3 + penpulimab cHL 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41963080/).

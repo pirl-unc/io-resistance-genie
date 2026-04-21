@@ -55,6 +55,19 @@ class FindingCategory(str, Enum):
     NOVEL = "novel"
 
 
+class EvidenceTier(str, Enum):
+    """How settled a claim is across the field as a whole.
+
+    Distinct from per-paper `ConfidenceLevel`, which rates a single study's
+    internal evidence. A single high-confidence paper does not make a claim
+    `established` — established requires durable, multi-group replication.
+    """
+    ESTABLISHED = "established"          # durable consensus; replicated across groups; often clinically validated
+    SUSPECTED = "suspected"              # mechanistically appealing; limited or preclinical-only support
+    CONTRADICTORY = "contradictory"      # field has genuinely conflicting findings; prior consensus weakened
+    EMERGING = "emerging"                # recent finding, plausible, not yet settled
+
+
 class Paper(BaseModel):
     """Canonical record for a single paper. Append-only to data/papers.jsonl."""
 
@@ -109,6 +122,7 @@ class ClaimInState(BaseModel):
     text: str
     mechanism_class: MechanismClass
     confidence: ConfidenceLevel
+    evidence_tier: EvidenceTier = EvidenceTier.EMERGING
     supporting_paper_ids: list[str]
 
 

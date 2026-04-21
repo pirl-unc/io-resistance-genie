@@ -1,47 +1,40 @@
 # Tumor microenvironment exclusion
 
-"Exclusion" is a single word covering multiple distinct architectural programs: stromal barriers (CAFs, ECM), tight-junction exclusion, vascular/hypoxic barriers, myeloid-rich nests, and spatial compartmentalization that keeps CD8 T cells distant from tumor cells. Recent work reinforces that these programs can coexist within a single tumor and that responder vs non-responder status may be best captured by **niche composition**, not single markers.
+## Confidently known [est]
 
-## Six spatial niches stratify neoadjuvant PD-1/PD-L1 response in cutaneous SCC
+- **Pre-existing CD8+ T-cell infiltrate at the invasive margin predicts pembrolizumab response in melanoma** (Tumeh 2014)[^pmid:25428505]. The inflamed / excluded / desert taxonomy has been validated pan-tumor and anchors the cancer-immunity set-point framework (Chen & Mellman 2017)[^pmid:28102259].
+- **TGF-β signaling in peritumoral fibroblasts excludes T cells.** Mariathasan 2018 in urothelial carcinoma (IMvigor210) defined the F-TBRS (fibroblast TGF-β response signature) in atezolizumab non-responders, whose T cells were trapped in collagen-rich stroma[^pmid:29443960]. Tauriello 2018 established the mouse mechanism in a quadruple-mutant MSS CRC GEMM where TGF-β blockade unleashes Th1/CTL responses and renders liver metastases susceptible to anti-PD-L1[^pmid:29443964].
 
-Single-cell spatial transcriptomics of 27 cSCC patients across three cohorts (including two phase II neoadjuvant trials) identified six distinct tissue niches[^pmid:41617396]:
+## Contradictions / surprises [cont]
 
-- High antigen presentation (**responder-enriched**)
-- B/plasma cell (**responder-enriched**)
-- Inflammatory keratinocyte (**responder-enriched**)
-- Proliferative keratinocyte (**non-responder-dominant**)
-- Low antigen-presentation myeloid (**non-responder-dominant**)
-- Fibroblast-rich EMT (**non-responder-dominant**)
+- **TGF-β is biologically robust but has clinically disappointed.** Bintrafusp alfa (TGFβRII trap / anti-PD-L1 bifunctional) failed pivotal trials — INTR@PID lung 037 discontinued 2021, biliary tract halted. Galunisertib + durvalumab, NIS793 combinations in MSS CRC — modest or negative. Likely reflects redundancy (TGF-β has pleiotropic roles), dose-limiting cardiotoxicity, or context-specific effects. A textbook translational gap between compelling biology and clinical benefit.
+- **IPRES underperformed as an independent predictor.** Hugo 2016[^pmid:26997480] nominated an EMT/wound-healing/angiogenesis transcriptomic signature in innately resistant melanoma. Subsequent validation across independent cohorts has been mixed. IPRES overlaps heavily with TGF-β and stromal signatures and adds little beyond CD8, PD-L1, TMB, and pan-fibroblast measures.
+- **WNT/β-catenin activation as exclusion driver — stronger in mice than in patients.** Spranger 2015 defined the CCL4 / Batf3+ DC recruitment mechanism[^pmid:25970248]. Clinical correlations weaker; WNT-inhibitor + ICI combinations limited by toxicity.
 
-Pretreatment niche profiling outperformed PD-L1 IHC for predicting pathologic response. Different responder-enriched vs. non-responder niches can coexist in the same tumor, implying that within-tumor heterogeneity of architectural programs — not only cellular composition — determines clinical outcome.
+## Suspected but unconfirmed [susp]
 
-**Caveats.** 27 patients is a small cohort; 1.7 mm tissue cores may undersample heterogeneity; all associations are observational with no causal perturbation of the niches. Generalization beyond cSCC is untested.
+- **TROP2 associates with claudin-7 to regulate tight junctions and exclude T cells from TNBC**[^pmid:41932810]. TROP2 loss or hRS7 (sacituzumab govitecan antibody component) targeting restores infiltration and enhances anti-PD-1 efficacy. Reframes TROP2 from pure ADC target to a barrier-mechanism target. Single humanized TROP2 syngeneic model; needs broader preclinical and patient validation.
+- **hMENA-high TGF-β-driven CAFs define an ICT-resistance transcriptional program validated against OAK phase III in NSCLC** (this period)[^pmid:41592891]. Signature-level clinical anchoring but mechanistic causality is inferential from in vitro CAF experiments.
 
-## hMENA TGF-β-driven CAFs define a clinically validated exclusion signature
+## Emerging [emerg]
 
-In NSCLC, Melchionna *et al.* defined a **hMENA-overexpressing myofibroblast-like CAF subset** in which hMENA and TGF-β signaling reciprocally reinforce each other, driving PD-L1 upregulation, EMT, ECM remodeling, and secretion of cytokines that expand Tregs and impair CD8/CD4 function[^pmid:41592891]. A **9-gene signature** derived from this CAF state correlates with poor prognosis in TCGA NSCLC *and* with ICT resistance in SU2C and in the **OAK phase III** trial — elevating a CAF-centric mechanism from preclinical biology to a candidate clinical biomarker.
+- **Single-cell spatial transcriptomics defines six tissue niches that stratify neoadjuvant PD-1/PD-L1 response in cSCC better than PD-L1 IHC**[^pmid:41617396]. High antigen-presentation / B-plasma / inflammatory-keratinocyte niches enrich responders; proliferative-keratinocyte / low-APC-myeloid / fibroblast-rich-EMT niches dominate non-responders. Niche-based biomarkers may eventually outperform single-marker IHC.
+- **LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab in anti-PD-1-refractory melanoma** reprograms the myeloid compartment and restores ICI-responsive immune signatures in 24 patients[^pmid:41888981]. Biomarker-level evidence; small single-arm; but few interventions reliably rescue refractory melanoma.
 
-**Caveats.** Signature validation is retrospective; causality in patients is inferred from *ex vivo* CAF experiments. Quantitative effect sizes are not stated in the primary abstract.
+## How to apply at the bedside
 
-## TROP2-claudin-7 tight junctions exclude T cells from TNBC
-
-Kramer *et al.* showed that TROP2, best known as an ADC target for sacituzumab govitecan, **associates with claudin-7 to regulate tight junctions and form a barrier that excludes T cells** from triple-negative breast tumors[^pmid:41932810]. TROP2 loss deregulated tight-junction proteins and enabled CD8+ infiltration; hRS7 (the sacituzumab antibody component) combined with anti-PD-1 enhanced efficacy in a humanized TROP2 syngeneic model. Human TNBC data showed high TROP2 correlated with anti-PD-1 non-response.
-
-**Why this reframes TROP2.** Clinical rationales for TROP2 ADC + IO have largely been "cytotoxic payload releases tumor antigens." This work adds a mechanism-first rationale: TROP2 expression is itself a functional driver of barrier-mediated exclusion. The ADC may work in part by removing a structural barrier, not only by delivering payload.
-
-## Restoring response: LOAd703 reprograms myeloid compartments in anti-PD-1-refractory melanoma
-
-A 24-patient phase I/II study dosed **intratumoral LOAd703** (an oncolytic adenovirus armed with TMZ-CD40L and 4-1BBL) plus IV atezolizumab in stage IV ICI-refractory melanoma[^pmid:41888981]. Paired tumor, PBMC, and plasma multi-omics showed reprogramming of the TAM compartment toward APC-like phenotypes, increased circulating CD40+ DC-like cells, elevated T-cell infiltration signatures, expansion of effector-memory CD8, and reductions in Tregs. These are biomarker signals previously associated with ICI response, now observed in a population in which confirmed anti-PD-1 refractoriness was the enrollment criterion.
-
-**Caveats.** Single-arm, small (n=24), biomarker-focused endpoints rather than systematic response assessment. Prior therapies were heterogeneous.
-
-## What's not in this seed
-
-Neoangiogenic exclusion (VEGF, anti-angiogenic combinations), stromal desmoplasia in pancreatic and cholangiocarcinoma, and microbiome-driven exclusion programs did not surface strongly in this three-month window. Expect these in subsequent runs.
+- Inflamed vs. excluded vs. desert remains a useful pre-treatment mental model. A patient with high CD8 at the invasive margin but non-response may have a downstream exhaustion or metabolic problem; a patient with a desert tumor faces a different biology (likely WNT/β-catenin, STK11, low TMB, or low DC recruitment).
+- **Do not count on TGF-β-targeting agents to rescue excluded tumors yet.** The clinical data on bintrafusp alfa, galunisertib, NIS793 are disappointing despite strong preclinical rationale.
 
 ---
 
-[^pmid:41617396]: Six spatial niches stratifying neoadjuvant response in cSCC. PMID [41617396](https://pubmed.ncbi.nlm.nih.gov/41617396/).
-[^pmid:41592891]: hMENA CAF signature validated in OAK phase III. PMID [41592891](https://pubmed.ncbi.nlm.nih.gov/41592891/).
-[^pmid:41932810]: TROP2-claudin-7 barrier-mediated T-cell exclusion in TNBC. PMID [41932810](https://pubmed.ncbi.nlm.nih.gov/41932810/).
-[^pmid:41888981]: LOKON003: LOAd703 + atezolizumab in anti-PD-1-refractory melanoma. PMID [41888981](https://pubmed.ncbi.nlm.nih.gov/41888981/).
+[^pmid:25428505]: Tumeh 2014 Nature. [Link](https://pubmed.ncbi.nlm.nih.gov/25428505/).
+[^pmid:28102259]: Chen & Mellman 2017 Nature. [Link](https://pubmed.ncbi.nlm.nih.gov/28102259/).
+[^pmid:29443960]: Mariathasan 2018 Nature. [Link](https://pubmed.ncbi.nlm.nih.gov/29443960/).
+[^pmid:29443964]: Tauriello 2018 Nature. [Link](https://pubmed.ncbi.nlm.nih.gov/29443964/).
+[^pmid:26997480]: Hugo 2016 Cell IPRES. [Link](https://pubmed.ncbi.nlm.nih.gov/26997480/).
+[^pmid:25970248]: Spranger 2015 Nature. [Link](https://pubmed.ncbi.nlm.nih.gov/25970248/).
+[^pmid:41932810]: TROP2-claudin-7 TNBC 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41932810/).
+[^pmid:41592891]: hMENA CAF OAK 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41592891/).
+[^pmid:41617396]: Spatial niches cSCC 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41617396/).
+[^pmid:41888981]: LOAd703 melanoma 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41888981/).

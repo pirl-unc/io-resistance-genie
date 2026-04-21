@@ -1,109 +1,119 @@
-# Mechanisms of resistance to anti-PD1 therapy
+# Mechanisms of resistance to anti-PD-1 therapy
 
-!!! info "Living synthesis — seeded 2026-04-21"
-    This is the first pass synthesis, built from a triaged 3-month backfill (2026-01-20 → 2026-04-21) of Europe PMC (PubMed + bioRxiv/medRxiv). Eighteen papers were selected from 1,000 candidates. The synthesis is regenerated on each scheduled run; the [changelog](changelog/2026-04-21.md) tracks what changed.
+> **For practicing oncologists** who prescribe anti-PD-1 and want a synthesized, tiered view of why patients fail and what likely matters next. Each claim is tagged: **[est]** established (replicated, often clinically validated), **[cont]** contested (weakened or field-contradictory under replication), **[susp]** suspected (mechanistically coherent, not yet clinically validated), **[emerg]** emerging (new findings worth tracking).
+>
+> Regenerated each scheduled literature update. See [changelog](changelog/2026-04-21.md) for this period's deltas.
 
-## Executive summary
+## What has held up
 
-Resistance to PD-1 blockade is not one disease. The last three months of literature continue a pattern visible for several years: **multiple, partially-overlapping mechanisms operate simultaneously within the same tumor**, and the dominant mechanism varies by cancer type, prior therapy, and spatial niche. Three themes are prominent in recent work. First, biomarker biology has moved beyond TMB: HLA evolutionary divergence between germline and somatic alleles (deltaHED) can predict *worse* PD-1 outcomes despite higher neoantigen load, complicating the simple "more neoantigens → better response" heuristic[^pmid:41601354]. Second, **post-translational regulation of PD-L1 itself** — palmitoylation by a HILPDA/KLF5 lipogenic circuit[^pmid:41876831], lactylation at K280 that blocks HUWE1-mediated degradation[^pmid:41864972] — is emerging as a druggable layer distinct from transcriptional PD-L1 control. Third, **combination and sequencing strategies continue to produce surprising clinical wins** in settings where single-agent PD-1 has failed, most notably the ATOMIC phase 3 trial establishing adjuvant atezolizumab + mFOLFOX6 in stage III dMMR colon cancer (HR 0.50)[^pmid:41880612].
+- **[est] Pre-existing CD8+ T-cell infiltrate at the invasive margin predicts pembrolizumab response in melanoma** (Tumeh 2014)[^pmid:25428505]. The inflamed / excluded / desert taxonomy has been validated pan-tumor and is the backbone of most subsequent biomarker frameworks (Chen & Mellman 2017)[^pmid:28102259].
+- **[est] TMB predicts anti-PD-1 benefit in NSCLC** (Rizvi 2015)[^pmid:25765070] and anti-CTLA-4 benefit in melanoma (Snyder 2014)[^pmid:25409260]. The association survives, but **see "contradictions" for the pan-tumor threshold debate**.
+- **[est] dMMR/MSI-H is the single most reliable ICI biomarker across histologies** (Le 2017)[^pmid:28596308]; basis of the first tissue-agnostic FDA approval. Confirmed in KEYNOTE-177 for 1L dMMR mCRC[^pmid:33264544] — but not uniformly predictive (see contradictions).
+- **[est] JAK1/JAK2 and B2M LOF cause acquired anti-PD-1 resistance in melanoma** (Zaretsky 2016)[^pmid:27433843]; rare (<5%) but biochemically definitive. JAK1/2 LOF also drives a subset of primary resistance (Shin 2017)[^pmid:27903500]. PTPN2 loss in tumor cells is the inverse — a sensitizer that amplifies IFN-γ response (Manguso 2017)[^pmid:28723893], now in clinical development.
+- **[est] KRAS-mutant NSCLC with STK11/LKB1 co-mutation is primary ICI-refractory** despite TMB-intermediate/high status (Skoulidis 2018)[^pmid:29773717]. Now used in NSCLC trial stratification.
+- **[est] PD-1 + CTLA-4 combination improves PFS over single-agent PD-1 in advanced melanoma** (CheckMate 067)[^pmid:26027431], at ~55% grade 3/4 TRAE cost. Durable OS plateau out to 6.5+ years.
+- **[est] Pembrolizumab monotherapy first-line for NSCLC with PD-L1 TPS ≥50% is standard of care** (KEYNOTE-024)[^pmid:27718847]; 5-year OS benefit confirmed despite crossover.
+- **[est] Ipilimumab inaugurated the durable-survival-plateau paradigm** (Hodi 2010)[^pmid:20525992]: 20–26% of patients on a long-term OS plateau at 10 years. The nivolumab phase I (Topalian 2012)[^pmid:22658127] then demonstrated anti-PD-1 activity in NSCLC and RCC, expanding the paradigm beyond melanoma.
+- **[est] Response depends on a stem-like Tcf1+PD-1+ CD8+ progenitor pool, not reinvigoration of terminally exhausted effectors** (Siddiqui 2019, Sade-Feldman 2018, Miller 2019)[^pmid:30635237][^pmid:30388456]. Explains why a heavily PD-1+ infiltrate is not enough if it lacks the stem-like subset.
+- **[est] TOX is the master transcription factor of the exhausted chromatin state** (Alfei 2019 and concurrent work)[^pmid:31207603]. Epigenetic fixation of exhaustion is a durable barrier to reinvigoration — and TOX ablation impairs both exhaustion *and* persistence, so it is not a simple therapeutic brake.
+- **[est] TGF-β signaling in peritumoral fibroblasts drives T-cell exclusion** (Mariathasan 2018 in urothelial[^pmid:29443960]; Tauriello 2018 in MSS CRC GEMM[^pmid:29443964]). **But clinical translation has failed — see contradictions.**
+- **[est] Canonical resistance taxonomy — primary / adaptive / acquired** (Sharma 2017)[^pmid:28187290] — remains the organizing framework.
 
-A genuinely foundational finding also appeared: PD-1 expression on clonally expanding T cells is, in a specific regime, *protective* against restimulation-induced cell death (RICD)[^pmid:41748562]. If replicated *in vivo*, this inverts part of the dogma that anti-PD-1 is a pure "release the brakes" intervention and implies some of the variability in effector-T-cell durability under blockade may reflect loss of homeostatic PD-1 signaling, not merely release of suppression.
+## Where the field has contradicted itself (the surprises)
 
-The synthesis is organized by mechanism class below. Deep-dive pages for each class carry the full evidence inventory; this page is the overview.
+Known initial findings that later weakened under replication or didn't translate. Useful to avoid over-weighting any single-study narrative.
 
-## Antigen presentation
+- **[cont] HLA-I LOH is a selected immune-escape event (~40% of NSCLCs, McGranahan 2017[^pmid:29107330]) but is *not* deterministic for ICI response.** Subsequent pan-cancer ICI cohorts show some HLA-LOH patients still respond. What matters is *which* allele is lost (loss of the allele presenting a dominant neoantigen), tumor type, and whether residual heterozygous HLA alleles can still present key neoantigens. So: "this patient has HLA LOH" does not imply "this patient will fail anti-PD-1."
+- **[cont] β2M loss does not uniformly predict resistance either.** Documented case-level resistance (Zaretsky 2016[^pmid:27433843]) and rare B2M-low/null tumors that still respond suggest NK-mediated or non-classical HLA-dependent mechanisms can partially compensate. The acquired-resistance rate attributable to β2M/JAK is a small fraction of overall failures.
+- **[cont] Microbiome responder signatures do not replicate cleanly across geographies.** Gopalakrishnan 2018 (Faecalibacterium/Ruminococcaceae)[^pmid:29097493], Routy 2018 (Akkermansia)[^pmid:29097494], Matson 2018 (Bifidobacterium longum), and Sivan 2015[^pmid:26541606] / Vétizou 2015[^pmid:26541610] mouse work each nominated different beneficial taxa. Meta-analyses (Lee 2022, McCulloch 2022 Nat Med) found no single taxon reliably predicts anti-PD-1 response across cohorts. For *Akkermansia* specifically, Derosa 2022 Nat Med showed a non-monotonic relationship — very high levels were worse than intermediate. **Bacteroidales sign-flipped**: beneficial in Vétizou's anti-CTLA-4 mouse work, associated with non-response in Gopalakrishnan's anti-PD-1 cohort. The antibiotic-harm signal is the only microbiome finding that has replicated consistently.
+- **[cont] FMT rescues anti-PD-1-refractory melanoma** (Baruch 2021[^pmid:33303685]: 3/10; Davar 2021[^pmid:33542131]: 6/15 benefit including ORR ~20%). This was unexpected because refractoriness had been widely assumed to reflect tumor-intrinsic escape (B2M/JAK loss), not a reversible host-ecosystem state. The convergent independent replication at Sheba and NCI/Pittsburgh using different donors strengthens the signal.
+- **[cont] TGF-β is a biologically robust exclusion driver that has clinically disappointed.** Bintrafusp alfa (TGFβRII trap / anti-PD-L1 bifunctional) failed pivotal trials — INTR@PID lung 037 discontinued 2021, biliary tract halted. Galunisertib + durvalumab, NIS793 combinations in MSS CRC — modest or negative. A reproducibility gap between GEMM and clinic; likely reflects redundancy, dose-limiting cardiotoxicity of TGF-β antagonism, or context-specific effects.
+- **[cont] bTMB failed prospective validation.** Gandara 2018[^pmid:30082870] retrospectively showed bTMB-high enriches atezolizumab benefit in POPLAR/OAK; prospective B-F1RST did not confirm a first-line predictive effect. bTMB is not broadly adopted.
+- **[cont] PBRM1 LOF as ICI sensitizer in ccRCC has not replicated.** Miao 2018[^pmid:29301960] reported enrichment in responders in two cohorts; subsequent CheckMate-009/010/025 (Braun 2020) and IMmotion analyses did not confirm.
+- **[cont] IPRES transcriptomic signature has underperformed as an independent predictor.** Hugo 2016[^pmid:26997480] nominated an EMT/wound-healing / angiogenesis program in innately resistant melanoma. Validation has been mixed — IPRES overlaps heavily with TGF-β and stromal signatures and adds little above CD8, PD-L1, TMB, and pan-fibroblast measures.
+- **[cont] dMMR is not a universal ICI predictor even in 1L mCRC.** KEYNOTE-177[^pmid:33264544] PFS was biphasic — pembrolizumab underperformed chemotherapy in the first ~6 months (~29% primary progression), and the final OS analysis did not reach statistical significance (HR ~0.74, crossover confounded).
+- **[cont] WNT/β-catenin activation as clinical exclusion driver is weaker than Spranger 2015[^pmid:25970248] mouse biology suggested.** Subsequent clinical cohorts show context-dependent correlations; WNT inhibition + ICI limited by toxicity.
+- **[cont] The specific "shared neoantigen tetrapeptide signature" from Snyder 2014** did not replicate in larger cohorts; the TMB association survives but the signature itself is widely considered a small-sample artifact.
 
-The dominant new finding is that **evolutionary divergence between germline and somatic HLA class I alleles (deltaHED)** predicts worse PD-1 outcomes across three cohorts spanning nasopharyngeal carcinoma (POLARIS-02), melanoma, and esophageal squamous cell carcinoma (JUPITER-06), and does so *despite* high deltaHED correlating with higher TMB and neoantigen load[^pmid:41601354]. In ESCC the association was specific to the immunotherapy arm. High deltaHED also tracked with mutations in antigen-processing and TCR pathways, suggesting that divergence marks ongoing immune escape rather than broad presentation capacity. This refines but does not cleanly challenge the TMB paradigm: high mutational burden remains informative, but an additional HLA-level metric may identify the subset in which TMB fails to predict benefit.
+## Suspected but unconfirmed (mechanistically coherent, not yet clinically validated)
 
-See [mechanisms/antigen-presentation.md](mechanisms/antigen-presentation.md) for details.
+- **[susp] PD-1 partially *protects* clonally expanding T cells from restimulation-induced cell death**[^pmid:41748562]. In vitro human primary T cells only. If replicated in vivo, would complicate the "release the brakes" framing and explain some non-durability of response.
+- **[susp] AARS1-mediated PD-L1 K280 lactylation stabilizes PD-L1 against HUWE1 ubiquitination**[^pmid:41864972]. Counterintuitively, exogenous lactate *enhances* anti-PD-L1 efficacy preclinically — this paradox must be reconciled before clinical translation.
+- **[susp] HILPDA-driven lipogenesis palmitoylates PD-L1 at Cys272**[^pmid:41876831]. Fenretinide (TRIM21 engager) degrades HILPDA and restores anti-PD-1 efficacy in breast cancer models. Single tumor type; preclinical only; but fenretinide has existing clinical exposure.
+- **[susp] deltaHED (germline + somatic HLA-I evolutionary divergence) predicts worse PD-1 outcomes despite higher TMB/neoantigen load** across three cohorts[^pmid:41601354]. Inverts a naïve HED prediction; needs prospective single-agent PD-1 validation.
+- **[susp] Hypoalbuminemia causally drives ICI resistance via macrophage arginine biosynthesis impairment** (LLC mice)[^pmid:41940988]. Would recast a routine prognostic lab as a reversible driver; dietary arginine rescue would need clinical study.
+- **[susp] Hyperprogression on anti-PD-1** (Champiat 2017, Kato 2017 class of reports) remains contested; definitions vary and natural-history confounding is substantial. Not listed as established.
 
-## IFN-γ signaling and its metabolic consequences
+## New directions worth watching (emerging this period)
 
-The canonical IFN-γ → IRF1/STAT1 → antigen presentation + apoptosis axis has long been central to PD-1 biology. New work extends it into lipid metabolism: **IFN-γ-induced IRF1 transcriptionally upregulates AGPAT3**, which remodels tumor lipid composition toward polyunsaturated ether phospholipids that sensitize tumor cells to ferroptosis[^pmid:41807033]. Loss of AGPAT3 impairs IFN-γ-mediated tumor elimination; higher tumor AGPAT3 correlates with better ICI survival. This refines the IFN-γ killing paradigm — it is not only about apoptosis and antigen presentation, but about a lipidomic vulnerability that coexists with the classical pathway and may be pharmacologically accessible.
+- **[emerg] ATOMIC phase 3 (NEJM 2026): adjuvant atezolizumab + mFOLFOX6 in stage III dMMR colon cancer, HR 0.50**[^pmid:41880612]. 3-year DFS 86.3% vs 76.2%. Extends ICI benefit into adjuvant dMMR. OS not yet mature. A new large population will now experience prolonged adjuvant ICI exposure, creating a fresh substrate for late-resistance biology.
+- **[emerg] KLRG1 nominated as a novel inhibitory checkpoint** in anti-PD-1-resistant melanoma[^pmid:41956544]; novel anti-human KLRG1 mAb reduces tumor progression in humanized KI mice via combined CD8, NK, and γδ-T effects. Distinct from PD-1/CTLA-4/LAG-3/TIM-3.
+- **[emerg] Anti-TIM-3 (TQB2618) + anti-PD-1 penpulimab achieves 52% ORR in PD-1-pretreated classical Hodgkin lymphoma** (n=21, phase Ib)[^pmid:41963080]. Salvage signal in a setting where re-engaging checkpoint biology was not expected to help.
+- **[emerg] TROP2-claudin-7 tight junctions functionally exclude T cells from TNBC**[^pmid:41932810] — reframes TROP2 from ADC target to barrier-mechanism target; mechanistic rationale for TROP2 ADC + anti-PD-1 combinations beyond cytotoxic payload delivery.
+- **[emerg] PKMYT1 inhibition (clinical-grade RP-6306) activates cGAS-STING in castration-resistant prostate cancer**[^pmid:41617394]. Converts cold CRPC to anti-PD-L1-responsive in preclinical models; prostate cancer has been stubbornly ICI-refractory.
+- **[emerg] IFN-γ → IRF1 → AGPAT3 axis sensitizes tumors to ferroptosis**[^pmid:41807033]. Extends IFN-γ consequences beyond antigen presentation and apoptosis to a lipidomic vulnerability.
+- **[emerg] 8-gene k-TSP + mucinous composite biomarker identifies a 15% dMMR/MSI-H mCRC subgroup with extreme benefit (HR 0.10) from anti-CTLA-4 addition to anti-PD-1**[^pmid:41950572]. Retrospective (n=25 in positive subgroup); prospective validation called for. If it holds, would resolve a decade-long open question.
+- **[emerg] LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab in anti-PD-1-refractory melanoma restores ICI-responsive immune signatures** in 24 patients[^pmid:41888981]. Biomarker-level evidence of myeloid-compartment rescue in a refractory population.
+- **[emerg] Single-cell spatial profiling defines six niches stratifying neoadjuvant cSCC response better than PD-L1 IHC**[^pmid:41617396]. Niche-composition biomarkers may eventually outperform single-marker IHC.
+- **[emerg] hMENA TGF-β-driven CAF signature validated against OAK phase III**[^pmid:41592891] — a clinically anchored exclusion biomarker despite the TGF-β clinical translation gap on the drug side.
 
-See [mechanisms/ifn-gamma.md](mechanisms/ifn-gamma.md) for details.
+## Questions an oncologist likely has — quick answers
 
-## Tumor microenvironment exclusion
+- **Should I still order PD-L1 IHC?** Yes, for 1L NSCLC selection (TPS ≥50% standard for pembro monotherapy). Less useful elsewhere; increasingly replaced by tumor-type-specific algorithms.
+- **Does my patient's dMMR status guarantee benefit?** No. KEYNOTE-177[^pmid:33264544] PFS was biphasic with ~29% primary progression. dMMR is necessary-but-not-sufficient in mCRC.
+- **Should I worry about antibiotic exposure around ICI initiation?** Yes — the antibiotic-harm signal is the most robustly replicated microbiome observation. Specific probiotic or taxonomy-guided interventions are not clinically ready.
+- **Can anti-PD-1-refractory patients be rescued?** Emerging positive signals: FMT from a responder donor (~20–30% response in small trials), TIM-3 combination in PD-1-pretreated cHL (52% ORR n=21), LOAd703 oncolytic in melanoma (biomarker-level). None are standard of care yet.
+- **Should I test for STK11/KEAP1 in KRAS-mutant NSCLC?** It guides prognosis on ICI and supports clinical trial stratification, though no FDA-level companion biomarker yet.
+- **Is there a prospective biomarker beyond PD-L1 / TMB / dMMR / STK11 that's ready for clinical use?** Not yet. HLA LOH, HED/deltaHED, microbiome, IPRES, PBRM1, bTMB — all research-only or have failed prospective validation.
+- **What about hyperprogression?** Definitions vary; the literature is contested. Natural history and pseudoprogression confound the phenomenon. Not actionable today.
 
-Four findings converge on the idea that **exclusion is not a single phenomenon** but a set of architectural programs that coexist in the same tumor. Spatial single-cell transcriptomics of cutaneous squamous cell carcinoma across three cohorts defined **six distinct niches** — some antigen-presenting and inflammatory (responder-enriched), others proliferative-keratinocyte, low-APC myeloid, or fibroblast-rich EMT (non-responder-dominant) — with niche profiling outperforming PD-L1 IHC for pathologic response[^pmid:41617396]. In NSCLC, **hMENA-high TGF-β-driven CAFs** propagate an exclusion program validated against the OAK phase III trial, elevating a CAF subtype to biomarker status[^pmid:41592891]. In TNBC, **TROP2 associates with claudin-7** to build a tight-junction barrier that excludes T cells; TROP2 loss or targeting restores infiltration and anti-PD-1 efficacy, providing a mechanistic rationale for TROP2 ADC + IO combinations beyond cytotoxic payload delivery[^pmid:41932810]. And in **anti-PD-1-refractory melanoma**, intratumoral LOAd703 (CD40L/4-1BBL-armed oncolytic adenovirus) + atezolizumab reprograms the myeloid compartment to an APC phenotype and restores ICI-responsive systemic immune signatures in 24 patients[^pmid:41888981].
-
-See [mechanisms/tme-exclusion.md](mechanisms/tme-exclusion.md).
-
-## Tumor-intrinsic signaling
-
-Four tumor-intrinsic nodes emerged with mechanism-to-therapeutic arcs:
-
-- **HILPDA → KLF5 → palmitate → PD-L1 palmitoylation at Cys272.** A lipid-droplet regulator stabilizes PD-L1 via a PTM that is blocked by TRIM21-mediated K63 polyubiquitination; fenretinide engages TRIM21 and restores anti-PD-1 efficacy in breast cancer models[^pmid:41876831].
-- **NOTCH3 → RBPJ → PVR → TIGIT.** Tumor-intrinsic NOTCH3 transcriptionally upregulates PVR in CRC, engaging TIGIT to suppress CD8 cytotoxicity; loss/mutation of NOTCH3 predicts better ICB survival across two clinical cohorts[^pmid:41808828].
-- **PKMYT1 → cGAS-STING.** Inhibition of cell-cycle kinase PKMYT1 with the clinical-grade RP-6306 activates cGAS-STING, upregulates CCL5/CXCL10, and converts immune-cold castration-resistant prostate cancer to anti-PD-L1-responsive disease in preclinical models[^pmid:41617394].
-- **Lactate → AARS1 → PD-L1 K280 lactylation.** Lactate drives AARS1-catalyzed lactylation of PD-L1 K280, blocking HUWE1-mediated ubiquitination and stabilizing PD-L1. Counterintuitively, exogenous sodium lactate *enhanced* anti-PD-L1 efficacy in preclinical models[^pmid:41864972], a paradox that warrants careful reconciliation before clinical translation.
-
-See [mechanisms/tumor-intrinsic.md](mechanisms/tumor-intrinsic.md).
-
-## T-cell intrinsic biology and exhaustion
-
-Five findings cluster here, two of them genuinely surprising.
-
-The biggest conceptual shift: **transient PD-1 upregulation on clonally expanding T cells protects them from restimulation-induced cell death** by attenuating TCR/CD28 signaling and modulating pro/anti-apoptotic proteins[^pmid:41748562]. This is an *in vitro* human primary T cell study and needs *in vivo* validation, but if it holds it implies PD-1 blockade could, in some regimes, accelerate effector T-cell attrition rather than merely release suppression — a confound for interpreting response durability.
-
-The second strong new signal is **KLRG1 as a novel inhibitory checkpoint**. KLRG1 is upregulated on CD8+ T cells after checkpoint therapy, correlates with anti-PD-1 resistance in melanoma, and its genetic or antibody-mediated blockade (via a novel anti-human KLRG1 mAb in humanized KLRG1 knock-in mice) reduces tumor progression through combined CD8, NK, and gamma-delta T effects[^pmid:41956544]. The KLRG1–cadherin axis nominates a checkpoint distinct from the established PD-1/CTLA-4/LAG-3/TIM-3 set.
-
-Also notable:
-
-- **T cell-intrinsic VISTA** enforces CD8 dysfunction and its loss synergizes with anti-CTLA-4; the VISTA-deficient cytotoxic signature correlates with better ICI outcomes in patients[^pmid:41837284].
-- In MSS colorectal cancer, **M2 TAM-derived PGE2 drives TIGIT upregulation** on PD-1+ CD8 T cells, creating a terminally exhausted phenotype that COX2 or TIGIT blockade can rescue[^pmid:41196020].
-- In **PD-1-pretreated classical Hodgkin lymphoma**, adding anti-TIM-3 (TQB2618) to anti-PD-1 penpulimab produced a 52% ORR in 21 patients — a meaningful clinical signal in a post-PD-1-failure setting where re-engaging checkpoint biology is not typically expected to yield substantial salvage[^pmid:41963080].
-
-See [mechanisms/t-cell-exhaustion.md](mechanisms/t-cell-exhaustion.md).
-
-## Metabolic resistance
-
-One strong new signal this period: **hypoalbuminemia from low-protein diet causally drives ICI resistance** in LLC mouse models via impaired macrophage arginine biosynthesis, reduced CD8 infiltration, and expanded TAMs. TAM depletion or arginine supplementation rescues anti-PD-1 efficacy[^pmid:41940988]. The finding reframes hypoalbuminemia not merely as a prognostic biomarker but as a mechanism-anchored, potentially reversible metabolic driver of resistance. Clinical translation would need dietary intervention studies; the preclinical story is a single-model mouse system.
-
-See [mechanisms/metabolic.md](mechanisms/metabolic.md).
-
-## Clinical interventions and surprising outcomes
-
-Three clinical results stand out:
-
-**ATOMIC (NEJM phase 3).** Adjuvant atezolizumab + mFOLFOX6 in stage III dMMR colon cancer cut 3-year DFS events roughly in half (86.3% vs 76.2%; HR 0.50, p<0.001) in 712 patients with 40.9-month median follow-up. OS is not yet mature. Grade ≥3 AE rate rose from 71.9% to 84.1%. This extends ICI benefit into the adjuvant dMMR setting and shifts the locus where future resistance biology will be defined[^pmid:41880612].
-
-**8-gene + mucinous-histology biomarker for CTLA-4 addition in dMMR/MSI-H mCRC.** A k-TSP classifier combined with mucinous histology identifies a 15% subgroup of dMMR/MSI-H mCRC patients in whom anti-CTLA-4 addition to anti-PD-1 yields 72.2% vs 13.8% 24-month PFS (HR 0.10). The subgroup is small (n=25) and the comparison is retrospective across non-randomized regimens, but the effect is large enough to warrant prospective validation[^pmid:41950572].
-
-**LOAd703 in anti-PD-1-refractory melanoma.** The clinical signal (biomarker-level) is covered under TME exclusion above, but deserves flagging here: few interventions reliably re-sensitize confirmed anti-PD-1-refractory melanoma to checkpoint blockade[^pmid:41888981].
-
-See [mechanisms/clinical-interventions.md](mechanisms/clinical-interventions.md).
-
-## Open questions
-
-- **Does PD-1 blockade accelerate effector T-cell attrition in patients?** The [RICD protection finding](mechanisms/t-cell-exhaustion.md) is *in vitro*. The implication would reshape how we think about durability of response.
-- **Can post-translational PD-L1 regulation (palmitoylation, lactylation) be drugged clinically?** Fenretinide (TRIM21 engagement) and the AARS1 axis are pharmacologically tractable but far from trials.
-- **Is deltaHED additive or orthogonal to TMB in a prospective biomarker strategy?** The three retrospective cohorts are compelling but not decisive.
-- **Will the 8-gene dMMR k-TSP biomarker survive prospective validation?** If yes, it could resolve the open question of when to add anti-CTLA-4 to anti-PD-1 in colorectal cancer — a field that has struggled with this for nearly a decade.
-- **How much of the TIM-3 result in PD-1-pretreated Hodgkin generalizes?** cHL has unique biology (9p24.1 amplification, Reed-Sternberg cell reliance on PD-L1); a 52% salvage ORR is striking but a single arm at Chinese sites only.
-- **Does adjuvant ICI in dMMR disease change the resistance landscape?** ATOMIC brings a large new population into prolonged ICI exposure; mechanisms of late / adjuvant-setting resistance are yet to be characterized.
-
-## Appendix
-
-Every paper ingested by the pipeline — kept or rejected — is listed at [Papers](papers.md).
+See per-mechanism deep dives in the navigation. The [papers appendix](papers.md) lists every paper ingested (N>1,000) with links.
 
 ---
 
-[^pmid:41601354]: Introduction of deltaHED metric across POLARIS-02, melanoma, and JUPITER-06 cohorts. Europe PMC PMID [41601354](https://pubmed.ncbi.nlm.nih.gov/41601354/).
-[^pmid:41876831]: HILPDA-KLF5-palmitoylation axis and TRIM21/fenretinide rescue. PMID [41876831](https://pubmed.ncbi.nlm.nih.gov/41876831/).
-[^pmid:41864972]: AARS1-mediated PD-L1 K280 lactylation blocks HUWE1 ubiquitination. PMID [41864972](https://pubmed.ncbi.nlm.nih.gov/41864972/).
-[^pmid:41880612]: ATOMIC phase 3 trial of adjuvant atezolizumab + mFOLFOX6 in stage III dMMR colon cancer. PMID [41880612](https://pubmed.ncbi.nlm.nih.gov/41880612/).
-[^pmid:41748562]: PD-1 protects clonally expanding T cells from restimulation-induced cell death. PMID [41748562](https://pubmed.ncbi.nlm.nih.gov/41748562/).
-[^pmid:41807033]: IFN-γ–IRF1–AGPAT3 axis sensitizing tumors to ferroptosis. PMID [41807033](https://pubmed.ncbi.nlm.nih.gov/41807033/).
-[^pmid:41617396]: Six spatial niches stratifying neoadjuvant PD-1/PD-L1 response in cSCC. PMID [41617396](https://pubmed.ncbi.nlm.nih.gov/41617396/).
-[^pmid:41592891]: hMENA TGF-β CAF signature validated in OAK phase III. PMID [41592891](https://pubmed.ncbi.nlm.nih.gov/41592891/).
-[^pmid:41932810]: TROP2-claudin-7 barrier excluding T cells in TNBC. PMID [41932810](https://pubmed.ncbi.nlm.nih.gov/41932810/).
-[^pmid:41888981]: LOKON003 phase I/II: intratumoral LOAd703 + atezolizumab in anti-PD-1-refractory melanoma. PMID [41888981](https://pubmed.ncbi.nlm.nih.gov/41888981/).
-[^pmid:41808828]: NOTCH3-PVR-TIGIT axis in CRC. PMID [41808828](https://pubmed.ncbi.nlm.nih.gov/41808828/).
-[^pmid:41617394]: PKMYT1 inhibition activating cGAS-STING in CRPC. PMID [41617394](https://pubmed.ncbi.nlm.nih.gov/41617394/).
-[^pmid:41956544]: KLRG1 as a novel checkpoint in anti-PD-1-resistant melanoma. PMID [41956544](https://pubmed.ncbi.nlm.nih.gov/41956544/).
-[^pmid:41837284]: T cell-intrinsic VISTA synergizing with CTLA-4 blockade. PMID [41837284](https://pubmed.ncbi.nlm.nih.gov/41837284/).
-[^pmid:41196020]: TAM-PGE2-TIGIT axis in MSS CRC. PMID [41196020](https://pubmed.ncbi.nlm.nih.gov/41196020/).
-[^pmid:41963080]: Anti-TIM-3 (TQB2618) + penpulimab in PD-1-pretreated classical Hodgkin lymphoma. PMID [41963080](https://pubmed.ncbi.nlm.nih.gov/41963080/).
-[^pmid:41940988]: Hypoalbuminemia, macrophage arginine metabolism, and ICI resistance. PMID [41940988](https://pubmed.ncbi.nlm.nih.gov/41940988/).
-[^pmid:41950572]: 8-gene + mucinous classifier identifying dMMR/MSI-H subgroup benefiting from anti-CTLA-4 addition. PMID [41950572](https://pubmed.ncbi.nlm.nih.gov/41950572/).
+[^pmid:25428505]: Tumeh 2014 Nature — pre-existing CD8 infiltrate predicts PD-1 response. [Link](https://pubmed.ncbi.nlm.nih.gov/25428505/).
+[^pmid:28102259]: Chen & Mellman 2017 Nature — cancer-immunity set-point framework. [Link](https://pubmed.ncbi.nlm.nih.gov/28102259/).
+[^pmid:25765070]: Rizvi 2015 Science — TMB in NSCLC under pembrolizumab. [Link](https://pubmed.ncbi.nlm.nih.gov/25765070/).
+[^pmid:25409260]: Snyder 2014 NEJM — TMB under anti-CTLA-4 in melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/25409260/).
+[^pmid:28596308]: Le 2017 Science — pembrolizumab in MMR-deficient tumors across 12 histologies. [Link](https://pubmed.ncbi.nlm.nih.gov/28596308/).
+[^pmid:33264544]: André 2020 NEJM — KEYNOTE-177 pembrolizumab 1L dMMR mCRC. [Link](https://pubmed.ncbi.nlm.nih.gov/33264544/).
+[^pmid:27433843]: Zaretsky 2016 NEJM — JAK1/2 and B2M LOF in acquired anti-PD-1 resistance. [Link](https://pubmed.ncbi.nlm.nih.gov/27433843/).
+[^pmid:27903500]: Shin 2017 Cancer Discov — JAK1/2 LOF in primary resistance. [Link](https://pubmed.ncbi.nlm.nih.gov/27903500/).
+[^pmid:28723893]: Manguso 2017 Nature — Ptpn2 as ICI sensitizer. [Link](https://pubmed.ncbi.nlm.nih.gov/28723893/).
+[^pmid:29773717]: Skoulidis 2018 Cancer Discov — STK11/LKB1 in KRAS-mutant NSCLC ICI. [Link](https://pubmed.ncbi.nlm.nih.gov/29773717/).
+[^pmid:26027431]: Larkin 2015 NEJM — CheckMate 067 nivo+ipi vs mono in melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/26027431/).
+[^pmid:27718847]: Reck 2016 NEJM — KEYNOTE-024 pembrolizumab 1L NSCLC PD-L1 ≥50%. [Link](https://pubmed.ncbi.nlm.nih.gov/27718847/).
+[^pmid:20525992]: Hodi 2010 NEJM — ipilimumab phase 3 in metastatic melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/20525992/).
+[^pmid:22658127]: Topalian 2012 NEJM — anti-PD-1 phase 1 in solid tumors. [Link](https://pubmed.ncbi.nlm.nih.gov/22658127/).
+[^pmid:30635237]: Siddiqui 2019 Immunity — stem-like Tcf1+PD-1+ CD8 subset. [Link](https://pubmed.ncbi.nlm.nih.gov/30635237/).
+[^pmid:30388456]: Sade-Feldman 2018 Cell — CD8 T cell states and melanoma ICI response. [Link](https://pubmed.ncbi.nlm.nih.gov/30388456/).
+[^pmid:31207603]: Alfei 2019 Nature — TOX reinforces exhausted CD8 phenotype. [Link](https://pubmed.ncbi.nlm.nih.gov/31207603/).
+[^pmid:29443960]: Mariathasan 2018 Nature — TGF-β excludes T cells in urothelial ICI. [Link](https://pubmed.ncbi.nlm.nih.gov/29443960/).
+[^pmid:29443964]: Tauriello 2018 Nature — TGF-β in MSS CRC metastasis GEMM. [Link](https://pubmed.ncbi.nlm.nih.gov/29443964/).
+[^pmid:28187290]: Sharma 2017 Cell — Primary/Adaptive/Acquired resistance review. [Link](https://pubmed.ncbi.nlm.nih.gov/28187290/).
+[^pmid:29107330]: McGranahan 2017 Cell — allele-specific HLA-I LOH in NSCLC. [Link](https://pubmed.ncbi.nlm.nih.gov/29107330/).
+[^pmid:29097493]: Gopalakrishnan 2018 Science — gut microbiome and anti-PD-1 in melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/29097493/).
+[^pmid:29097494]: Routy 2018 Science — antibiotics, Akkermansia, and PD-1 therapy. [Link](https://pubmed.ncbi.nlm.nih.gov/29097494/).
+[^pmid:26541606]: Sivan 2015 Science — Bifidobacterium enhances anti-PD-L1 in mice. [Link](https://pubmed.ncbi.nlm.nih.gov/26541606/).
+[^pmid:26541610]: Vétizou 2015 Science — microbiota and anti-CTLA-4 in mice. [Link](https://pubmed.ncbi.nlm.nih.gov/26541610/).
+[^pmid:33303685]: Baruch 2021 Science — FMT rescue in anti-PD-1-refractory melanoma (phase I). [Link](https://pubmed.ncbi.nlm.nih.gov/33303685/).
+[^pmid:33542131]: Davar 2021 Science — FMT + pembrolizumab in anti-PD-1-refractory melanoma (phase II). [Link](https://pubmed.ncbi.nlm.nih.gov/33542131/).
+[^pmid:30082870]: Gandara 2018 Nat Med — blood TMB in NSCLC atezolizumab (retrospective). [Link](https://pubmed.ncbi.nlm.nih.gov/30082870/).
+[^pmid:29301960]: Miao 2018 Science — PBRM1 and anti-PD-1 response in ccRCC. [Link](https://pubmed.ncbi.nlm.nih.gov/29301960/).
+[^pmid:26997480]: Hugo 2016 Cell — IPRES signature in anti-PD-1 resistant melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/26997480/).
+[^pmid:25970248]: Spranger 2015 Nature — WNT/β-catenin and T-cell exclusion. [Link](https://pubmed.ncbi.nlm.nih.gov/25970248/).
+[^pmid:41748562]: RICD protection by PD-1 on expanding T cells. [Link](https://pubmed.ncbi.nlm.nih.gov/41748562/).
+[^pmid:41864972]: AARS1 lactylation of PD-L1 K280. [Link](https://pubmed.ncbi.nlm.nih.gov/41864972/).
+[^pmid:41876831]: HILPDA-KLF5-palmitoylation of PD-L1. [Link](https://pubmed.ncbi.nlm.nih.gov/41876831/).
+[^pmid:41601354]: deltaHED metric across three ICI cohorts. [Link](https://pubmed.ncbi.nlm.nih.gov/41601354/).
+[^pmid:41940988]: Hypoalbuminemia and macrophage arginine in ICI resistance. [Link](https://pubmed.ncbi.nlm.nih.gov/41940988/).
+[^pmid:41880612]: ATOMIC phase 3 — adjuvant atezolizumab + FOLFOX in stage III dMMR. [Link](https://pubmed.ncbi.nlm.nih.gov/41880612/).
+[^pmid:41956544]: KLRG1 as novel checkpoint. [Link](https://pubmed.ncbi.nlm.nih.gov/41956544/).
+[^pmid:41963080]: Anti-TIM-3 + penpulimab in PD-1-pretreated cHL. [Link](https://pubmed.ncbi.nlm.nih.gov/41963080/).
+[^pmid:41932810]: TROP2-claudin-7 tight junction barrier in TNBC. [Link](https://pubmed.ncbi.nlm.nih.gov/41932810/).
+[^pmid:41617394]: PKMYT1 inhibition activating cGAS-STING in CRPC. [Link](https://pubmed.ncbi.nlm.nih.gov/41617394/).
+[^pmid:41807033]: IFN-γ–IRF1–AGPAT3–ferroptosis axis. [Link](https://pubmed.ncbi.nlm.nih.gov/41807033/).
+[^pmid:41950572]: 8-gene k-TSP + mucinous biomarker for anti-CTLA-4 addition in dMMR/MSI-H mCRC. [Link](https://pubmed.ncbi.nlm.nih.gov/41950572/).
+[^pmid:41888981]: LOAd703 + atezolizumab in anti-PD-1-refractory melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/41888981/).
+[^pmid:41617396]: Spatial niches stratifying neoadjuvant cSCC response. [Link](https://pubmed.ncbi.nlm.nih.gov/41617396/).
+[^pmid:41592891]: hMENA CAF signature validated in OAK phase III. [Link](https://pubmed.ncbi.nlm.nih.gov/41592891/).

@@ -1,19 +1,43 @@
 # Antigen presentation
 
-Antigen presentation is the most well-characterized axis of ICI resistance: HLA class I loss of heterozygosity, β2-microglobulin mutations, and defects in TAP / proteasomal processing all cause downstream CD8-mediated killing failure. The first wave of this synthesis adds a more subtle layer: **HLA evolutionary divergence itself — the genotypic "width" of the patient's presentation repertoire — may predict PD-1 outcomes in a direction opposite to the naïve prediction**.
+## Confidently known [est]
 
-## deltaHED: germline + somatic HLA-I divergence predicts worse PD-1 outcomes
+- **JAK1/JAK2 loss-of-function drives both primary and acquired anti-PD-1 resistance.** Zaretsky 2016 (NEJM) documented acquired JAK1 or JAK2 LOF (with LOH) plus one B2M truncating mutation in 3 of 4 melanoma patients relapsing on pembrolizumab[^pmid:27433843]. Shin 2017 extended the same mechanism to primary non-responders despite high TMB[^pmid:27903500]. Rare (<5% of all failures) but biochemically definitive; the mutant tumors are non-responsive to IFN-γ.
+- **PTPN2 is the tumor-intrinsic inverse of JAK/STAT resistance.** An in vivo CRISPR screen (Manguso 2017) identified Ptpn2 loss in tumor cells as an ICI sensitizer by amplifying IFN-γ/JAK-STAT signaling[^pmid:28723893]. Now clinically pursued (e.g., ABBV-514 class).
+- **HLA-I allele-specific LOH is a common, positively selected immune-escape event.** McGranahan 2017 (TRACERx 100) used LOHHLA to show HLA LOH in ~40% of NSCLCs, enriched at metastatic sites, with subclonal neoantigen association[^pmid:29107330]. Replicated pan-cancer.
+- **dMMR/MSI-H tumors respond broadly to pembrolizumab** (Le 2017)[^pmid:28596308]; basis of the first tissue-agnostic FDA approval and of KEYNOTE-177 for 1L dMMR mCRC[^pmid:33264544]. The presumed mechanism is massive neoantigen load from mismatch-repair failure.
 
-Yuan *et al.* introduced **deltaHED**, a metric that integrates germline HLA evolutionary divergence with somatic alterations to HLA-I alleles observed in the tumor[^pmid:41601354]. Across three independent cohorts — 164 recurrent/metastatic nasopharyngeal carcinomas from POLARIS-02, 88 melanomas, and 477 esophageal squamous cell carcinomas from JUPITER-06 — high deltaHED was positively correlated with TMB and neoantigen load *and* negatively correlated with PFS and OS under PD-1 blockade. In ESCC the effect was specific to the immunotherapy arm of the randomized comparison, ruling out purely prognostic interpretations. High deltaHED also tracked with higher frequencies of mutations in antigen-processing and TCR-pathway genes.
+## Contradictions / surprises [cont]
 
-**Why this is surprising.** Prior germline HED work has typically associated higher divergence with *better* ICI outcomes, on the reasoning that a broader binding repertoire presents more neoantigens. The deltaHED inversion suggests that a tumor actively accruing HLA-level diversity is one that is *escaping*, not one with expanded presentation capacity — divergence may index the history of immune pressure rather than current presentation function.
+- **HLA-I LOH is not deterministic.** Landmark biology established the mechanism; clinical implementation has been more nuanced. Some HLA-LOH patients still respond to anti-PD-1, especially when residual heterozygous HLA alleles present the dominant neoantigen(s). The predictive signal depends on which allele is lost, the tumor type, and the neoantigen landscape. So the correct clinical reading is "HLA LOH is a risk marker, not a disqualifier."
+- **β2M loss sometimes doesn't prevent response.** The canonical acquired-resistance mechanism in Zaretsky 2016 documents B2M loss causing PD-1 resistance, but rare B2M-low/null tumors still respond — likely via NK-mediated killing or non-classical HLA presentation. β2M/JAK lesions together explain only a minority of acquired failures in larger cohorts.
+- **TMB does not generalize cleanly across tumor types.** Rizvi 2015 established the NSCLC association[^pmid:25765070]; Snyder 2014 the melanoma anti-CTLA-4 association[^pmid:25409260]. FDA's pan-tumor pembrolizumab approval for TMB ≥10 mut/Mb has been controversial — certain high-TMB histologies (some gliomas) show limited benefit. The threshold is assay- and context-dependent.
+- **The "shared neoantigen tetrapeptide signature" from Snyder 2014 did not replicate.** Only the coarse TMB association survived.
+- **KEYNOTE-177 showed dMMR is not universal within mCRC.** ~29% of patients had primary progression on pembrolizumab (worse than chemo in the first 6 months), and final OS did not reach statistical significance (HR ~0.74, crossover confounded)[^pmid:33264544]. dMMR is necessary-but-not-sufficient even in its strongest indication.
 
-**Caveats.** Retrospective biomarker analyses; germline vs somatic attribution of the divergence signal is not fully resolved; the ESCC arm received PD-1 + chemotherapy. Prospective validation in a single-agent PD-1 setting is needed.
+## Suspected but unconfirmed [susp]
 
-## What's not in this seed
+- **deltaHED** — a metric combining germline HLA heterozygosity with somatic HLA-I alterations — **predicts worse PD-1 outcomes despite higher TMB/neoantigen load** across POLARIS-02 (NPC), melanoma, and JUPITER-06 (ESCC) cohorts[^pmid:41601354]. Inverts the naïve "more divergent HLA → more neoantigens → better response" prediction. Retrospective; needs prospective validation in a single-agent PD-1 setting.
 
-Standard antigen-processing defects (β2M LOH, HLA-I LOH, TAP1/2, proteasome subunits, PTPN2/PTPN1) remain load-bearing in the field but did not surface in the top-ranked set from this three-month window. They should be expected to appear in subsequent runs as the window expands.
+## Emerging [emerg]
+
+- **PAR-2 (F2RL1) activation suppresses DC antigen presentation in lung cancer.** A selective negative allosteric modulator (I-117) restores presentation and synergizes with anti-PD-1 in preclinical models — novel GPCR-to-APC axis with a druggable lead (this period's literature).
+- **Tumor B2M expression as a TMB/PD-L1-independent response biomarker in R/M HNSCC progressing on anti-PD-1** (multi-omics 2026). Moves B2M from "LOF = resistance" framing toward a graded expression biomarker.
+
+## How to apply at the bedside
+
+- HLA LOH detection (LOHHLA, companion tools) is *not yet* a clinical-grade decision aid; report it as risk context, not a disqualification.
+- dMMR / MSI-H remains the strongest single biomarker, but KEYNOTE-177's biphasic PFS warns that a subset will fail immediately; early radiologic reassessment at ~2 months is worth considering.
+- TMB thresholds vary by assay and histology; treat the FDA pan-tumor cutoff as a heuristic, not a universal predictor.
 
 ---
 
-[^pmid:41601354]: deltaHED metric validated in POLARIS-02, melanoma, and JUPITER-06 cohorts. PMID [41601354](https://pubmed.ncbi.nlm.nih.gov/41601354/).
+[^pmid:27433843]: Zaretsky 2016 NEJM. [Link](https://pubmed.ncbi.nlm.nih.gov/27433843/).
+[^pmid:27903500]: Shin 2017 Cancer Discov. [Link](https://pubmed.ncbi.nlm.nih.gov/27903500/).
+[^pmid:28723893]: Manguso 2017 Nature. [Link](https://pubmed.ncbi.nlm.nih.gov/28723893/).
+[^pmid:29107330]: McGranahan 2017 Cell. [Link](https://pubmed.ncbi.nlm.nih.gov/29107330/).
+[^pmid:28596308]: Le 2017 Science. [Link](https://pubmed.ncbi.nlm.nih.gov/28596308/).
+[^pmid:33264544]: André 2020 NEJM KEYNOTE-177. [Link](https://pubmed.ncbi.nlm.nih.gov/33264544/).
+[^pmid:25765070]: Rizvi 2015 Science. [Link](https://pubmed.ncbi.nlm.nih.gov/25765070/).
+[^pmid:25409260]: Snyder 2014 NEJM. [Link](https://pubmed.ncbi.nlm.nih.gov/25409260/).
+[^pmid:41601354]: deltaHED 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41601354/).
