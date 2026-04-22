@@ -1,6 +1,6 @@
 """Stability check for synthesis rewrites.
 
-Enforces three invariants between the git-committed version of a doc and its
+Enforces four invariants between the git-committed version of a doc and its
 newly-written version:
 
 1. Every `[^pmid:...]` / `[^doi:...]` citation in the prior version must still
@@ -9,6 +9,9 @@ newly-written version:
 2. The new version must not shrink to less than 70% of the prior word count.
 3. No tier section heading may disappear entirely. If the prior file had
    "## Confidently known", the new version must still have it.
+4. Every bullet under a tier section must carry at least one species pill
+   (`<span class="sp sp-*">`). Conclusions without a species label regress
+   the reader's ability to judge supporting-evidence provenance.
 
 Non-zero exit aborts the commit. Log to stderr.
 
@@ -32,6 +35,32 @@ TIER_HEADING_RE = re.compile(
     r"|Confidently known|Contradictions / surprises|Emerging)",
     re.MULTILINE,
 )
+TIER_HEADING_LINE_RE = re.compile(
+    r"^##\s*(What has held up|Where the field has contradicted itself"
+    r"|Suspected but unconfirmed|New directions worth watching"
+    r"|Confidently known|Contradictions / surprises|Emerging)"
+)
+NON_TIER_H2_RE = re.compile(r"^##\s+")
+BULLET_RE = re.compile(r"^- ")
+SPECIES_PILL_RE = re.compile(r'<span class="sp sp-[a-z_]+">')
+
+
+def find_bullets_missing_species(text: str) -> list[tuple[int, str]]:
+    """Return (line_number, snippet) for every bullet under a tier section
+    that lacks a species pill. Bullets outside tier sections (e.g. under
+    'Practical questions' or 'Practical takeaways') are not checked."""
+    offenders: list[tuple[int, str]] = []
+    in_tier_section = False
+    for i, line in enumerate(text.splitlines(), start=1):
+        if TIER_HEADING_LINE_RE.match(line):
+            in_tier_section = True
+            continue
+        if NON_TIER_H2_RE.match(line):
+            in_tier_section = False
+            continue
+        if in_tier_section and BULLET_RE.match(line) and not SPECIES_PILL_RE.search(line):
+            offenders.append((i, line[:100]))
+    return offenders
 
 
 def collect_citations(text: str) -> set[str]:
@@ -94,6 +123,8 @@ def main() -> None:
     new_words = len(new_text.split())
     retention = new_words / old_words if old_words else 1.0
 
+    missing_species = find_bullets_missing_species(new_text)
+
     fails: list[str] = []
     if missing:
         fails.append(
@@ -107,6 +138,12 @@ def main() -> None:
         fails.append(
             f"word count dropped too far in {args.new}: "
             f"{old_words} -> {new_words} (retention {retention:.0%}, min {args.min_retention:.0%})"
+        )
+    if missing_species:
+        preview = "; ".join(f"L{ln}: {snip}…" for ln, snip in missing_species[:3])
+        fails.append(
+            f"{len(missing_species)} bullet(s) under tier sections in {args.new} "
+            f"lack a species pill (<span class=\"sp sp-*\">). First: {preview}"
         )
 
     if fails:

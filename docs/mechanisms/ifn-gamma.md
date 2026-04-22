@@ -2,22 +2,22 @@
 
 ## Confidently known
 
-- **JAK1/JAK2 LOF causes primary and acquired anti-PD-1 resistance** (Zaretsky 2016 NEJM[^pmid:27433843], Shin 2017[^pmid:27903500]). Tumor cells become IFN-γ-insensitive and fail to upregulate PD-L1 or ISGs. Rare but biochemically definitive.
-- **PTPN2 loss in tumor cells sensitizes to ICI** by amplifying IFN-γ/JAK-STAT response (Manguso 2017 in vivo CRISPR screen)[^pmid:28723893]. The screen also re-identified PD-L1, CD47, and IFN-γ pathway components as canonical modulators. PTPN2 is now a clinical target.
-- **IFN-γ sensing is necessary for anti-PD-1 efficacy in most histologies.** The mechanism — CD8 IFN-γ → tumor IFN-γR → JAK1/2 → STAT1 → antigen processing (B2M, TAP, MHC-I), ISG induction, and adaptive PD-L1 upregulation — is among the most biochemically definitive axes in the field.
+- <span class="sp sp-human">human</span> **JAK1/JAK2 LOF causes primary and acquired anti-PD-1 resistance** (Zaretsky 2016 NEJM[^pmid:27433843], Shin 2017[^pmid:27903500]). Tumor cells become IFN-γ-insensitive and fail to upregulate PD-L1 or ISGs. Rare but biochemically definitive.
+- <span class="sp sp-mouse">mouse</span> **PTPN2 loss in tumor cells sensitizes to ICI** by amplifying IFN-γ/JAK-STAT response (Manguso 2017 in vivo CRISPR screen)[^pmid:28723893]. The screen also re-identified PD-L1, CD47, and IFN-γ pathway components as canonical modulators. PTPN2 is now a clinical target.
+- <span class="sp sp-human">human</span> <span class="sp sp-mouse">mouse</span> **IFN-γ sensing is necessary for anti-PD-1 efficacy in most histologies.** The mechanism — CD8 IFN-γ → tumor IFN-γR → JAK1/2 → STAT1 → antigen processing (B2M, TAP, MHC-I), ISG induction, and adaptive PD-L1 upregulation — is among the most biochemically definitive axes in the field.
 
 ## Contradictions / surprises
 
-- **IFN-γ signaling has dual roles.** Adaptive PD-L1 upregulation is a canonical IFN-γ-driven *resistance* mechanism (Sharma 2017 review)[^pmid:28187290]; the same axis is what anti-PD-1 exploits therapeutically. The clinical question is whether a given tumor has defective (primary resistance via JAK/STAT LOF) or intact-but-hijacked (adaptive resistance via IFN-γ → PD-L1/IDO induction) IFN-γ signaling.
-- **JAK2 amplification at 9p24.1 in classical Hodgkin lymphoma is an extreme case of intact-but-hijacked IFN-γ signaling** — massive PD-L1 upregulation explains cHL's unusually high response rate to anti-PD-1. The boundary between "IFN-γ defective" and "IFN-γ over-engaged" is tumor-type specific.
+- <span class="sp sp-human">human</span> <span class="sp sp-mouse">mouse</span> **IFN-γ signaling has dual roles.** Adaptive PD-L1 upregulation is a canonical IFN-γ-driven *resistance* mechanism (Sharma 2017 review)[^pmid:28187290]; the same axis is what anti-PD-1 exploits therapeutically. The clinical question is whether a given tumor has defective (primary resistance via JAK/STAT LOF) or intact-but-hijacked (adaptive resistance via IFN-γ → PD-L1/IDO induction) IFN-γ signaling.
+- <span class="sp sp-human">human</span> **JAK2 amplification at 9p24.1 in classical Hodgkin lymphoma is an extreme case of intact-but-hijacked IFN-γ signaling** — massive PD-L1 upregulation explains cHL's unusually high response rate to anti-PD-1. The boundary between "IFN-γ defective" and "IFN-γ over-engaged" is tumor-type specific.
 
 ## Suspected but unconfirmed
 
-- No new suspected mechanisms in this period's window. AGPAT3 (below) is better classified as emerging.
+- <span class="sp sp-mouse">mouse</span> No new suspected mechanisms in this period's window. AGPAT3 (below) is better classified as emerging.
 
 ## Emerging
 
-- **IFN-γ → IRF1 → AGPAT3 → ether-phospholipid remodeling → ferroptosis sensitivity** (this period)[^pmid:41807033]. Extends IFN-γ consequences beyond antigen presentation and apoptosis to a lipidomic vulnerability. AGPAT3 loss impairs IFN-γ-mediated tumor elimination; higher tumor AGPAT3 correlates with improved ICI survival in retrospective analysis. Preclinical / associative; no pharmacologic AGPAT3 modulator tested.
+- <span class="sp sp-mouse">mouse</span> **IFN-γ → IRF1 → AGPAT3 → ether-phospholipid remodeling → ferroptosis sensitivity** (this period)[^pmid:41807033]. Extends IFN-γ consequences beyond antigen presentation and apoptosis to a lipidomic vulnerability. AGPAT3 loss impairs IFN-γ-mediated tumor elimination; higher tumor AGPAT3 correlates with improved ICI survival in retrospective analysis. Preclinical / associative; no pharmacologic AGPAT3 modulator tested.
 
 ## Practical takeaways
 

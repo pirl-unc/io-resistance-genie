@@ -43,7 +43,25 @@ Target length: **~1500–3000 words**. Mandatory structure with four top-level b
 - **Suspected but unconfirmed** (`suspected` claims — mechanistically coherent, preclinical or single-cohort; watch list)
 - **New directions worth watching** (`emerging` claims — recent findings worth tracking; too new to be settled)
 
-On the **home page**, every bullet begins with a color-coded pill span: `<span class="tier tier-est">established</span>`, `<span class="tier tier-cont">contested</span>`, `<span class="tier tier-susp">suspected</span>`, or `<span class="tier tier-emerg">emerging</span>` (CSS defined in `docs/stylesheets/tiers.css`). On **mechanism pages**, the tier is communicated by the section header (`## Confidently known`, `## Contradictions / surprises`, `## Suspected but unconfirmed`, `## Emerging`) — do not repeat pills per-bullet on mechanism pages. Every claim must have at least one inline citation of the form `[^pmid:12345678]`; every citation must correspond to a paper in `data/papers.jsonl`.
+On the **home page**, every bullet begins with a color-coded pill span: `<span class="tier tier-est">established</span>`, `<span class="tier tier-cont">contested</span>`, `<span class="tier tier-susp">suspected</span>`, or `<span class="tier tier-emerg">emerging</span>` (CSS defined in `docs/stylesheets/tiers.css`). On **mechanism pages**, the tier is communicated by the section header (`## Confidently known`, `## Contradictions / surprises`, `## Suspected but unconfirmed`, `## Emerging`) — do not repeat tier pills per-bullet on mechanism pages. Every claim must have at least one inline citation of the form `[^pmid:12345678]`; every citation must correspond to a paper in `data/papers.jsonl`.
+
+**Species pills.** Immediately after the tier pill (home page) — or at the start of the bullet on mechanism pages — every bullet under a tier section carries 1+ species pills reflecting the organism(s) of the supporting evidence:
+
+- `<span class="sp sp-human">human</span>` — patient cohort, clinical trial, meta-analysis, human tissue, or human immune cells ex vivo
+- `<span class="sp sp-mouse">mouse</span>` — any in-vivo mouse work (GEMM, syngeneic, humanized mouse)
+- `<span class="sp sp-other">other animal</span>` — non-mouse, non-human in-vivo work (rare)
+- `<span class="sp sp-invitro">in vitro</span>` — cell-line / primary-cell / organoid / coculture evidence (orthogonal; co-occurs with human or mouse to indicate species-of-origin of the cells)
+
+Derive `species` as the union across `supporting_paper_ids`, mapping each paper's `model_system` (in `data/extractions.jsonl`) through this table:
+
+| `model_system` | species labels |
+|---|---|
+| `patient_cohort`, `clinical_trial`, `meta_analysis` | `human` |
+| `mouse` | `mouse` |
+| `cell_line` | `in_vitro` + (`human` or `mouse` based on cell-line origin; most are human, but MC38/LLC/B16/4T1 are mouse) |
+| `review` | inherit from the underlying works |
+
+Bullets in `## Practical questions & quick answers` and `## Practical takeaways` are clinical-advice, not conclusions — do **not** add species pills there.
 
 Close with:
 - **Practical questions & quick answers** (bulleted, practical — "Is PD-L1 IHC still clinically useful?", "Does dMMR status guarantee benefit?", "Can anti-PD-1-refractory patients be rescued?", etc. Phrase questions impersonally, not in first-person clinician voice.)
@@ -100,7 +118,9 @@ Mechanical (enforced by `scripts/check_stability.py` invoked by the trigger):
 Editorial (the agent itself must verify before writing):
 
 - Every `[^pmid:...]` / `[^doi:...]` citation must correspond to a record in `data/papers.jsonl`.
-- Every claim on the home page must carry a pill; every claim on a mechanism page must sit inside the correct tier section.
+- Every claim on the home page must carry a tier pill; every claim on a mechanism page must sit inside the correct tier section.
+- Every claim under a tier section (home page *or* mechanism page) must carry ≥1 species pill. This is enforced mechanically by `scripts/check_stability.py`.
+- Every `ClaimInState` in `data/knowledge_state.json` must have a non-empty `species` list.
 - Changelog entries may only reference paper_ids present in this run's extractions.
 - `data/knowledge_state.json` must pass `KnowledgeState.model_validate_json`.
 

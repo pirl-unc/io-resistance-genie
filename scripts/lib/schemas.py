@@ -42,6 +42,20 @@ class ModelSystem(str, Enum):
     REVIEW = "review"
 
 
+class Species(str, Enum):
+    """Species origin of the supporting evidence for a claim.
+
+    Orthogonal to `ModelSystem`: a single claim can carry multiple labels when
+    its `supporting_paper_ids` span multiple model systems. `in_vitro` is a
+    methodology flag, not a species — it co-occurs with `human` or `mouse`
+    whenever supporting evidence is cell-line / primary-cell / organoid work.
+    """
+    HUMAN = "human"
+    MOUSE = "mouse"
+    OTHER_ANIMAL = "other_animal"
+    IN_VITRO = "in_vitro"
+
+
 class ConfidenceLevel(str, Enum):
     LOW = "low"
     MEDIUM = "medium"
@@ -123,6 +137,7 @@ class ClaimInState(BaseModel):
     mechanism_class: MechanismClass
     confidence: ConfidenceLevel
     evidence_tier: EvidenceTier = EvidenceTier.EMERGING
+    species: list[Species] = Field(default_factory=list)
     supporting_paper_ids: list[str]
 
 

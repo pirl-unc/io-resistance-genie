@@ -1,6 +1,6 @@
 /* Evidence-tier pill styling. Each pill is a small inline badge at the start of a claim. */
 
-.tier {
+.tier, .sp {
   display: inline-block;
   padding: 0.05em 0.55em;
   margin-right: 0.35em;
@@ -14,17 +14,29 @@
   border: 1px solid transparent;
 }
 
-/* Light scheme */
+/* Light scheme — tiers */
 .tier-est    { background: #d9f2e5; color: #1d6b4a; border-color: #9fd4b7; }
 .tier-cont   { background: #fbeacb; color: #8a5510; border-color: #e0b87c; }
 .tier-susp   { background: #dce6f7; color: #234f8c; border-color: #7ea5d4; }
 .tier-emerg  { background: #e7dcf3; color: #5b3a87; border-color: #a995c8; }
 
-/* Dark scheme (Material slate) */
+/* Dark scheme (Material slate) — tiers */
 [data-md-color-scheme="slate"] .tier-est    { background: #1d4a36; color: #9fd4b7; border-color: #4a7a62; }
 [data-md-color-scheme="slate"] .tier-cont   { background: #4a3616; color: #e0b87c; border-color: #7a5c2e; }
 [data-md-color-scheme="slate"] .tier-susp   { background: #1a2d4d; color: #7ea5d4; border-color: #3d5e8a; }
 [data-md-color-scheme="slate"] .tier-emerg  { background: #3a2757; color: #a995c8; border-color: #6a4c90; }
+
+/* Light scheme — supporting-evidence species */
+.sp-human    { background: #fde4d3; color: #8c4a1f; border-color: #e8b896; }
+.sp-mouse    { background: #e8ebc7; color: #5a6a1d; border-color: #bac28a; }
+.sp-other    { background: #d4ecec; color: #1d5c5c; border-color: #8fc4c4; }
+.sp-invitro  { background: #ececf2; color: #3f3f5c; border-color: #b4b4c4; }
+
+/* Dark scheme — supporting-evidence species */
+[data-md-color-scheme="slate"] .sp-human    { background: #4a2a14; color: #e8b896; border-color: #7a4a2a; }
+[data-md-color-scheme="slate"] .sp-mouse    { background: #2e3410; color: #bac28a; border-color: #555f25; }
+[data-md-color-scheme="slate"] .sp-other    { background: #1a3838; color: #8fc4c4; border-color: #3e6464; }
+[data-md-color-scheme="slate"] .sp-invitro  { background: #2a2a38; color: #b4b4c4; border-color: #4e4e64; }
 
 /* Optional inline legend — one line, compact */
 .tier-legend {
