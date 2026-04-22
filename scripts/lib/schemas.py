@@ -105,6 +105,24 @@ class Confidence(BaseModel):
     reasoning: str
 
 
+class HumanStudyData(BaseModel):
+    """Structured, table-ready fields for a human study.
+
+    Required (non-null) only when `PaperExtraction.model_system` is in
+    {patient_cohort, clinical_trial, meta_analysis}. `feature` is the only
+    non-optional field; every other value is allowed to be null and renders
+    as "—" in the generated evidence tables.
+    """
+
+    n_patients: Optional[int] = None           # single integer for the 'N' column
+    n_description: Optional[str] = None        # when n_patients alone misleads (e.g. pooled cohorts)
+    feature: str                               # what is associated with response / OS / PFS
+    effect_type: Optional[str] = None          # "HR" | "OR" | "ORR" | "PFS" | "OS" | "DFS" | "RR" | ...
+    effect_value: Optional[str] = None         # point estimate as string: "0.50" | "52%" | "86.3% vs 76.2%"
+    effect_ci_or_p: Optional[str] = None       # "95% CI 0.02–0.39" or "p<0.001"
+    method: Optional[str] = None               # "WES" | "IHC" | "ctDNA" | "scRNA-seq" | "LOHHLA" | ...
+
+
 class PaperExtraction(BaseModel):
     """Structured extraction from a single kept paper. Append-only to data/extractions.jsonl."""
 
@@ -119,6 +137,7 @@ class PaperExtraction(BaseModel):
     caveats: list[str] = Field(default_factory=list)
     surprising_why: Optional[str] = None
     extraction_date: date
+    human_study: Optional[HumanStudyData] = None
 
 
 class TriageDecision(BaseModel):

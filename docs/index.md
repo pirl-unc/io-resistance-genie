@@ -19,6 +19,26 @@ A living literature review of ICI resistance across PD-1, PD-L1, CTLA-4, LAG-3, 
 - <span class="tier tier-est">established</span> <span class="sp sp-human">human</span> <span class="sp sp-mouse">mouse</span> **TGF-β signaling in peritumoral fibroblasts drives T-cell exclusion** (Mariathasan 2018 in urothelial[^pmid:29443960]; Tauriello 2018 in MSS CRC GEMM[^pmid:29443964]). **But clinical translation has failed — see contradictions.**
 - <span class="tier tier-est">established</span> <span class="sp sp-human">human</span> **Canonical resistance taxonomy — primary / adaptive / acquired** (Sharma 2017)[^pmid:28187290] — remains the organizing framework.
 
+<!-- STUDY-TABLE:START page=index tier=established -->
+### Human-study evidence
+
+| Study | N | Feature | Effect | 95% CI / p | Method |
+|---|---:|---|---|---|---|
+| [Tumeh 2014](https://pubmed.ncbi.nlm.nih.gov/25428505/) | n=46 (metastatic melanoma on pembrolizumab; discovery n=46 + validation n=15) | pre-existing CD8⁺ T cells at the invasive tumor margin | response prediction (AUC) AUC ~0.9 in discovery cohort | — | IHC + multiplex IF + TCR-seq |
+| [Rizvi 2015](https://pubmed.ncbi.nlm.nih.gov/25765070/) | NSCLC discovery + validation cohorts | nonsynonymous tumor mutational burden | DCB / PFS enrichment cutoff ~178 nonsynonymous mutations separates DCB from no-benefit | — | WES |
+| [Snyder 2014](https://pubmed.ncbi.nlm.nih.gov/25409260/) | n=64 (discovery n=25 + validation n=39 melanoma on anti-CTLA-4) | somatic mutational load (and shared-neoantigen tetrapeptide signature) | clinical benefit association mutational load associated with benefit | P=0.01 | WES |
+| [Le 2017](https://pubmed.ncbi.nlm.nih.gov/28596308/) | n=86 (phase 2 expansion across 12 tumor types, MMR-deficient tumors) | MMR deficiency | ORR 53% (CR 21%) | — | MMR IHC / MSI testing + pembro phase 2 |
+| [André 2020](https://pubmed.ncbi.nlm.nih.gov/33264544/) | n=307 (KEYNOTE-177 phase 3, treatment-naive dMMR/MSI-H mCRC) | 1L pembrolizumab vs 5-FU-based chemotherapy | PFS HR mPFS 16.5 vs 8.2 mo; HR 0.60 | 95% CI 0.45–0.80, p=0.0002 | phase 3 RCT |
+| [Zaretsky 2016](https://pubmed.ncbi.nlm.nih.gov/27433843/) | n=4 (melanoma patients with late relapse on pembrolizumab) | acquired JAK1/JAK2 LOF or B2M truncation | acquired resistance mechanism 3 of 4 relapse tumors harbored a candidate lesion | — | paired WES + functional IFN-γ / MHC-I assays |
+| [Shin 2016](https://pubmed.ncbi.nlm.nih.gov/27903500/) | n=39 (23 melanoma + 16 MMR-deficient CRC non-responders) | biallelic JAK1/JAK2 LOF | primary-resistance prevalence ~4% melanoma, ~6% MMR-d CRC non-responders | — | WES + cell-line IFN-γ / ISG induction assays |
+| [Skoulidis 2018](https://pubmed.ncbi.nlm.nih.gov/29773717/) | SU2C + CheckMate-057 KRAS-mutant NSCLC ICI cohorts | STK11/LKB1 co-mutation (KL subgroup) | ORR KL 7.4% vs KP 35.7% (SU2C); 0% vs 57.1% (CheckMate-057) | P<0.001 | targeted/WES + clinical correlation |
+| [Larkin 2015](https://pubmed.ncbi.nlm.nih.gov/26027431/) | n=945 (CheckMate-067 phase 3, untreated metastatic melanoma) | nivo+ipi vs nivo vs ipi monotherapy | PFS HR (combo vs ipi) mPFS 11.5 vs 6.9 vs 2.9 mo; HR 0.42 combo vs ipi (HR 0.57 nivo vs ipi) | — | phase 3 RCT |
+| [Reck 2016](https://pubmed.ncbi.nlm.nih.gov/27718847/) | n=305 (KEYNOTE-024 phase 3, 1L advanced NSCLC, PD-L1 TPS ≥50%, EGFR/ALK-wt) | PD-L1 TPS ≥50% (pembrolizumab vs platinum doublet) | PFS HR mPFS 10.3 vs 6.0 mo; HR 0.50 | 95% CI 0.37–0.68, p<0.001 | PD-L1 IHC 22C3 |
+| [Sade-Feldman 2018](https://pubmed.ncbi.nlm.nih.gov/30388456/) | n=48 (checkpoint-blockade-treated melanoma; 16,291 immune cells sequenced) | TCF7⁺ stem-like vs dysfunctional CD8⁺ T-cell state | response direction TCF7⁺ CD8 frequency associated with response (validation cohort) | — | scRNA-seq + IF validation |
+| [Mariathasan 2018](https://pubmed.ncbi.nlm.nih.gov/29443960/) | n=298 (IMvigor210 atezolizumab-treated metastatic urothelial carcinoma) | fibroblast TGF-β response signature (F-TBRS) | response direction non-responders enriched for F-TBRS and T-cell-excluded phenotype | — | bulk RNA-seq |
+<!-- STUDY-TABLE:END -->
+
+
 ## Where the field has contradicted itself (the surprises)
 
 Known initial findings that later weakened under replication or didn't translate. Useful to avoid over-weighting any single-study narrative.
@@ -35,6 +55,24 @@ Known initial findings that later weakened under replication or didn't translate
 - <span class="tier tier-cont">contested</span> <span class="sp sp-mouse">mouse</span> **WNT/β-catenin activation as clinical exclusion driver is weaker than Spranger 2015[^pmid:25970248] mouse biology suggested.** Subsequent clinical cohorts show context-dependent correlations; WNT inhibition + ICI limited by toxicity.
 - <span class="tier tier-cont">contested</span> <span class="sp sp-human">human</span> **The specific "shared neoantigen tetrapeptide signature" from Snyder 2014** did not replicate in larger cohorts; the TMB association survives but the signature itself is widely considered a small-sample artifact.
 
+<!-- STUDY-TABLE:START page=index tier=contested -->
+### Human-study evidence
+
+| Study | N | Feature | Effect | 95% CI / p | Method |
+|---|---:|---|---|---|---|
+| [McGranahan 2017](https://pubmed.ncbi.nlm.nih.gov/29107330/) | n=100 (TRACERx 100 NSCLC) | allele-specific HLA-I LOH | frequency / selection ~40% HLA-I LOH; subclonal, enriched at metastatic sites | — | LOHHLA (allele-specific WES) |
+| [Zaretsky 2016](https://pubmed.ncbi.nlm.nih.gov/27433843/) | n=4 (melanoma patients with late relapse on pembrolizumab) | acquired JAK1/JAK2 LOF or B2M truncation | acquired resistance mechanism 3 of 4 relapse tumors harbored a candidate lesion | — | paired WES + functional IFN-γ / MHC-I assays |
+| [Gopalakrishnan 2017](https://pubmed.ncbi.nlm.nih.gov/29097493/) | n=112 (melanoma on anti-PD-1; shotgun-metagenomics subset n=43 (30 R, 13 NR)) | gut alpha diversity / Faecalibacterium enrichment | response association higher diversity & Faecalibacterium in responders | P<0.01 | 16S / shotgun metagenomics + responder→GF-mouse FMT |
+| [Routy 2017](https://pubmed.ncbi.nlm.nih.gov/29097494/) | n=249 (NSCLC, RCC, urothelial on anti-PD-1/PD-L1) | peri-ICI antibiotic exposure / A. muciniphila abundance | OS HR antibiotics → shorter PFS/OS (NSCLC mOS ~8 vs ~20 mo; HR ~3.5) | — | clinical-record audit + shotgun metagenomics |
+| [Baruch 2020](https://pubmed.ncbi.nlm.nih.gov/33303685/) | n=10 (phase I FMT in anti-PD-1-refractory metastatic melanoma) | FMT from anti-PD-1-responder donors + anti-PD-1 reinduction | ORR 3/10 (1 CR, 2 PR) | — | phase I FMT trial |
+| [Davar 2021](https://pubmed.ncbi.nlm.nih.gov/33542131/) | n=15 (single-arm phase II FMT in anti-PD-1-refractory melanoma) | responder-FMT + pembrolizumab | clinical benefit / ORR 6/15 benefit; ORR ~20% | — | phase II single-arm trial |
+| [Gandara 2018](https://pubmed.ncbi.nlm.nih.gov/30082870/) | POPLAR (test) + OAK (validation) NSCLC atezolizumab | blood TMB ≥16 mut/Mb (FoundationACT ctDNA) | PFS HR (atezo vs docetaxel) HR ~0.65 at bTMB ≥16 in OAK | — | ctDNA (FoundationACT) |
+| [Miao 2018](https://pubmed.ncbi.nlm.nih.gov/29301960/) | n=98 (discovery n=35 + validation n=63 ccRCC on anti-PD-1 ± anti-CTLA-4) | PBRM1 LOF | clinical-benefit enrichment enriched among responders | P=0.012 (discovery); P=0.0071 (validation) | WES |
+| [Hugo 2016](https://pubmed.ncbi.nlm.nih.gov/26997480/) | n=38 (pretreatment melanoma biopsies on anti-PD-1) | IPRES transcriptional signature (EMT / ECM / angiogenesis / wound-healing) | response direction IPRES-high enriched among non-responders | — | bulk RNA-seq + WES |
+| [André 2020](https://pubmed.ncbi.nlm.nih.gov/33264544/) | n=307 (KEYNOTE-177 phase 3, treatment-naive dMMR/MSI-H mCRC) | 1L pembrolizumab vs 5-FU-based chemotherapy | PFS HR mPFS 16.5 vs 8.2 mo; HR 0.60 | 95% CI 0.45–0.80, p=0.0002 | phase 3 RCT |
+<!-- STUDY-TABLE:END -->
+
+
 ## Suspected but unconfirmed (mechanistically coherent, not yet clinically validated)
 
 - <span class="tier tier-susp">suspected</span> <span class="sp sp-human">human</span> <span class="sp sp-invitro">in vitro</span> **PD-1 partially *protects* clonally expanding T cells from restimulation-induced cell death**[^pmid:41748562]. In vitro human primary T cells only. If replicated in vivo, would complicate the "release the brakes" framing and explain some non-durability of response.
@@ -43,6 +81,15 @@ Known initial findings that later weakened under replication or didn't translate
 - <span class="tier tier-susp">suspected</span> <span class="sp sp-human">human</span> **deltaHED (germline + somatic HLA-I evolutionary divergence) predicts worse PD-1 outcomes despite higher TMB/neoantigen load** across three cohorts[^pmid:41601354]. Inverts a naïve HED prediction; needs prospective single-agent PD-1 validation.
 - <span class="tier tier-susp">suspected</span> <span class="sp sp-mouse">mouse</span> **Hypoalbuminemia causally drives ICI resistance via macrophage arginine biosynthesis impairment** (LLC mice)[^pmid:41940988]. Would recast a routine prognostic lab as a reversible driver; dietary arginine rescue would need clinical study.
 - <span class="tier tier-susp">suspected</span> <span class="sp sp-human">human</span> **Hyperprogression on anti-PD-1** (Champiat 2017, Kato 2017 class of reports) remains contested; definitions vary and natural-history confounding is substantial. Not listed as established.
+
+<!-- STUDY-TABLE:START page=index tier=suspected -->
+### Human-study evidence
+
+| Study | N | Feature | Effect | 95% CI / p | Method |
+|---|---:|---|---|---|---|
+| [Xu 2026](https://pubmed.ncbi.nlm.nih.gov/41601354/) | n=729 (3 cohorts: 164 NPC (POLARIS-02), 88 melanoma, 477 ESCC (JUPITER-06)) | deltaHED (germline + somatic HLA-I evolutionary divergence) | PFS/OS direction worse on PD-1 blockade despite higher TMB/neoantigen load | — | HLA typing + WES (deltaHED metric) |
+<!-- STUDY-TABLE:END -->
+
 
 ## New directions worth watching (emerging this period)
 
@@ -56,6 +103,20 @@ Known initial findings that later weakened under replication or didn't translate
 - <span class="tier tier-emerg">emerging</span> <span class="sp sp-human">human</span> **LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab in anti-PD-1-refractory melanoma restores ICI-responsive immune signatures** in 24 patients[^pmid:41888981]. Biomarker-level evidence of myeloid-compartment rescue in a refractory population.
 - <span class="tier tier-emerg">emerging</span> <span class="sp sp-human">human</span> **Single-cell spatial profiling defines six niches stratifying neoadjuvant cSCC response better than PD-L1 IHC**[^pmid:41617396]. Niche-composition biomarkers may eventually outperform single-marker IHC.
 - <span class="tier tier-emerg">emerging</span> <span class="sp sp-human">human</span> **hMENA TGF-β-driven CAF signature validated against OAK phase III**[^pmid:41592891] — a clinically anchored exclusion biomarker despite the TGF-β clinical translation gap on the drug side.
+
+<!-- STUDY-TABLE:START page=index tier=emerging -->
+### Human-study evidence
+
+| Study | N | Feature | Effect | 95% CI / p | Method |
+|---|---:|---|---|---|---|
+| [Sinicrope 2026](https://pubmed.ncbi.nlm.nih.gov/41880612/) | n=712 (phase 3 ATOMIC (NCT02912559), stage III dMMR colon cancer) | atezolizumab + mFOLFOX6 vs mFOLFOX6 alone | 3-yr DFS / HR 86.3% vs 76.2%; HR 0.50 | 95% CI 0.35–0.73, p<0.001 | phase 3 RCT |
+| [Hong 2026](https://pubmed.ncbi.nlm.nih.gov/41963080/) | n=21 (phase Ib (NCT05400876), PD-1-pretreated relapsed/refractory cHL) | anti-TIM-3 TQB2618 + anti-PD-1 penpulimab | ORR 52% (1 CR, 10 PR); grade ≥3 TRAE 24% | — | phase Ib clinical trial |
+| [Ambrosini 2026](https://pubmed.ncbi.nlm.nih.gov/41950572/) | n=163 (pooled across 2 independent dMMR/MSI-H mCRC cohorts) | Cluster A + mucinous histology (15% biomarker-positive subgroup) | 24-mo PFS / HR (Combo vs Mono) 72.2% vs 13.8%; HR 0.10 | 95% CI 0.02–0.39, p<0.001 | 8-gene k-TSP classifier + histology |
+| [Grauers 2026](https://pubmed.ncbi.nlm.nih.gov/41888981/) | n=24 (single-arm phase I/II, anti-PD-1-refractory stage IV melanoma) | intratumoral LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab | immune-signature biomarker increased DC markers, T-cell infiltration, EM CD8⁺; decreased circulating Tregs | — | multi-parameter flow + TME transcriptomics |
+| [Lee 2026](https://pubmed.ncbi.nlm.nih.gov/41617396/) | n=27 (3 cSCC cohorts incl. 2 phase II trials) | six spatial tissue niches (high-APC / B-plasma / inflammatory-keratinocyte vs. proliferative / low-APC-myeloid / fibroblast-EMT) | pathologic response prediction niche profiling outperformed PD-L1 IHC | — | single-cell spatial transcriptomics |
+| [Melchionna 2026](https://pubmed.ncbi.nlm.nih.gov/41592891/) | TCGA NSCLC + SU2C + OAK (NCT02008227) | hMENA⁺ TGF-β-driven CAF 9-gene signature | prognosis / ICT resistance direction signature-high → worse prognosis, ICT resistance | — | 9-gene RNA signature |
+<!-- STUDY-TABLE:END -->
+
 
 ## Practical questions & quick answers
 

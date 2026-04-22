@@ -63,6 +63,13 @@ Derive `species` as the union across `supporting_paper_ids`, mapping each paper'
 
 Bullets in `## Practical questions & quick answers` and `## Practical takeaways` are clinical-advice, not conclusions — do **not** add species pills there.
 
+**Human-study evidence tables.** Every tier subsection on every page ends with a `<!-- STUDY-TABLE:START ... -->` … `<!-- STUDY-TABLE:END -->` block containing a markdown table, one row per human-study citation in that subsection (schema in `scripts/lib/schemas.py:HumanStudyData`). The contents are auto-generated — **do not edit by hand**. The workflow is:
+
+1. Author / edit bullets as usual.
+2. If you add a new human-study PMID, make sure its extraction in `data/extractions.jsonl` has `human_study` populated (see `prompts/extract.md`).
+3. Before committing, run `python3 scripts/regen_study_tables.py`. The script rewrites content between the markers; a second run must produce zero diff.
+4. If `scripts/check_stability.py` reports "STUDY-TABLE block count dropped", a marker pair is missing — re-run the regenerator to restore it. Never delete a START/END pair.
+
 Close with:
 - **Practical questions & quick answers** (bulleted, practical — "Is PD-L1 IHC still clinically useful?", "Does dMMR status guarantee benefit?", "Can anti-PD-1-refractory patients be rescued?", etc. Phrase questions impersonally, not in first-person clinician voice.)
 

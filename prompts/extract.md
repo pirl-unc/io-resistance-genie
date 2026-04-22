@@ -19,9 +19,33 @@ You receive one paper (title, abstract, and full-text XML when available). Produ
   },
   "caveats": ["<limitations worth flagging in the synthesis>"],
   "surprising_why": "<populate ONLY if genuinely unexpected given prior literature; else null>",
-  "extraction_date": "<ISO date>"
+  "extraction_date": "<ISO date>",
+  "human_study": null
 }
 ```
+
+### Human-study table data
+
+When `model_system` is `patient_cohort`, `clinical_trial`, or `meta_analysis`, **also populate `human_study`** with the table-ready structured fields below. For every other `model_system`, `human_study` must be `null`.
+
+```json
+"human_study": {
+  "n_patients": 305,
+  "n_description": "KEYNOTE-024 phase 3, 1L advanced NSCLC, PD-L1 TPS ≥50%, EGFR/ALK-wt",
+  "feature": "PD-L1 TPS ≥50% (pembrolizumab vs platinum doublet)",
+  "effect_type": "PFS HR",
+  "effect_value": "mPFS 10.3 vs 6.0 mo; HR 0.50",
+  "effect_ci_or_p": "95% CI 0.37–0.68, p<0.001",
+  "method": "PD-L1 IHC 22C3"
+}
+```
+
+- `feature` is the only required field; every other value may be `null` (renders as "—" in the generated evidence table).
+- `n_patients` is the best single integer for the `N` column. Use `n_description` for qualifying context (trial name, tumor type, cohort split) or when a single N misleads (e.g. multi-cohort pool — put the pool total in `n_patients`, the breakdown in `n_description`).
+- `effect_type`: `HR` | `OR` | `ORR` | `PFS` | `OS` | `DFS` | `RR` | other short label describing the metric.
+- `effect_value`: the point estimate as a string — "0.50", "52%", "86.3% vs 76.2%".
+- `effect_ci_or_p`: CI or p-value, null if the paper doesn't report one.
+- `method`: "WES" | "IHC" | "ctDNA" | "scRNA-seq" | "LOHHLA" | "phase 3 RCT" etc. — name the measurement or study design readers need to judge the evidence.
 
 ## Guidance
 

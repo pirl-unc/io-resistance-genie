@@ -4,9 +4,23 @@
 
 - <span class="sp sp-human">human</span> <span class="sp sp-mouse">mouse</span> **Immune-suppressive metabolism in the TME is real and multi-layered.** The established frameworks cover adenosine (CD39/CD73), tryptophan/kynurenine (IDO/TDO), lactate/Warburg, arginine depletion (arginase I), and lipid mediators (PGE2 from COX1/2). Each has preclinical support and some level of clinical translation. However, pharmacologic targeting has been a persistent disappointment: **IDO inhibitors (epacadostat)** failed in combination with pembrolizumab (ECHO-301) despite compelling biology, and adenosine-axis combinations have produced modest-at-best clinical effects so far.
 
+<!-- STUDY-TABLE:START page=metabolic tier=established -->
+### Human-study evidence
+
+*No human-study citations in this section.*
+<!-- STUDY-TABLE:END -->
+
+
 ## Contradictions / surprises
 
 - <span class="sp sp-human">human</span> **IDO clinical translation failed despite strong preclinical rationale.** ECHO-301 (epacadostat + pembrolizumab in melanoma) did not improve PFS/OS over pembrolizumab monotherapy. The TME metabolic target class is biologically compelling but clinically harder than single-agent ICI.
+
+<!-- STUDY-TABLE:START page=metabolic tier=contested -->
+### Human-study evidence
+
+*No human-study citations in this section.*
+<!-- STUDY-TABLE:END -->
+
 
 ## Suspected but unconfirmed
 
@@ -14,9 +28,23 @@
 - <span class="sp sp-mouse">mouse</span> **Lactate → AARS1 → PD-L1 K280 lactylation** is also a metabolic input (see [tumor-intrinsic](tumor-intrinsic.md))[^pmid:41864972]. The paradoxical finding that exogenous lactate *enhances* anti-PD-L1 efficacy in preclinical models needs reconciliation.
 - <span class="sp sp-mouse">mouse</span> **HILPDA-driven lipogenesis → PD-L1 palmitoylation** connects lipid metabolism directly to PD-L1 stability[^pmid:41876831]. See [tumor-intrinsic](tumor-intrinsic.md).
 
+<!-- STUDY-TABLE:START page=metabolic tier=suspected -->
+### Human-study evidence
+
+*No human-study citations in this section.*
+<!-- STUDY-TABLE:END -->
+
+
 ## Emerging
 
 - <span class="sp sp-mouse">mouse</span> **M2 TAM-PGE2 → TIGIT axis in MSS CRC** (see [t-cell-exhaustion](t-cell-exhaustion.md))[^pmid:41196020] — a concrete combinatorial target set (COX2i, PGE2R antagonist, TIGIT blockade) in an indication where PD-1 has consistently failed.
+
+<!-- STUDY-TABLE:START page=metabolic tier=emerging -->
+### Human-study evidence
+
+*No human-study citations in this section.*
+<!-- STUDY-TABLE:END -->
+
 
 ## Theme
 
