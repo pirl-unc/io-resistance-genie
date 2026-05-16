@@ -1,9 +1,12 @@
 # Papers
 
-Every paper seen by the pipeline. **1032** total.
+Every paper seen by the pipeline. **1035** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-05-06 | Non-invasive profiling of the tumour microenvironment with spatial ecotypes | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10452-4) |
+| 2026-05-05 | Reprogramming T cell-myeloid crosstalk overcomes immune resistance in colorectal cancer | Cell Reports Medicine | pubmed | [DOI](https://doi.org/10.1016/j.xcrm.2026.102786) |
+| 2026-04-30 | Distinct in vivo dynamics of donor-derived stem cell memory CAR T cells post-allogeneic HSCT relapse | Cell | pubmed | [DOI](https://doi.org/10.1016/j.cell.2026.03.047) |
 | 2026-04-20 | JAK inhibition in PD-1 immunotherapy and tumor microenvironment | Frontiers in immunology | pubmed | [PMC](https://europepmc.org/article/PMC/PMC13083078) |
 | 2026-04-20 | Neoantigen-based cancer vaccines: a mechanistic and clinical review of personalised melanoma immunotherapy | Frontiers in immunology | pubmed | [PMC](https://europepmc.org/article/PMC/PMC13083070) |
 | 2026-04-20 | Liquid biopsy in cancer drug resistance: real-time monitoring, mechanistic insights, and translational applications | Frontiers in immunology | pubmed | [PMC](https://europepmc.org/article/PMC/PMC13083174) |

@@ -78,7 +78,7 @@ TIER_HEADING_RE = re.compile(
 NON_TIER_H2_RE = re.compile(r"^##\s+")
 SEPARATOR_RE = re.compile(r"^---\s*$")
 BULLET_START_RE = re.compile(r"^- ")
-PMID_RE = re.compile(r"\[\^pmid:(\d+)\]")
+PMID_RE = re.compile(r"\[\^(?:pmid|doi):([^\]]+)\]")
 
 MARKER_START_RE = re.compile(r"^<!-- STUDY-TABLE:START[^>]*-->\s*$")
 MARKER_END_RE = re.compile(r"^<!-- STUDY-TABLE:END\s*-->\s*$")
@@ -114,19 +114,26 @@ def load_extractions() -> dict[str, tuple[str, Optional[HumanStudyData]]]:
 
 
 def load_citations() -> dict[str, str]:
-    """paper_id -> short markdown citation linked to PubMed."""
+    """paper_id -> short markdown citation. Uses PubMed URL for PMID papers, DOI URL for DOI-only papers."""
     cites: dict[str, str] = {}
     with open("data/papers.jsonl") as f:
         for line in f:
             r = json.loads(line)
-            pid = r.get("pmid") or r.get("id")
+            pmid = r.get("pmid")
+            doi = r.get("doi")
+            pid = pmid or r.get("id")
             if not pid:
                 continue
             authors = r.get("authors") or []
             first = authors[0] if authors else ""
             lastname = first.split(" ")[0] if first else "(unknown)"
             year = (r.get("pub_date") or "")[:4] or "????"
-            cites[pid] = f"[{lastname} {year}](https://pubmed.ncbi.nlm.nih.gov/{pid}/)"
+            if pmid:
+                cites[pid] = f"[{lastname} {year}](https://pubmed.ncbi.nlm.nih.gov/{pmid}/)"
+            elif doi:
+                cites[pid] = f"[{lastname} {year}](https://doi.org/{doi})"
+            else:
+                cites[pid] = f"[{lastname} {year}]"
     return cites
 
 
@@ -236,7 +243,13 @@ def render_table(
 
 
 def render_row(pid: str, hs: HumanStudyData, citations: dict[str, str]) -> str:
-    cite = citations.get(pid, f"[PMID {pid}](https://pubmed.ncbi.nlm.nih.gov/{pid}/)")
+    if pid not in citations:
+        if pid.startswith("10."):
+            cite = f"[{pid}](https://doi.org/{pid})"
+        else:
+            cite = f"[PMID {pid}](https://pubmed.ncbi.nlm.nih.gov/{pid}/)"
+    else:
+        cite = citations[pid]
     # N column: prefer "n=NNN" from n_patients; append n_description if present.
     n_cell = "—"
     if hs.n_patients is not None:

@@ -103,6 +103,8 @@ Known initial findings that later weakened under replication or didn't translate
 - <span class="tier tier-emerg">emerging</span> <span class="sp sp-human">human</span> **LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab in anti-PD-1-refractory melanoma restores ICI-responsive immune signatures** in 24 patients[^pmid:41888981]. Biomarker-level evidence of myeloid-compartment rescue in a refractory population.
 - <span class="tier tier-emerg">emerging</span> <span class="sp sp-human">human</span> **Single-cell spatial profiling defines six niches stratifying neoadjuvant cSCC response better than PD-L1 IHC**[^pmid:41617396]. Niche-composition biomarkers may eventually outperform single-marker IHC.
 - <span class="tier tier-emerg">emerging</span> <span class="sp sp-human">human</span> **hMENA TGF-β-driven CAF signature validated against OAK phase III**[^pmid:41592891] — a clinically anchored exclusion biomarker despite the TGF-β clinical translation gap on the drug side.
+- <span class="tier tier-emerg">emerging</span> <span class="sp sp-mouse">mouse</span> **TREM2+ immunosuppressive macrophages co-define CRC ICI resistance with multi-checkpoint T cell exhaustion (TIM3/LAG3/TIGIT/PD-1)**[^doi:10.1016/j.xcrm.2026.102786]. Quadruple blockade (PD-1 + CTLA-4 + LAG-3 + anti-TREM2) achieves 100% tumor clearance in dMMR CRC and >70% in MSS CRC orthotopic models; first evidence that myeloid-mediated spatial exclusion is co-tractable with conventional checkpoints in MSS CRC.
+- <span class="tier tier-emerg">emerging</span> <span class="sp sp-human">human</span> **Pan-cancer spatial ecotype (SE) taxonomy (9 conserved SEs from 10 M+ cells) recoverable non-invasively from plasma cfDNA** (Liquid EcoTyper) with striking ICI-response associations in ~100 melanoma patients[^doi:10.1038/s41586-026-10452-4]. First non-invasive reconstruction of tumor spatial TME state from blood; extends spatial transcriptomics from tissue biopsy to liquid biopsy.
 
 <!-- STUDY-TABLE:START page=index tier=emerging -->
 ### Human-study evidence
@@ -115,6 +117,7 @@ Known initial findings that later weakened under replication or didn't translate
 | [Grauers 2026](https://pubmed.ncbi.nlm.nih.gov/41888981/) | n=24 (single-arm phase I/II, anti-PD-1-refractory stage IV melanoma) | intratumoral LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab | immune-signature biomarker increased DC markers, T-cell infiltration, EM CD8⁺; decreased circulating Tregs | — | multi-parameter flow + TME transcriptomics |
 | [Lee 2026](https://pubmed.ncbi.nlm.nih.gov/41617396/) | n=27 (3 cSCC cohorts incl. 2 phase II trials) | six spatial tissue niches (high-APC / B-plasma / inflammatory-keratinocyte vs. proliferative / low-APC-myeloid / fibroblast-EMT) | pathologic response prediction niche profiling outperformed PD-L1 IHC | — | single-cell spatial transcriptomics |
 | [Melchionna 2026](https://pubmed.ncbi.nlm.nih.gov/41592891/) | TCGA NSCLC + SU2C + OAK (NCT02008227) | hMENA⁺ TGF-β-driven CAF 9-gene signature | prognosis / ICT resistance direction signature-high → worse prognosis, ICT resistance | — | 9-gene RNA signature |
+| [Zhang 2026](https://doi.org/10.1038/s41586-026-10452-4) | n=100 (~100 melanoma patients on ICI, retrospective cfDNA cohort) | cfDNA-inferred spatial ecotype (SE) level | ICI response association striking SE-response stratification (specific effect size pending full text) | — | cfDNA methylation + deep learning (Liquid EcoTyper) |
 <!-- STUDY-TABLE:END -->
 
 
@@ -176,3 +179,5 @@ See per-mechanism deep dives in the navigation. The [papers appendix](papers.md)
 [^pmid:41888981]: LOAd703 + atezolizumab in anti-PD-1-refractory melanoma. [Link](https://pubmed.ncbi.nlm.nih.gov/41888981/).
 [^pmid:41617396]: Spatial niches stratifying neoadjuvant cSCC response. [Link](https://pubmed.ncbi.nlm.nih.gov/41617396/).
 [^pmid:41592891]: hMENA CAF signature validated in OAK phase III. [Link](https://pubmed.ncbi.nlm.nih.gov/41592891/).
+[^doi:10.1016/j.xcrm.2026.102786]: Mestrallet 2026 Cell Rep Med — TREM2+ myeloid + multi-checkpoint T cell exhaustion dual resistance in CRC; quadruple PD-1+CTLA-4+LAG-3+TREM2 blockade. [Link](https://doi.org/10.1016/j.xcrm.2026.102786).
+[^doi:10.1038/s41586-026-10452-4]: Zhang 2026 Nature — Pan-cancer spatial ecotypes (Liquid EcoTyper); cfDNA-based non-invasive TME profiling with ICI-response associations in melanoma. [Link](https://doi.org/10.1038/s41586-026-10452-4).

@@ -48,6 +48,8 @@
 
 - <span class="sp sp-human">human</span> **Single-cell spatial transcriptomics defines six tissue niches that stratify neoadjuvant PD-1/PD-L1 response in cSCC better than PD-L1 IHC**[^pmid:41617396]. High antigen-presentation / B-plasma / inflammatory-keratinocyte niches enrich responders; proliferative-keratinocyte / low-APC-myeloid / fibroblast-rich-EMT niches dominate non-responders. Niche-based biomarkers may eventually outperform single-marker IHC.
 - <span class="sp sp-human">human</span> **LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab in anti-PD-1-refractory melanoma** reprograms the myeloid compartment and restores ICI-responsive immune signatures in 24 patients[^pmid:41888981]. Biomarker-level evidence; small single-arm; but few interventions reliably rescue refractory melanoma.
+- <span class="sp sp-mouse">mouse</span> **TREM2+ immunosuppressive macrophages are spatially enriched in T cell-excluded CRC niches and co-define ICI resistance with multi-checkpoint T cell exhaustion**[^doi:10.1016/j.xcrm.2026.102786]. Quadruple blockade (PD-1 + CTLA-4 + LAG-3 + anti-TREM2) achieves 100% clearance in dMMR CRC and >70% in MSS CRC orthotopic models; spatial co-localization of CXCL9+ macrophages with TCF+PRF1+ T cells predicts anti-PD-1 response. First evidence that TREM2-mediated myeloid exclusion is co-tractable with conventional checkpoints in MSS CRC.
+- <span class="sp sp-human">human</span> **Pan-cancer spatial ecotype (SE) taxonomy (9 SEs from 10 M+ cells) recoverable non-invasively from plasma cfDNA** (Liquid EcoTyper), with cfDNA SE levels in ~100 melanoma patients showing striking ICI-response associations[^doi:10.1038/s41586-026-10452-4]. Establishes that spatially distinct TME exclusion/infiltration states can be inferred from blood; opens non-invasive monitoring of TME configuration as a resistance biomarker.
 
 <!-- STUDY-TABLE:START page=tme-exclusion tier=emerging -->
 ### Human-study evidence
@@ -56,6 +58,7 @@
 |---|---:|---|---|---|---|
 | [Lee 2026](https://pubmed.ncbi.nlm.nih.gov/41617396/) | n=27 (3 cSCC cohorts incl. 2 phase II trials) | six spatial tissue niches (high-APC / B-plasma / inflammatory-keratinocyte vs. proliferative / low-APC-myeloid / fibroblast-EMT) | pathologic response prediction niche profiling outperformed PD-L1 IHC | — | single-cell spatial transcriptomics |
 | [Grauers 2026](https://pubmed.ncbi.nlm.nih.gov/41888981/) | n=24 (single-arm phase I/II, anti-PD-1-refractory stage IV melanoma) | intratumoral LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab | immune-signature biomarker increased DC markers, T-cell infiltration, EM CD8⁺; decreased circulating Tregs | — | multi-parameter flow + TME transcriptomics |
+| [Zhang 2026](https://doi.org/10.1038/s41586-026-10452-4) | n=100 (~100 melanoma patients on ICI, retrospective cfDNA cohort) | cfDNA-inferred spatial ecotype (SE) level | ICI response association striking SE-response stratification (specific effect size pending full text) | — | cfDNA methylation + deep learning (Liquid EcoTyper) |
 <!-- STUDY-TABLE:END -->
 
 
@@ -76,3 +79,5 @@
 [^pmid:41592891]: hMENA CAF OAK 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41592891/).
 [^pmid:41617396]: Spatial niches cSCC 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41617396/).
 [^pmid:41888981]: LOAd703 melanoma 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41888981/).
+[^doi:10.1016/j.xcrm.2026.102786]: Mestrallet 2026 Cell Rep Med — TREM2+ myeloid + multi-checkpoint T cell exhaustion in CRC; quadruple PD-1+CTLA-4+LAG-3+TREM2 blockade. [Link](https://doi.org/10.1016/j.xcrm.2026.102786).
+[^doi:10.1038/s41586-026-10452-4]: Zhang 2026 Nature — Pan-cancer spatial ecotypes (Liquid EcoTyper); cfDNA-based non-invasive TME profiling. [Link](https://doi.org/10.1038/s41586-026-10452-4).
