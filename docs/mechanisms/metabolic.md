@@ -38,6 +38,7 @@
 ## Emerging
 
 - <span class="sp sp-mouse">mouse</span> **M2 TAM-PGE2 → TIGIT axis in MSS CRC** (see [t-cell-exhaustion](t-cell-exhaustion.md))[^pmid:41196020] — a concrete combinatorial target set (COX2i, PGE2R antagonist, TIGIT blockade) in an indication where PD-1 has consistently failed.
+- <span class="sp sp-mouse">mouse</span> **KSR2 (kinase suppressor of Ras 2) is a tumor-intrinsic metabolic checkpoint for anti-PD-1 resistance**: upregulated in resistant lung cancer, KSR2 drives Warburg-effect glucose reprogramming (enhanced uptake, lactate accumulation, disrupted TCA cycle) that creates an immunosuppressive TME with depleted CD8+ TILs and enriched Tregs[^doi:10.1007/s00262-026-04394-z]. KSR2 knockdown resensitizes resistant tumors; connects oncogenic Ras scaffold biology to metabolic immune evasion as a potentially druggable axis.
 
 <!-- STUDY-TABLE:START page=metabolic tier=emerging -->
 ### Human-study evidence
@@ -61,3 +62,4 @@ The recent literature in this period places increasing emphasis on **metabolic i
 [^pmid:41864972]: AARS1 PD-L1 lactylation 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41864972/).
 [^pmid:41876831]: HILPDA PD-L1 palmitoylation 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41876831/).
 [^pmid:41196020]: TAM-PGE2-TIGIT 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41196020/).
+[^doi:10.1007/s00262-026-04394-z]: Ge 2026 Cancer Immunology, Immunotherapy — KSR2 as metabolic checkpoint linking Ras signaling to anti-PD-1 resistance via Warburg-effect glucose reprogramming; TME immunosuppression reversed by KSR2 knockdown. [Link](https://doi.org/10.1007/s00262-026-04394-z).
