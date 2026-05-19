@@ -1,9 +1,10 @@
 # Papers
 
-Every paper seen by the pipeline. **1037** total.
+Every paper seen by the pipeline. **1039** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-05-19 | Targeting cysteinyl leukotriene receptor 1 reprograms tumor-promoting myelopoiesis and overcomes immune checkpoint therapy resistance | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01174-7) |
 | 2026-05-06 | Non-invasive profiling of the tumour microenvironment with spatial ecotypes | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10452-4) |
 | 2026-05-05 | Reprogramming T cell-myeloid crosstalk overcomes immune resistance in colorectal cancer | Cell Reports Medicine | pubmed | [DOI](https://doi.org/10.1016/j.xcrm.2026.102786) |
 | 2026-04-30 | Distinct in vivo dynamics of donor-derived stem cell memory CAR T cells post-allogeneic HSCT relapse | Cell | pubmed | [DOI](https://doi.org/10.1016/j.cell.2026.03.047) |
@@ -103,6 +104,7 @@ Every paper seen by the pipeline. **1037** total.
 | 2026-04-01 | Influence of USP15 and its derived-peptide on non-small cell lung cancer immune evasion via regulating PD-L1 stability. | Journal for immunotherapy of cancer | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/41922082/) [DOI](https://doi.org/10.1136/jitc-2025-014233) [PMC](https://europepmc.org/article/PMC/PMC13052676) |
 | 2026-04-01 | Integrative multi-omic analysis identified &lt;i&gt;ERBB2&lt;/i&gt; mutations and senescence-driven immune suppression as dual therapeutic targets in LAR triple-negative breast cancer. | Cancer biology & medicine | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/41968987/) [DOI](https://doi.org/10.20892/j.issn.2095-3941.2025.0691) [PMC](https://europepmc.org/article/PMC/PMC13059881) |
 | 2026-04-01 | PVT1-104aa derived from the 8q24 gene desert promotes colorectal cancer tumorigenesis. | Clinical and translational medicine | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/41952439/) [DOI](https://doi.org/10.1002/ctm2.70654) [PMC](https://europepmc.org/article/PMC/PMC13062635) |
+| 2026-04-01 | Regulatory T-cell Sensing of Extracellular ATP via P2RX7 Promotes Their Accumulation and Suppression and Drives Lung Tumor Growth | Cancer Immunology Research | pubmed | [DOI](https://doi.org/10.1158/2326-6066.CIR-25-0567) |
 | 2026-03-31 | Emerging immune checkpoint targets and combination strategies in blood cancer immunotherapy. | Annals of hematology | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/41915070/) [DOI](https://doi.org/10.1007/s00277-026-06919-z) [PMC](https://europepmc.org/article/PMC/PMC13038690) |
 | 2026-03-31 | Immune checkpoint inhibitors in resectable non-small cell lung cancer: recent successes and ongoing challenges. | Frontiers in oncology | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/41988139/) [DOI](https://doi.org/10.3389/fonc.2026.1779081) [PMC](https://europepmc.org/article/PMC/PMC13076099) |
 | 2026-03-31 | Efficacy and safety of PD-1/ PD-L1 inhibitors as adjuvants in the treatment of patients with solid cancers: A systematic review and meta-analysis of randomized controlled trials. | Oncotarget | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/41955006/) [DOI](https://doi.org/10.18632/oncotarget.28855) [PMC](https://europepmc.org/article/PMC/PMC13064933) |

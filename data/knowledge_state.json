@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-05-17T00:00:00",
-  "synthesis_summary": "Synthesis rebuilt for a practicing-oncologist reader with four-bucket tiering (established / contested / suspected / emerging). Foundation of 32 curated landmark PMIDs anchors the established tier. Additional extractions from the 2026-01-20 to 2026-04-21 Europe PMC backfill populate the suspected/emerging tiers. The 2026-05-16 update added two novel emerging findings: (1) TREM2+ myeloid spatial exclusion co-defines CRC ICI resistance with multi-checkpoint T cell exhaustion — quadruple blockade achieves >70% clearance even in MSS CRC preclinically (Mestrallet 2026, Cell Rep Med); (2) Pan-cancer spatial ecotype taxonomy recoverable non-invasively from plasma cfDNA (Liquid EcoTyper) with striking ICI-response associations in melanoma (Zhang 2026, Nature). The 2026-05-17 update adds two novel emerging findings: (3) STING agonists paradoxically expand immunosuppressive regulatory B cells (Bregs) via PI3Kg in pancreatic cancer — dual STING/PI3Kg compound (Nano-273) achieves 201-day median survival in orthotopic PDAC models (Li 2026, Nature Cancer); (4) KSR2 acts as a tumor-intrinsic metabolic checkpoint linking Ras scaffold signaling to anti-PD-1 resistance via Warburg-effect reprogramming (Ge 2026, Cancer Immunology Immunotherapy). The contested bucket explicitly flags where landmark findings have weakened: HLA LOH non-deterministic, B2M loss not uniformly resistance, microbiome taxa non-replication across geographies, Akkermansia non-monotonic, Bacteroidales sign-flip across CTLA-4 vs PD-1, TGF-B drugs clinically disappointing, bTMB failed prospectively, PBRM1 not replicated, IPRES underperformed, KEYNOTE-177 biphasic PFS + OS non-significance, WNT clinical signal weaker than mouse, IDO + pembro failed (ECHO-301), Snyder 2014 tetrapeptide signature not replicated.",
+  "last_run": "2026-05-19T00:00:00",
+  "synthesis_summary": "Synthesis rebuilt for a practicing-oncologist reader with four-bucket tiering (established / contested / suspected / emerging). Foundation of 32 curated landmark PMIDs anchors the established tier. Additional extractions from the 2026-01-20 to 2026-04-21 Europe PMC backfill populate the suspected/emerging tiers. The 2026-05-16 update added two novel emerging findings: (1) TREM2+ myeloid spatial exclusion co-defines CRC ICI resistance with multi-checkpoint T cell exhaustion \u2014 quadruple blockade achieves >70% clearance even in MSS CRC preclinically (Mestrallet 2026, Cell Rep Med); (2) Pan-cancer spatial ecotype taxonomy recoverable non-invasively from plasma cfDNA (Liquid EcoTyper) with striking ICI-response associations in melanoma (Zhang 2026, Nature). The 2026-05-17 update adds two novel emerging findings: (3) STING agonists paradoxically expand immunosuppressive regulatory B cells (Bregs) via PI3Kg in pancreatic cancer \u2014 dual STING/PI3Kg compound (Nano-273) achieves 201-day median survival in orthotopic PDAC models (Li 2026, Nature Cancer); (4) KSR2 acts as a tumor-intrinsic metabolic checkpoint linking Ras scaffold signaling to anti-PD-1 resistance via Warburg-effect reprogramming (Ge 2026, Cancer Immunology Immunotherapy). The contested bucket explicitly flags where landmark findings have weakened: HLA LOH non-deterministic, B2M loss not uniformly resistance, microbiome taxa non-replication across geographies, Akkermansia non-monotonic, Bacteroidales sign-flip across CTLA-4 vs PD-1, TGF-B drugs clinically disappointing, bTMB failed prospectively, PBRM1 not replicated, IPRES underperformed, KEYNOTE-177 biphasic PFS + OS non-significance, WNT clinical signal weaker than mouse, IDO + pembro failed (ECHO-301), Snyder 2014 tetrapeptide signature not replicated. The 2026-05-19 update adds two novel emerging findings: (5) P2RX7 in tumor-infiltrating Tregs senses extracellular ATP and promotes Treg accumulation and CTLA-4-mediated suppression in lung cancer \u2014 T cell-specific P2RX7 KO and pharmacological inhibition improve tumor control in mice; human survival correlation confirmed (Santiago-Carvalho 2026, Cancer Immunol Res); (6) CysLTR1 (targeted by FDA-approved montelukast) programs tumor-promoting myelopoiesis \u2014 CysLTR1 blockade reprograms (not depletes) tumor myeloid cells and restores anti-PD-1 efficacy across five cancer types and in acquired-resistance models; human tissue and dataset validation (Zhang 2026, Nature Cancer).",
   "top_claims": [
     {
       "text": "Pre-existing CD8+ T-cell infiltrate at the invasive tumor margin predicts pembrolizumab response in melanoma; the inflamed/excluded/desert taxonomy generalizes pan-tumor.",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "text": "JAK1/JAK2 and B2M LOF cause acquired and primary anti-PD-1 resistance via disrupted IFN-γ sensing and MHC-I presentation; rare (<5%) but biochemically definitive.",
+      "text": "JAK1/JAK2 and B2M LOF cause acquired and primary anti-PD-1 resistance via disrupted IFN-\u03b3 sensing and MHC-I presentation; rare (<5%) but biochemically definitive.",
       "mechanism_class": "ifn_gamma_signaling",
       "confidence": "high",
       "evidence_tier": "established",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "text": "PTPN2 loss in tumor cells sensitizes to ICI by amplifying IFN-γ/JAK-STAT response; now in clinical development.",
+      "text": "PTPN2 loss in tumor cells sensitizes to ICI by amplifying IFN-\u03b3/JAK-STAT response; now in clinical development.",
       "mechanism_class": "ifn_gamma_signaling",
       "confidence": "high",
       "evidence_tier": "established",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "text": "TGF-β signaling in peritumoral fibroblasts drives T-cell exclusion (Mariathasan 2018 urothelial; Tauriello 2018 MSS CRC GEMM); biology established but clinical translation failed.",
+      "text": "TGF-\u03b2 signaling in peritumoral fibroblasts drives T-cell exclusion (Mariathasan 2018 urothelial; Tauriello 2018 MSS CRC GEMM); biology established but clinical translation failed.",
       "mechanism_class": "tme_exclusion",
       "confidence": "high",
       "evidence_tier": "established",
@@ -143,7 +143,7 @@
       ]
     },
     {
-      "text": "First-line pembrolizumab monotherapy is standard for NSCLC with PD-L1 TPS ≥50%.",
+      "text": "First-line pembrolizumab monotherapy is standard for NSCLC with PD-L1 TPS \u226550%.",
       "mechanism_class": "clinical_intervention",
       "confidence": "high",
       "evidence_tier": "established",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "text": "Ipilimumab established the durable-OS-plateau paradigm in metastatic melanoma (20–26% plateau at 10 years); nivolumab phase I extended the proof to NSCLC/RCC.",
+      "text": "Ipilimumab established the durable-OS-plateau paradigm in metastatic melanoma (20\u201326% plateau at 10 years); nivolumab phase I extended the proof to NSCLC/RCC.",
       "mechanism_class": "clinical_intervention",
       "confidence": "high",
       "evidence_tier": "established",
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "text": "Antibiotic exposure around ICI initiation is associated with worse outcomes — the most robustly replicated microbiome observation.",
+      "text": "Antibiotic exposure around ICI initiation is associated with worse outcomes \u2014 the most robustly replicated microbiome observation.",
       "mechanism_class": "microbiome",
       "confidence": "high",
       "evidence_tier": "established",
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "text": "HLA-I LOH is a selected immune-escape event in ~40% of NSCLCs (McGranahan 2017) but is NOT deterministic for ICI response — some HLA-LOH patients still respond depending on which allele is lost, tumor type, and residual presentation capacity.",
+      "text": "HLA-I LOH is a selected immune-escape event in ~40% of NSCLCs (McGranahan 2017) but is NOT deterministic for ICI response \u2014 some HLA-LOH patients still respond depending on which allele is lost, tumor type, and residual presentation capacity.",
       "mechanism_class": "antigen_presentation",
       "confidence": "high",
       "evidence_tier": "contradictory",
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "text": "Microbiome responder-associated taxa do not replicate across geographies. Gopalakrishnan (Faecalibacterium), Routy (Akkermansia), Matson (Bifidobacterium), Sivan/Vétizou mouse findings each identify different taxa. Meta-analyses (Lee 2022, McCulloch 2022) found no single taxon reliably predicts response.",
+      "text": "Microbiome responder-associated taxa do not replicate across geographies. Gopalakrishnan (Faecalibacterium), Routy (Akkermansia), Matson (Bifidobacterium), Sivan/V\u00e9tizou mouse findings each identify different taxa. Meta-analyses (Lee 2022, McCulloch 2022) found no single taxon reliably predicts response.",
       "mechanism_class": "microbiome",
       "confidence": "high",
       "evidence_tier": "contradictory",
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "text": "TGF-β biology is clinically validated but TGF-β-pathway drugs (bintrafusp alfa, galunisertib, NIS793) have largely failed pivotal trials — INTR@PID lung 037 discontinued 2021. A textbook translational gap.",
+      "text": "TGF-\u03b2 biology is clinically validated but TGF-\u03b2-pathway drugs (bintrafusp alfa, galunisertib, NIS793) have largely failed pivotal trials \u2014 INTR@PID lung 037 discontinued 2021. A textbook translational gap.",
       "mechanism_class": "tme_exclusion",
       "confidence": "high",
       "evidence_tier": "contradictory",
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "text": "IPRES transcriptomic signature underperformed as an independent predictor; overlaps heavily with TGF-β/stromal signatures and adds little above CD8/PD-L1/TMB.",
+      "text": "IPRES transcriptomic signature underperformed as an independent predictor; overlaps heavily with TGF-\u03b2/stromal signatures and adds little above CD8/PD-L1/TMB.",
       "mechanism_class": "tme_exclusion",
       "confidence": "medium",
       "evidence_tier": "contradictory",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "text": "WNT/β-catenin clinical signal is weaker and more context-dependent than Spranger 2015 mouse biology predicted.",
+      "text": "WNT/\u03b2-catenin clinical signal is weaker and more context-dependent than Spranger 2015 mouse biology predicted.",
       "mechanism_class": "tumor_intrinsic_signaling",
       "confidence": "medium",
       "evidence_tier": "contradictory",
@@ -332,7 +332,7 @@
       ]
     },
     {
-      "text": "deltaHED (germline + somatic HLA-I evolutionary divergence) predicts worse PD-1 outcomes despite higher TMB/neoantigen load across three retrospective cohorts. Inverts naïve HED prediction; needs prospective single-agent PD-1 validation.",
+      "text": "deltaHED (germline + somatic HLA-I evolutionary divergence) predicts worse PD-1 outcomes despite higher TMB/neoantigen load across three retrospective cohorts. Inverts na\u00efve HED prediction; needs prospective single-agent PD-1 validation.",
       "mechanism_class": "antigen_presentation",
       "confidence": "medium",
       "evidence_tier": "suspected",
@@ -380,7 +380,7 @@
       ]
     },
     {
-      "text": "KLRG1 nominated as novel inhibitory checkpoint in anti-PD-1-resistant melanoma; novel anti-human KLRG1 mAb reduces tumor progression in humanized KI mice via CD8/NK/γδ-T effects.",
+      "text": "KLRG1 nominated as novel inhibitory checkpoint in anti-PD-1-resistant melanoma; novel anti-human KLRG1 mAb reduces tumor progression in humanized KI mice via CD8/NK/\u03b3\u03b4-T effects.",
       "mechanism_class": "t_cell_exhaustion",
       "confidence": "medium",
       "evidence_tier": "emerging",
@@ -416,7 +416,7 @@
       ]
     },
     {
-      "text": "IFN-γ → IRF1 → AGPAT3 axis remodels lipids toward polyunsaturated ether phospholipids that sensitize to ferroptosis; higher AGPAT3 correlates with better ICI survival.",
+      "text": "IFN-\u03b3 \u2192 IRF1 \u2192 AGPAT3 axis remodels lipids toward polyunsaturated ether phospholipids that sensitize to ferroptosis; higher AGPAT3 correlates with better ICI survival.",
       "mechanism_class": "ifn_gamma_signaling",
       "confidence": "medium",
       "evidence_tier": "emerging",
@@ -464,7 +464,7 @@
       ]
     },
     {
-      "text": "hMENA TGF-β-driven CAF 9-gene signature validated against OAK phase III in NSCLC as an ICT resistance marker.",
+      "text": "hMENA TGF-\u03b2-driven CAF 9-gene signature validated against OAK phase III in NSCLC as an ICT resistance marker.",
       "mechanism_class": "tme_exclusion",
       "confidence": "medium",
       "evidence_tier": "emerging",
@@ -534,17 +534,43 @@
       "supporting_paper_ids": [
         "10.1007/s00262-026-04394-z"
       ]
+    },
+    {
+      "text": "P2RX7 in tumor-infiltrating Tregs senses extracellular ATP in the lung tumor TME, promoting Treg accumulation and CTLA-4 upregulation; T cell-specific P2RX7 KO and pharmacological inhibition reduce Treg infiltration, increase CD4+ effector T cells, and improve tumor control; elevated P2RX7 correlates with worse survival in human lung cancer.",
+      "mechanism_class": "tme_exclusion",
+      "confidence": "medium",
+      "evidence_tier": "emerging",
+      "species": [
+        "human",
+        "mouse"
+      ],
+      "supporting_paper_ids": [
+        "10.1158/2326-6066.CIR-25-0567"
+      ]
+    },
+    {
+      "text": "CysLTR1 programs tumor-promoting myelopoiesis that suppresses antitumor immunity and confers ICI resistance; blockade with montelukast (FDA-approved CysLTR1 antagonist) reprograms immunosuppressive myeloid cells into immunostimulatory ones and restores anti-PD-1 efficacy across five cancer types \u2014 including in acquired-resistance models \u2014 with human immune cell, tumor tissue, and patient dataset validation.",
+      "mechanism_class": "tme_exclusion",
+      "confidence": "medium",
+      "evidence_tier": "emerging",
+      "species": [
+        "human",
+        "mouse"
+      ],
+      "supporting_paper_ids": [
+        "10.1038/s43018-026-01174-7"
+      ]
     }
   ],
   "mechanism_summaries": {
-    "antigen_presentation": "Established: JAK1/2 and B2M LOF cause acquired and primary resistance (rare but definitive); HLA LOH is common and positively selected; dMMR predicts response pan-histology; TMB association survives across dozens of cohorts. Contested: HLA LOH is not deterministic; β2M loss does not uniformly prevent response; TMB pan-tumor threshold debated; Snyder tetrapeptide signature failed to replicate. Suspected: deltaHED inverts naïve HED prediction.",
-    "ifn_gamma_signaling": "Established: JAK1/2/STAT1 LOF drives resistance; PTPN2 loss is the tumor-intrinsic ICI sensitizer (now in clinical development); IFN-γ has dual roles (driving adaptive PD-L1 resistance while also being the effector axis anti-PD-1 exploits). Emerging: IFN-γ-IRF1-AGPAT3 extends the axis into ferroptosis sensitivity.",
-    "tme_exclusion": "Established: pre-existing CD8 infiltrate predicts response; inflamed/excluded/desert taxonomy; TGF-B signaling in CAFs excludes T cells. Contested: TGF-B drugs (bintrafusp alfa etc.) failed clinically despite compelling biology; IPRES under-replicated; WNT clinical signal weaker than mouse. Suspected: TROP2-claudin-7 barrier in TNBC; hMENA CAF signature (OAK-validated). Emerging: spatial niche stratification in cSCC; LOAd703 rescue in refractory melanoma; TREM2+ myeloid spatial exclusion + multi-checkpoint exhaustion co-define CRC resistance (quadruple combo shows preclinical efficacy even in MSS CRC); pan-cancer spatial ecotype taxonomy recoverable non-invasively from cfDNA (Liquid EcoTyper, melanoma ICI-response associations); STING agonists paradoxically expand immunosuppressive Bregs via PI3Kg in PDAC — dual Nano-273 compound overcomes both arms of suppression (201-day survival in orthotopic models).",
-    "tumor_intrinsic_signaling": "Established: STK11/LKB1 co-mutation drives NSCLC primary resistance; PTEN loss drives melanoma resistance. Contested: WNT/β-catenin clinical translation weaker than Spranger 2015; PBRM1 in ccRCC did not replicate. Suspected: AARS1-PD-L1 K280 lactylation (with unresolved paradox); HILPDA-KLF5-PD-L1 Cys272 palmitoylation (fenretinide rescues); NOTCH3-PVR-TIGIT in CRC. Emerging: PKMYT1-cGAS-STING activation in CRPC.",
+    "antigen_presentation": "Established: JAK1/2 and B2M LOF cause acquired and primary resistance (rare but definitive); HLA LOH is common and positively selected; dMMR predicts response pan-histology; TMB association survives across dozens of cohorts. Contested: HLA LOH is not deterministic; \u03b22M loss does not uniformly prevent response; TMB pan-tumor threshold debated; Snyder tetrapeptide signature failed to replicate. Suspected: deltaHED inverts na\u00efve HED prediction.",
+    "ifn_gamma_signaling": "Established: JAK1/2/STAT1 LOF drives resistance; PTPN2 loss is the tumor-intrinsic ICI sensitizer (now in clinical development); IFN-\u03b3 has dual roles (driving adaptive PD-L1 resistance while also being the effector axis anti-PD-1 exploits). Emerging: IFN-\u03b3-IRF1-AGPAT3 extends the axis into ferroptosis sensitivity.",
+    "tme_exclusion": "Established: pre-existing CD8 infiltrate predicts response; inflamed/excluded/desert taxonomy; TGF-B signaling in CAFs excludes T cells. Contested: TGF-B drugs (bintrafusp alfa etc.) failed clinically despite compelling biology; IPRES under-replicated; WNT clinical signal weaker than mouse. Suspected: TROP2-claudin-7 barrier in TNBC; hMENA CAF signature (OAK-validated). Emerging: spatial niche stratification in cSCC; LOAd703 rescue in refractory melanoma; TREM2+ myeloid spatial exclusion + multi-checkpoint exhaustion co-define CRC resistance (quadruple combo shows preclinical efficacy even in MSS CRC); pan-cancer spatial ecotype taxonomy recoverable non-invasively from cfDNA (Liquid EcoTyper, melanoma ICI-response associations); STING agonists paradoxically expand immunosuppressive Bregs via PI3Kg in PDAC \u2014 dual Nano-273 compound overcomes both arms of suppression (201-day survival in orthotopic models); P2RX7 in Tregs senses extracellular ATP \u2192 Treg accumulation + CTLA-4 upregulation in lung cancer TME \u2014 pharmacological inhibition resensitizes (human + mouse evidence, Santiago-Carvalho 2026); CysLTR1 programs tumor-promoting myelopoiesis \u2192 ICI resistance \u2014 montelukast (FDA-approved) reprograms myeloid cells and restores ICI response across 5 cancer types including acquired-resistance models (Zhang 2026, Nature Cancer).",
+    "tumor_intrinsic_signaling": "Established: STK11/LKB1 co-mutation drives NSCLC primary resistance; PTEN loss drives melanoma resistance. Contested: WNT/\u03b2-catenin clinical translation weaker than Spranger 2015; PBRM1 in ccRCC did not replicate. Suspected: AARS1-PD-L1 K280 lactylation (with unresolved paradox); HILPDA-KLF5-PD-L1 Cys272 palmitoylation (fenretinide rescues); NOTCH3-PVR-TIGIT in CRC. Emerging: PKMYT1-cGAS-STING activation in CRPC.",
     "t_cell_exhaustion": "Established: Tcf1+PD-1+ stem-like CD8 progenitor pool is the operative target of PD-1 blockade, not terminally exhausted effectors; TOX is the master regulator of exhausted chromatin state (but TOX ablation also impairs persistence). Suspected: PD-1 protects expanding T cells from RICD (in vitro only); T-intrinsic VISTA synergy with anti-CTLA-4. Emerging: KLRG1 as novel checkpoint; TAM-PGE2-TIGIT in MSS CRC; anti-TIM-3 + anti-PD-1 52% ORR in PD-1-pretreated cHL.",
-    "metabolic": "Established framework: adenosine, IDO, lactate, arginine, lipid mediators all modulate ICI; IDO + pembro failed (ECHO-301). Suspected: hypoalbuminemia causally drives ICI resistance via macrophage arginine (LLC mouse); PD-L1 post-translational regulation via lipid (HILPDA) and lactate (AARS1) inputs. Emerging: M2 TAM-PGE2-TIGIT axis in MSS CRC (combinatorial target set); KSR2 as tumor-intrinsic metabolic checkpoint linking Ras scaffold signaling to anti-PD-1 resistance via Warburg-effect glucose reprogramming — knockdown resensitizes. Theme: metabolic inputs operate on multiple substrates (killing capacity, PD-L1 stability, macrophage polarization, T cell exclusion).",
-    "microbiome": "Established: gut microbiota modulate ICI in mice; antibiotic exposure worsens outcomes (the most replicated human signal); composition differs between responders/non-responders in multiple cohorts. Contested: specific taxa (Faecalibacterium, Akkermansia, Bifidobacterium, Bacteroides) do not replicate across geographies; Akkermansia non-monotonic; Bacteroidales sign-flipped across CTLA-4 vs PD-1. Emerging (and reproducible!): FMT from responder donors rescues anti-PD-1-refractory melanoma (Baruch 2021, Davar 2021 — independent replication).",
-    "clinical_intervention": "Established: ipilimumab established the durable-OS paradigm; anti-PD-1 extended across histologies; KEYNOTE-024 set 1L NSCLC PD-L1 ≥50%; CheckMate 067 combo ipi+nivo in melanoma; KEYNOTE-177 1L dMMR mCRC. Contested: KEYNOTE-177 biphasic PFS + non-significant OS; bTMB prospective failure; pan-tumor TMB approval controversial; TGF-β and IDO combos failed. Emerging: ATOMIC adjuvant atezo in stage III dMMR (HR 0.50); 8-gene dMMR biomarker for anti-CTLA-4 addition (HR 0.10 in n=25 subgroup); LOAd703 in refractory melanoma; anti-TIM-3+PD-1 in cHL."
+    "metabolic": "Established framework: adenosine, IDO, lactate, arginine, lipid mediators all modulate ICI; IDO + pembro failed (ECHO-301). Suspected: hypoalbuminemia causally drives ICI resistance via macrophage arginine (LLC mouse); PD-L1 post-translational regulation via lipid (HILPDA) and lactate (AARS1) inputs. Emerging: M2 TAM-PGE2-TIGIT axis in MSS CRC (combinatorial target set); KSR2 as tumor-intrinsic metabolic checkpoint linking Ras scaffold signaling to anti-PD-1 resistance via Warburg-effect glucose reprogramming \u2014 knockdown resensitizes. Theme: metabolic inputs operate on multiple substrates (killing capacity, PD-L1 stability, macrophage polarization, T cell exclusion).",
+    "microbiome": "Established: gut microbiota modulate ICI in mice; antibiotic exposure worsens outcomes (the most replicated human signal); composition differs between responders/non-responders in multiple cohorts. Contested: specific taxa (Faecalibacterium, Akkermansia, Bifidobacterium, Bacteroides) do not replicate across geographies; Akkermansia non-monotonic; Bacteroidales sign-flipped across CTLA-4 vs PD-1. Emerging (and reproducible!): FMT from responder donors rescues anti-PD-1-refractory melanoma (Baruch 2021, Davar 2021 \u2014 independent replication).",
+    "clinical_intervention": "Established: ipilimumab established the durable-OS paradigm; anti-PD-1 extended across histologies; KEYNOTE-024 set 1L NSCLC PD-L1 \u226550%; CheckMate 067 combo ipi+nivo in melanoma; KEYNOTE-177 1L dMMR mCRC. Contested: KEYNOTE-177 biphasic PFS + non-significant OS; bTMB prospective failure; pan-tumor TMB approval controversial; TGF-\u03b2 and IDO combos failed. Emerging: ATOMIC adjuvant atezo in stage III dMMR (HR 0.50); 8-gene dMMR biomarker for anti-CTLA-4 addition (HR 0.10 in n=25 subgroup); LOAd703 in refractory melanoma; anti-TIM-3+PD-1 in cHL."
   },
-  "version": 5
+  "version": 6
 }
