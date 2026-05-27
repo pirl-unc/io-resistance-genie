@@ -1,9 +1,11 @@
 # Papers
 
-Every paper seen by the pipeline. **1039** total.
+Every paper seen by the pipeline. **1041** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-05-21 | Meta-analytic microbiome target discovery for immune checkpoint inhibitor response in advanced melanoma | Communications Medicine | pubmed | [DOI](https://doi.org/10.1038/s43856-026-01612-8) |
+| 2026-05-20 | Tumor microenvironment features predict immunotherapy response across rare cancers: biomarker analysis from a phase 2 basket trial | Cell Reports Medicine | pubmed | [DOI](https://doi.org/10.1016/j.xcrm.2026.102827) |
 | 2026-05-19 | Targeting cysteinyl leukotriene receptor 1 reprograms tumor-promoting myelopoiesis and overcomes immune checkpoint therapy resistance | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01174-7) |
 | 2026-05-06 | Non-invasive profiling of the tumour microenvironment with spatial ecotypes | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10452-4) |
 | 2026-05-05 | Reprogramming T cell-myeloid crosstalk overcomes immune resistance in colorectal cancer | Cell Reports Medicine | pubmed | [DOI](https://doi.org/10.1016/j.xcrm.2026.102786) |

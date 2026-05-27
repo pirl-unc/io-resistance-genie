@@ -61,6 +61,7 @@
 |---|---:|---|---|---|---|
 | [Lee 2026](https://pubmed.ncbi.nlm.nih.gov/41617396/) | n=27 (3 cSCC cohorts incl. 2 phase II trials) | six spatial tissue niches (high-APC / B-plasma / inflammatory-keratinocyte vs. proliferative / low-APC-myeloid / fibroblast-EMT) | pathologic response prediction niche profiling outperformed PD-L1 IHC | — | single-cell spatial transcriptomics |
 | [Grauers 2026](https://pubmed.ncbi.nlm.nih.gov/41888981/) | n=24 (single-arm phase I/II, anti-PD-1-refractory stage IV melanoma) | intratumoral LOAd703 (CD40L/4-1BBL oncolytic adenovirus) + atezolizumab | immune-signature biomarker increased DC markers, T-cell infiltration, EM CD8⁺; decreased circulating Tregs | — | multi-parameter flow + TME transcriptomics |
+| [Zhang 2026](https://doi.org/10.1038/s41586-026-10452-4) | n=100 (~100 melanoma patients on ICI, retrospective cfDNA cohort) | cfDNA-inferred spatial ecotype (SE) level | ICI response association striking SE-response stratification (specific effect size pending full text) | — | cfDNA methylation + deep learning (Liquid EcoTyper) |
 <!-- STUDY-TABLE:END -->
 
 
