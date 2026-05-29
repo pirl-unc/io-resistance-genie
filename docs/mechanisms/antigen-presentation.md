@@ -2,7 +2,7 @@
 
 ## Confidently known
 
-- <span class="sp sp-human">human</span> **JAK1/JAK2 loss-of-function drives both primary and acquired anti-PD-1 resistance.** Zaretsky 2016 (NEJM) documented acquired JAK1 or JAK2 LOF (with LOH) plus one B2M truncating mutation in 3 of 4 melanoma patients relapsing on pembrolizumab[^pmid:27433843]. Shin 2017 extended the same mechanism to primary non-responders despite high TMB[^pmid:27903500]. Rare (<5% of all failures) but biochemically definitive; the mutant tumors are non-responsive to IFN-γ.
+- <span class="sp sp-human">human</span> **JAK1/JAK2 loss-of-function drives both primary and acquired anti-PD-1 resistance.** Zaretsky 2016 (NEJM) documented acquired JAK1 or JAK2 LOF (with LOH) plus one B2M truncating mutation in 3 of 4 melanoma patients relapsing on pembrolizumab[^pmid:27433843]. Shin 2017 extended the same mechanism to primary non-responders despite high TMB[^pmid:27903500]. Rare (<5% of all failures) but biochemically definitive; the mutant tumors are non-responsive to IFN-γ. CD40 agonism (anti-CD40 mAb) can bypass this resistance block via myeloid reprogramming, achieving antitumour immune responses without cognate antigen recognition (Zimmerman 2026)[^doi:10.64898/2026.02.05.704029].
 - <span class="sp sp-mouse">mouse</span> **PTPN2 is the tumor-intrinsic inverse of JAK/STAT resistance.** An in vivo CRISPR screen (Manguso 2017) identified Ptpn2 loss in tumor cells as an ICI sensitizer by amplifying IFN-γ/JAK-STAT signaling[^pmid:28723893]. Now clinically pursued (e.g., ABBV-514 class).
 - <span class="sp sp-human">human</span> **HLA-I allele-specific LOH is a common, positively selected immune-escape event.** McGranahan 2017 (TRACERx 100) used LOHHLA to show HLA LOH in ~40% of NSCLCs, enriched at metastatic sites, with subclonal neoantigen association[^pmid:29107330]. Replicated pan-cancer.
 - <span class="sp sp-human">human</span> **dMMR/MSI-H tumors respond broadly to pembrolizumab** (Le 2017)[^pmid:28596308]; basis of the first tissue-agnostic FDA approval and of KEYNOTE-177 for 1L dMMR mCRC[^pmid:33264544]. The presumed mechanism is massive neoantigen load from mismatch-repair failure.
@@ -81,3 +81,4 @@
 [^pmid:25765070]: Rizvi 2015 Science. [Link](https://pubmed.ncbi.nlm.nih.gov/25765070/).
 [^pmid:25409260]: Snyder 2014 NEJM. [Link](https://pubmed.ncbi.nlm.nih.gov/25409260/).
 [^pmid:41601354]: deltaHED 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41601354/).
+[^doi:10.64898/2026.02.05.704029]: Zimmerman 2026 bioRxiv — CD40 agonist rescues anti-PD-1 resistance in B2m-null tumours via myeloid reprogramming without cognate T cell antigen recognition. [Link](https://www.biorxiv.org/content/10.64898/2026.02.05.704029).

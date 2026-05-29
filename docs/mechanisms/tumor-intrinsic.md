@@ -51,10 +51,14 @@
 
 - <span class="sp sp-mouse">mouse</span> **PKMYT1 inhibition with clinical-grade RP-6306 activates cGAS-STING in castration-resistant prostate cancer**[^pmid:41617394]. Type I/II IFN signaling upregulates CCL5/CXCL10, enhances CD8 infiltration, and potentiates anti-PD-L1 in syngeneic models. Prostate cancer has been stubbornly ICI-refractory; a druggable cell-cycle-kinase–innate-sensing connection is clinically provocative.
 
+- <span class="sp sp-mouse">mouse</span> <span class="sp sp-human">human</span> **TMEM87A maintains Golgi apparatus pH homeostasis to suppress ferroptosis and confer resistance to PD-1 blockade**[^doi:10.1038/s43018-026-01156-9]. TMEM87A ablation sensitizes tumours to anti-PD-1 in preclinical models; high TMEM87A IHC expression correlates with worse ICI outcomes in patients. Extends the ferroptosis–ICI resistance connection from IFN-γ/lipid peroxidation pathways to Golgi-level pH control as a tumour-intrinsic mechanism.
+
 <!-- STUDY-TABLE:START page=tumor-intrinsic tier=emerging -->
 ### Human-study evidence
 
-*No human-study citations in this section.*
+| Study | N | Feature | Effect | 95% CI / p | Method |
+|---|---:|---|---|---|---|
+| [Li 2026](https://doi.org/10.1038/s43018-026-01156-9) | Retrospective IHC cohorts across melanoma, CRC, HCC; patient N not specified in available abstract | Tumoral TMEM87A protein expression (IHC) | ICI response direction TMEM87A high → worse ICI response and survival outcome | — | IHC + clinical outcome correlation |
 <!-- STUDY-TABLE:END -->
 
 
@@ -73,3 +77,4 @@ The emerging literature in this period is heavily focused on **post-translationa
 [^pmid:41876831]: HILPDA-KLF5 PD-L1 palmitoylation. [Link](https://pubmed.ncbi.nlm.nih.gov/41876831/).
 [^pmid:41808828]: NOTCH3-PVR-TIGIT. [Link](https://pubmed.ncbi.nlm.nih.gov/41808828/).
 [^pmid:41617394]: PKMYT1-cGAS-STING in CRPC. [Link](https://pubmed.ncbi.nlm.nih.gov/41617394/).
+[^doi:10.1038/s43018-026-01156-9]: Li 2026 Nature Cancer — TMEM87A maintains Golgi pH homeostasis to suppress ferroptosis; ablation potentiates PD-1 blockade; TMEM87A high → worse ICI outcomes. [Link](https://doi.org/10.1038/s43018-026-01156-9).
