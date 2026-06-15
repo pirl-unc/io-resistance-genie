@@ -1,9 +1,12 @@
 # Papers
 
-Every paper seen by the pipeline. **1047** total.
+Every paper seen by the pipeline. **1050** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-06-07 | Intrathecal nivolumab in metastatic solid tumors with leptomeningeal disease: dose escalation part of the multicenter IT-PD1/NOA-26 phase 1 trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01185-4) |
+| 2026-06-01 | Tumor transcriptional state predicts survival in immune-checkpoint-blockade-treated glioblastoma | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01179-2) |
+| 2026-06-01 | First-line durvalumab in combination with trastuzumab deruxtecan in women with locally advanced unresectable or metastatic, hormone-receptor-negative, HER2-low breast cancer: multicenter, open-label, phase 1b/2 BEGONIA platform trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01181-8) |
 | 2026-05-21 | Meta-analytic microbiome target discovery for immune checkpoint inhibitor response in advanced melanoma | Communications Medicine | pubmed | [DOI](https://doi.org/10.1038/s43856-026-01612-8) |
 | 2026-05-20 | Tumor microenvironment features predict immunotherapy response across rare cancers: biomarker analysis from a phase 2 basket trial | Cell Reports Medicine | pubmed | [DOI](https://doi.org/10.1016/j.xcrm.2026.102827) |
 | 2026-05-20 | Immunodominance Hierarchy of Endogenous BBN963 Bladder Cancer Antigens Remains Stable Under Anti-PD1 and Anti-CTLA4 Immunotherapy |  | biorxiv | [DOI](https://doi.org/10.64898/2026.05.20.726664) |

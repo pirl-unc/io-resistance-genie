@@ -57,6 +57,7 @@
 
 - <span class="sp sp-human">human</span> **ATOMIC phase 3 (NEJM 2026): adjuvant atezolizumab + mFOLFOX6 in stage III dMMR colon cancer, HR 0.50**[^pmid:41880612]. 3-year DFS 86.3% vs 76.2%; 40.9-month median follow-up; grade 3/4 AEs 84.1% vs 71.9%. OS not yet mature. Extends ICI benefit to the adjuvant dMMR setting. A large new patient population will now experience prolonged ICI exposure.
 - <span class="sp sp-human">human</span> **Anti-TIM-3 (TQB2618) + anti-PD-1 penpulimab in PD-1-pretreated classical Hodgkin lymphoma** achieves 52% ORR in 21 evaluable patients[^pmid:41963080]. Salvage signal in a setting where re-engaging checkpoint biology was not expected.
+- <span class="sp sp-human">human</span> **Intrathecal nivolumab dose escalation (20-50 mg) is safe in leptomeningeal disease** (IT-PD1/NOA-26 phase 1, n=30; Wick 2026)[^doi:10.1038/s43018-026-01185-4]. 1 DLT at 40 mg in 18 per-protocol evaluable patients; dose escalation through 50 mg completed; expansion phase ongoing. First human evidence that CNS-compartment anti-PD-1 delivery is feasible. Rationale: leptomeningeal disease creates an immune-privileged CNS sanctuary where systemic anti-PD-1 achieves insufficient CNS drug levels — intrathecal delivery directly circumvents this pharmacokinetic resistance barrier.
 
 <!-- STUDY-TABLE:START page=clinical-interventions tier=emerging -->
 ### Human-study evidence
@@ -65,6 +66,7 @@
 |---|---:|---|---|---|---|
 | [Sinicrope 2026](https://pubmed.ncbi.nlm.nih.gov/41880612/) | n=712 (phase 3 ATOMIC (NCT02912559), stage III dMMR colon cancer) | atezolizumab + mFOLFOX6 vs mFOLFOX6 alone | 3-yr DFS / HR 86.3% vs 76.2%; HR 0.50 | 95% CI 0.35–0.73, p<0.001 | phase 3 RCT |
 | [Hong 2026](https://pubmed.ncbi.nlm.nih.gov/41963080/) | n=21 (phase Ib (NCT05400876), PD-1-pretreated relapsed/refractory cHL) | anti-TIM-3 TQB2618 + anti-PD-1 penpulimab | ORR 52% (1 CR, 10 PR); grade ≥3 TRAE 24% | — | phase Ib clinical trial |
+| [Wick 2026](https://doi.org/10.1038/s43018-026-01185-4) | n=30 (IT-PD1/NOA-26 phase 1 multicenter; 24 received ≥1 dose; 18 completed predefined safety evaluation; LMD from solid tumors with PD-1/PD-L1 approvals or high TMB) | Intrathecal nivolumab dose escalation (20/30/40/50 mg) | DLT rate (safety) 1/18 DLT at 40 mg; dose escalation to 50 mg completed without MTD | — | Phase 1 dose escalation with IDSMC review per cohort |
 <!-- STUDY-TABLE:END -->
 
 
@@ -89,3 +91,4 @@
 [^pmid:41888981]: LOAd703 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41888981/).
 [^pmid:41880612]: ATOMIC NEJM 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41880612/).
 [^pmid:41963080]: TIM-3 + penpulimab cHL 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41963080/).
+[^doi:10.1038/s43018-026-01185-4]: Wick 2026 Nature Cancer — IT-PD1/NOA-26 phase 1; intrathecal nivolumab 20-50 mg safe in leptomeningeal disease (n=30, 1 DLT at 40 mg); first human proof-of-concept for CNS-compartment anti-PD-1 delivery. [Link](https://doi.org/10.1038/s43018-026-01185-4).
