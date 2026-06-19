@@ -42,6 +42,7 @@
 ## Emerging
 
 - <span class="sp sp-mouse">mouse</span> **IFN-γ → IRF1 → AGPAT3 → ether-phospholipid remodeling → ferroptosis sensitivity** (this period)[^pmid:41807033]. Extends IFN-γ consequences beyond antigen presentation and apoptosis to a lipidomic vulnerability. AGPAT3 loss impairs IFN-γ-mediated tumor elimination; higher tumor AGPAT3 correlates with improved ICI survival in retrospective analysis. Preclinical / associative; no pharmacologic AGPAT3 modulator tested.
+- <span class="sp sp-mouse">mouse</span> <span class="sp sp-human">human</span> **Tumor-intrinsic Ago2 post-transcriptionally suppresses STAT1 to create an ICI-resistant immunorefractory phenotype in NSCLC**[^doi:10.1371/journal.pbio.3003860]. Ago2 reduces STAT1 levels, impairing IFN-γ receptor signal transduction. Ago2 deletion in LLC syngeneic tumors restores IFN signaling, increases CCL2 and CXCL10, promotes immune infiltration, and achieves 3.5-fold growth reduction with ICI at day 18. High Ago2 + low IFN gene signature correlates with worse survival in NSCLC patients on ICI. Mechanistically distinct from JAK/STAT genetic LOF: implicates RISC post-transcriptional machinery as a tumor-intrinsic IFN signaling brake. Ago2 has been primarily studied as an oncogene; this reframes it as an immunosuppressive regulator.
 
 <!-- STUDY-TABLE:START page=ifn-gamma tier=emerging -->
 ### Human-study evidence
@@ -62,3 +63,4 @@
 [^pmid:28723893]: Manguso 2017 Nature. [Link](https://pubmed.ncbi.nlm.nih.gov/28723893/).
 [^pmid:28187290]: Sharma 2017 Cell review. [Link](https://pubmed.ncbi.nlm.nih.gov/28187290/).
 [^pmid:41807033]: AGPAT3 ferroptosis axis 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41807033/).
+[^doi:10.1371/journal.pbio.3003860]: PLOS Biology 2026 — Ago2 post-transcriptionally suppresses STAT1/IFN-γ signaling in NSCLC; Ago2 deletion restores ICI sensitivity; high Ago2 + low IFN signature correlates with worse ICI survival in patients. [Link](https://doi.org/10.1371/journal.pbio.3003860).

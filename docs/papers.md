@@ -1,9 +1,10 @@
 # Papers
 
-Every paper seen by the pipeline. **1050** total.
+Every paper seen by the pipeline. **1051** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-06-18 | Argonaute 2 drives resistance to immune checkpoint inhibitors in immunorefractory non-small cell lung cancer | PLOS Biology | pubmed | [DOI](https://doi.org/10.1371/journal.pbio.3003860) |
 | 2026-06-07 | Intrathecal nivolumab in metastatic solid tumors with leptomeningeal disease: dose escalation part of the multicenter IT-PD1/NOA-26 phase 1 trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01185-4) |
 | 2026-06-01 | Tumor transcriptional state predicts survival in immune-checkpoint-blockade-treated glioblastoma | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01179-2) |
 | 2026-06-01 | First-line durvalumab in combination with trastuzumab deruxtecan in women with locally advanced unresectable or metastatic, hormone-receptor-negative, HER2-low breast cancer: multicenter, open-label, phase 1b/2 BEGONIA platform trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01181-8) |
