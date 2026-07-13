@@ -1,9 +1,12 @@
 # Papers
 
-Every paper seen by the pipeline. **1052** total.
+Every paper seen by the pipeline. **1055** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-07-02 | Single-cell multi-omics analysis reveals heterogeneity and plasticity of neutrophil states in response to immunotherapies |  | biorxiv | [DOI](https://doi.org/10.64898/2026.07.02.735691) |
+| 2026-06-30 | Microbial induction of MHC-II expression in colon cancer cells overcomes immunotherapy resistance and limits metastasis |  | biorxiv | [DOI](https://doi.org/10.64898/2026.06.30.735621) |
+| 2026-06-30 | Immune cell-intrinsic STING activation drives tumor ferroptosis via AA-mediated suppression of ACSL4 lactylation in colorectal cancer | Proceedings of the National Academy of Sciences | pubmed | [DOI](https://doi.org/10.1073/pnas.2524594123) |
 | 2026-06-18 | Argonaute 2 drives resistance to immune checkpoint inhibitors in immunorefractory non-small cell lung cancer | PLOS Biology | pubmed | [DOI](https://doi.org/10.1371/journal.pbio.3003860) |
 | 2026-06-07 | Intrathecal nivolumab in metastatic solid tumors with leptomeningeal disease: dose escalation part of the multicenter IT-PD1/NOA-26 phase 1 trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01185-4) |
 | 2026-06-01 | Tumor transcriptional state predicts survival in immune-checkpoint-blockade-treated glioblastoma | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01179-2) |
