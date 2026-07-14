@@ -1,9 +1,10 @@
 # Papers
 
-Every paper seen by the pipeline. **1055** total.
+Every paper seen by the pipeline. **1056** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-07-08 | Diet–microbiome synergy underlies obesity-associated immunotherapy efficacy | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10750-x) |
 | 2026-07-02 | Single-cell multi-omics analysis reveals heterogeneity and plasticity of neutrophil states in response to immunotherapies |  | biorxiv | [DOI](https://doi.org/10.64898/2026.07.02.735691) |
 | 2026-06-30 | Microbial induction of MHC-II expression in colon cancer cells overcomes immunotherapy resistance and limits metastasis |  | biorxiv | [DOI](https://doi.org/10.64898/2026.06.30.735621) |
 | 2026-06-30 | Immune cell-intrinsic STING activation drives tumor ferroptosis via AA-mediated suppression of ACSL4 lactylation in colorectal cancer | Proceedings of the National Academy of Sciences | pubmed | [DOI](https://doi.org/10.1073/pnas.2524594123) |

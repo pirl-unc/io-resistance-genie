@@ -49,6 +49,7 @@
 - <span class="sp sp-human">human</span> **FMT from anti-PD-1 responders can rescue anti-PD-1-refractory melanoma.** Baruch 2021 (phase I, 3/10 objective responses)[^pmid:33303685] and Davar 2021 (phase II, 6/15 clinical benefit including ~20% ORR)[^pmid:33542131] converge independently. **This is the most surprising and actionable microbiome finding to date** — it implies that some proportion of anti-PD-1 refractoriness reflects a reversible host-microbiome state rather than tumor-intrinsic escape.
 - <span class="sp sp-human">human</span> The Davar study showed a mechanistic signature: reduced intratumoral IL-8+ myeloid cells, increased CD8+ T cell activation, consistent with microbiome-driven TME reprogramming. This is the first plausible mechanistic link between gut state and tumor immune state beyond correlative signatures.
 - <span class="sp sp-mouse">mouse</span> **Gut microbiome-driven MHC-II restoration in colon cancer cells overcomes ICI resistance in MSS CRC**[^doi:10.64898/2026.06.30.735621]. Loss of epithelial MHC-II promotes immune evasion; specific microbial signals restore antigen presentation capacity, promote T cell recognition, and limit metastasis in preclinical models. If confirmed and extended to human MSS CRC, this mechanism would identify a microbiome–antigen presentation axis orthogonal to the T cell infiltration mechanisms most extensively studied in this field.
+- <span class="sp sp-mouse">mouse</span> **Diet–microbiome synergy is the mechanistic basis for the obesity paradox in ICI response**[^doi:10.1038/s41586-026-10750-x]. Across 12 custom mouse diet models (Nature 2026, Desharnais et al.), obesity-associated ICI sensitivity correlates with diet-driven gut microbial ecosystem features rather than body weight or metabolic parameters per se. An obesogenic diet promotes a robust gut microbial ecosystem that enhances anti-PD-1 efficacy; short-term dietary switching or human-to-mouse FMT restores ICI sensitivity — decoupling the benefit from bodyweight itself. If the mechanistic specificity holds, dietary modification would become a tractable ICI-sensitization strategy complementary to FMT.
 
 <!-- STUDY-TABLE:START page=microbiome tier=emerging -->
 ### Human-study evidence
@@ -64,7 +65,7 @@
 
 - **Antibiotics:** avoid unnecessary antibiotic exposure in the 1–2 months around ICI initiation. This is the most robust clinical implication of the microbiome literature.
 - **Probiotics / specific supplementation:** not evidence-based as ICI adjuncts outside a clinical trial.
-- **Diet:** high-fiber diet shows associations with better ICI outcomes in observational data but is not rigorously established as causal in humans.
+- **Diet:** high-fiber diet shows associations with better ICI outcomes in observational data; a 2026 mouse study (Desharnais et al., Nature)[^doi:10.1038/s41586-026-10750-x] now provides mechanistic evidence that an obesogenic diet drives ICI-sensitizing gut ecosystem features independent of bodyweight — upgrading diet from an observational correlate to a mechanistically plausible intervention target, though human clinical evidence is still absent.
 - **FMT:** investigational. 20–30% response rates in small refractory trials are promising enough to support ongoing trials but not standard of care.
 
 ---
@@ -77,3 +78,4 @@
 [^pmid:33542131]: Davar 2021 Science FMT phase II. [Link](https://pubmed.ncbi.nlm.nih.gov/33542131/).
 [^doi:10.1038/s43856-026-01612-8]: Zhang 2026 Communications Medicine microbiome meta-analysis (n=678 melanoma, 7 ICI cohorts). [Link](https://doi.org/10.1038/s43856-026-01612-8).
 [^doi:10.64898/2026.06.30.735621]: bioRxiv 2026 — microbial induction of MHC-II in colon cancer cells overcomes ICI resistance and limits metastasis in MSS CRC; microbiome–antigen presentation axis. [Link](https://doi.org/10.64898/2026.06.30.735621).
+[^doi:10.1038/s41586-026-10750-x]: Desharnais et al. 2026 Nature — diet–microbiome synergy as mechanistic basis for the obesity paradox in ICI response; 12 mouse diet models show response correlates with diet-driven gut microbial ecosystem, not body weight; dietary switching or FMT restores ICI sensitivity. [Link](https://doi.org/10.1038/s41586-026-10750-x).
