@@ -1,14 +1,17 @@
 # Papers
 
-Every paper seen by the pipeline. **1056** total.
+Every paper seen by the pipeline. **1059** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
 | 2026-07-08 | Diet–microbiome synergy underlies obesity-associated immunotherapy efficacy | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10750-x) |
+| 2026-07-03 | Generalizable AI predicts immunotherapy outcomes across cancers and treatments | Nature Medicine | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/40385399/) [DOI](https://doi.org/10.1038/s41591-026-04502-7) |
 | 2026-07-02 | Single-cell multi-omics analysis reveals heterogeneity and plasticity of neutrophil states in response to immunotherapies |  | biorxiv | [DOI](https://doi.org/10.64898/2026.07.02.735691) |
 | 2026-06-30 | Microbial induction of MHC-II expression in colon cancer cells overcomes immunotherapy resistance and limits metastasis |  | biorxiv | [DOI](https://doi.org/10.64898/2026.06.30.735621) |
 | 2026-06-30 | Immune cell-intrinsic STING activation drives tumor ferroptosis via AA-mediated suppression of ACSL4 lactylation in colorectal cancer | Proceedings of the National Academy of Sciences | pubmed | [DOI](https://doi.org/10.1073/pnas.2524594123) |
+| 2026-06-25 | Mutant KRAS peptide vaccine with dual checkpoint blockade in metastatic colorectal cancer: a phase I trial | Nature Communications | pubmed | [DOI](https://doi.org/10.1038/s41467-026-74711-8) |
 | 2026-06-18 | Argonaute 2 drives resistance to immune checkpoint inhibitors in immunorefractory non-small cell lung cancer | PLOS Biology | pubmed | [DOI](https://doi.org/10.1371/journal.pbio.3003860) |
+| 2026-06-16 | Targeting PID1 generates oxysterols to switch macrophage cell fates for improved antitumor immunity | Nature Cancer | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42303776/) [DOI](https://doi.org/10.1038/s43018-026-01189-0) |
 | 2026-06-07 | Intrathecal nivolumab in metastatic solid tumors with leptomeningeal disease: dose escalation part of the multicenter IT-PD1/NOA-26 phase 1 trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01185-4) |
 | 2026-06-01 | Tumor transcriptional state predicts survival in immune-checkpoint-blockade-treated glioblastoma | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01179-2) |
 | 2026-06-01 | First-line durvalumab in combination with trastuzumab deruxtecan in women with locally advanced unresectable or metastatic, hormone-receptor-negative, HER2-low breast cancer: multicenter, open-label, phase 1b/2 BEGONIA platform trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01181-8) |
