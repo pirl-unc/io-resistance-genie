@@ -1,15 +1,17 @@
 # Papers
 
-Every paper seen by the pipeline. **1059** total.
+Every paper seen by the pipeline. **1062** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
 | 2026-07-08 | Diet–microbiome synergy underlies obesity-associated immunotherapy efficacy | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10750-x) |
 | 2026-07-03 | Generalizable AI predicts immunotherapy outcomes across cancers and treatments | Nature Medicine | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/40385399/) [DOI](https://doi.org/10.1038/s41591-026-04502-7) |
 | 2026-07-02 | Single-cell multi-omics analysis reveals heterogeneity and plasticity of neutrophil states in response to immunotherapies |  | biorxiv | [DOI](https://doi.org/10.64898/2026.07.02.735691) |
+| 2026-07-02 | Extracellular ATP–P2RY2 signaling drives intratumoral prostaglandin E2 accumulation and adaptive resistance to immunotherapy in solid tumors | Immunity | pubmed | [DOI](https://doi.org/10.1016/j.immuni.2026.06.006) |
 | 2026-06-30 | Microbial induction of MHC-II expression in colon cancer cells overcomes immunotherapy resistance and limits metastasis |  | biorxiv | [DOI](https://doi.org/10.64898/2026.06.30.735621) |
 | 2026-06-30 | Immune cell-intrinsic STING activation drives tumor ferroptosis via AA-mediated suppression of ACSL4 lactylation in colorectal cancer | Proceedings of the National Academy of Sciences | pubmed | [DOI](https://doi.org/10.1073/pnas.2524594123) |
 | 2026-06-25 | Mutant KRAS peptide vaccine with dual checkpoint blockade in metastatic colorectal cancer: a phase I trial | Nature Communications | pubmed | [DOI](https://doi.org/10.1038/s41467-026-74711-8) |
+| 2026-06-23 | GABA shapes GBM immune responses in a sex-dependent manner | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01183-6) |
 | 2026-06-18 | Argonaute 2 drives resistance to immune checkpoint inhibitors in immunorefractory non-small cell lung cancer | PLOS Biology | pubmed | [DOI](https://doi.org/10.1371/journal.pbio.3003860) |
 | 2026-06-16 | Targeting PID1 generates oxysterols to switch macrophage cell fates for improved antitumor immunity | Nature Cancer | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42303776/) [DOI](https://doi.org/10.1038/s43018-026-01189-0) |
 | 2026-06-07 | Intrathecal nivolumab in metastatic solid tumors with leptomeningeal disease: dose escalation part of the multicenter IT-PD1/NOA-26 phase 1 trial | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01185-4) |
@@ -22,6 +24,7 @@ Every paper seen by the pipeline. **1059** total.
 | 2026-05-19 | Targeting cysteinyl leukotriene receptor 1 reprograms tumor-promoting myelopoiesis and overcomes immune checkpoint therapy resistance | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01174-7) |
 | 2026-05-06 | Non-invasive profiling of the tumour microenvironment with spatial ecotypes | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10452-4) |
 | 2026-05-05 | Reprogramming T cell-myeloid crosstalk overcomes immune resistance in colorectal cancer | Cell Reports Medicine | pubmed | [DOI](https://doi.org/10.1016/j.xcrm.2026.102786) |
+| 2026-05-01 | Citraconate preserves T cell stemness and antitumor immunity | Science Immunology | pubmed | [DOI](https://doi.org/10.1126/sciimmunol.adz0348) |
 | 2026-04-30 | Distinct in vivo dynamics of donor-derived stem cell memory CAR T cells post-allogeneic HSCT relapse | Cell | pubmed | [DOI](https://doi.org/10.1016/j.cell.2026.03.047) |
 | 2026-04-28 | Dual targeting of PI3Kγ and STING overcomes regulatory B cell- and myeloid cell-driven immune suppression in pancreatic cancer | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01158-7) |
 | 2026-04-21 | KSR2 functions as a metabolic checkpoint for anti-PD-1 resistance by reprogramming glucose metabolism | Cancer Immunology, Immunotherapy | pubmed | [DOI](https://doi.org/10.1007/s00262-026-04394-z) |

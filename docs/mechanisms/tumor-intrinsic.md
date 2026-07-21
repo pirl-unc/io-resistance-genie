@@ -53,6 +53,8 @@
 
 - <span class="sp sp-mouse">mouse</span> <span class="sp sp-human">human</span> **TMEM87A maintains Golgi apparatus pH homeostasis to suppress ferroptosis and confer resistance to PD-1 blockade**[^doi:10.1038/s43018-026-01156-9]. TMEM87A ablation sensitizes tumours to anti-PD-1 in preclinical models; high TMEM87A IHC expression correlates with worse ICI outcomes in patients. Extends the ferroptosis–ICI resistance connection from IFN-γ/lipid peroxidation pathways to Golgi-level pH control as a tumour-intrinsic mechanism.
 
+- <span class="sp sp-mouse">mouse</span> <span class="sp sp-human">human</span> **Tumor-cell P2RY2 senses immunotherapy-induced extracellular ATP to drive COX1/COX2-PGE2 immunosuppression — an adaptive resistance circuit amplified by ICI-induced cell death**[^doi:10.1016/j.immuni.2026.06.006]. eATP released from dying cells during ICI signals through P2RY2 on surviving tumor cells, upregulating COX1/2 and re-establishing intratumoral PGE2-mediated immunosuppression. Genetic or pharmacological P2RY2 inhibition reduces baseline PGE2, remodels the TME, and reverses resistance to CAR-T, TCR-T, checkpoint blockade, and TIL therapies across CRC, pancreatic, and melanoma models. An anti-P2RY2 mAb enhanced melanoma patients' immune cells' ability to kill their own tumor cells ex vivo (Hu et al. 2026, Immunity). Mechanistically distinct from canonical B2M/JAK LOF resistance — P2RY2 creates adaptive (on-treatment) immunosuppression upstream of COX/PGE2 in direct response to therapy-induced cell death, representing a positive feedback loop that worsens with each round of ICI-mediated killing.
+
 <!-- STUDY-TABLE:START page=tumor-intrinsic tier=emerging -->
 ### Human-study evidence
 
@@ -78,3 +80,4 @@ The emerging literature in this period is heavily focused on **post-translationa
 [^pmid:41808828]: NOTCH3-PVR-TIGIT. [Link](https://pubmed.ncbi.nlm.nih.gov/41808828/).
 [^pmid:41617394]: PKMYT1-cGAS-STING in CRPC. [Link](https://pubmed.ncbi.nlm.nih.gov/41617394/).
 [^doi:10.1038/s43018-026-01156-9]: Li 2026 Nature Cancer — TMEM87A maintains Golgi pH homeostasis to suppress ferroptosis; ablation potentiates PD-1 blockade; TMEM87A high → worse ICI outcomes. [Link](https://doi.org/10.1038/s43018-026-01156-9).
+[^doi:10.1016/j.immuni.2026.06.006]: Hu et al. 2026 Immunity — tumor-cell P2RY2 senses immunotherapy-induced eATP to drive COX1/COX2-PGE2 adaptive resistance; P2RY2 inhibition reverses resistance to CAR-T, TCR-T, checkpoint blockade, and TIL therapies in CRC, pancreatic, and melanoma models; anti-P2RY2 mAb enhances ex vivo tumor killing with patient immune cells. [Link](https://doi.org/10.1016/j.immuni.2026.06.006).
