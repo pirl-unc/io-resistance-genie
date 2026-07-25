@@ -1,9 +1,11 @@
 # Papers
 
-Every paper seen by the pipeline. **1062** total.
+Every paper seen by the pipeline. **1064** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-07-23 | Distinct thymic pDC populations promote tumor immune tolerance through complementary mechanisms | Science Advances | pubmed | [DOI](https://doi.org/10.1126/sciadv.adx9864) |
+| 2026-07-22 | mTORC1 suppression by Trp53 mutation drives resistance to immune checkpoint blockade | Cell Death and Disease | pubmed | [DOI](https://doi.org/10.1038/s41419-026-09067-4) |
 | 2026-07-08 | Diet–microbiome synergy underlies obesity-associated immunotherapy efficacy | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10750-x) |
 | 2026-07-03 | Generalizable AI predicts immunotherapy outcomes across cancers and treatments | Nature Medicine | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/40385399/) [DOI](https://doi.org/10.1038/s41591-026-04502-7) |
 | 2026-07-02 | Single-cell multi-omics analysis reveals heterogeneity and plasticity of neutrophil states in response to immunotherapies |  | biorxiv | [DOI](https://doi.org/10.64898/2026.07.02.735691) |

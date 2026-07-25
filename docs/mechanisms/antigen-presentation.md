@@ -56,6 +56,7 @@
 
 - <span class="sp sp-mouse">mouse</span> **PAR-2 (F2RL1) activation suppresses DC antigen presentation in lung cancer.** A selective negative allosteric modulator (I-117) restores presentation and synergizes with anti-PD-1 in preclinical models — novel GPCR-to-APC axis with a druggable lead (this period's literature).
 - <span class="sp sp-human">human</span> **Tumor B2M expression as a TMB/PD-L1-independent response biomarker in R/M HNSCC progressing on anti-PD-1** (multi-omics 2026). Moves B2M from "LOF = resistance" framing toward a graded expression biomarker.
+- <span class="sp sp-mouse">mouse</span> **Tumor progression hijacks thymic central tolerance via CCR9-dependent pDC recruitment**[^doi:10.1126/sciadv.adx9864]. CDP-pDCs capture peripheral tumor antigens, migrate to the thymus, and present them via MHC-I/II to drive clonal deletion of tumor-reactive developing T cells; CLP-pDCs secrete IFN-α to suppress thymopoiesis. CCR9 deficiency abrogates both populations, enhancing antitumor immunity and reducing tumor growth in syngeneic mouse models. A systemic immune evasion axis entirely outside the TME that operates at the level of central T cell repertoire selection — and one that checkpoint blockade cannot rescue T cells that were never generated. Mouse-only; clinical relevance contingent on whether adult thymopoiesis is sufficiently active during tumor progression.
 
 <!-- STUDY-TABLE:START page=antigen-presentation tier=emerging -->
 ### Human-study evidence
@@ -82,3 +83,4 @@
 [^pmid:25409260]: Snyder 2014 NEJM. [Link](https://pubmed.ncbi.nlm.nih.gov/25409260/).
 [^pmid:41601354]: deltaHED 2026. [Link](https://pubmed.ncbi.nlm.nih.gov/41601354/).
 [^doi:10.64898/2026.02.05.704029]: Zimmerman 2026 bioRxiv — CD40 agonist rescues anti-PD-1 resistance in B2m-null tumours via myeloid reprogramming without cognate T cell antigen recognition. [Link](https://www.biorxiv.org/content/10.64898/2026.02.05.704029).
+[^doi:10.1126/sciadv.adx9864]: Wang, Kato, Katakai 2026 Science Advances — tumor-induced thymic pDC accumulation (CDP-pDCs delete tumor-reactive developing T cells; CLP-pDCs suppress thymopoiesis via IFN-α); CCR9 deficiency enhances antitumor immunity in syngeneic mouse models. [Link](https://doi.org/10.1126/sciadv.adx9864).

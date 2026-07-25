@@ -46,9 +46,7 @@
 <!-- STUDY-TABLE:START page=metabolic tier=emerging -->
 ### Human-study evidence
 
-| Study | N | Feature | Effect | 95% CI / p | Method |
-|---|---:|---|---|---|---|
-| [Liu et al. 2026](https://doi.org/10.1126/sciimmunol.adz0348) | Cancer patients on ICI (N not specified in abstract) | ALOX5 or PDE1A expression level in tumor | ICI response direction lower ALOX5 or PDE1A → less T cell exhaustion, better ICI responsiveness | — | Transcriptomic profiling + ICI clinical outcome correlation |
+*No human-study citations in this section.*
 <!-- STUDY-TABLE:END -->
 
 
