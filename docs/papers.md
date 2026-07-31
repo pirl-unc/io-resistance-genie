@@ -1,9 +1,11 @@
 # Papers
 
-Every paper seen by the pipeline. **1066** total.
+Every paper seen by the pipeline. **1068** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-07-27 | Tumor-infiltrating plasma cell profiling after PD-1 blockade reveals tumor-specific antibodies | Cancer Cell | pubmed | [DOI](https://doi.org/10.1016/j.ccell.2026.07.001) |
+| 2026-07-27 | The Dendritic Cell-based Vaccine PROTEXI leverages Antiviral CD4 T cell Memory to boost anti-tumor immune responses in mice | Nature Communications | pubmed | [DOI](https://doi.org/10.1038/s41467-026-74891-3) |
 | 2026-07-23 | Distinct thymic pDC populations promote tumor immune tolerance through complementary mechanisms | Science Advances | pubmed | [DOI](https://doi.org/10.1126/sciadv.adx9864) |
 | 2026-07-22 | mTORC1 suppression by Trp53 mutation drives resistance to immune checkpoint blockade | Cell Death and Disease | pubmed | [DOI](https://doi.org/10.1038/s41419-026-09067-4) |
 | 2026-07-13 | MEK-dependent bioenergetic demand drives terminal CD8+ T cell exhaustion | Immunity | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42442358/) [DOI](https://doi.org/10.1016/j.immuni.2026.06.012) |
