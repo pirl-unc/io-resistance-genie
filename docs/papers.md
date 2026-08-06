@@ -1,9 +1,10 @@
 # Papers
 
-Every paper seen by the pipeline. **1069** total.
+Every paper seen by the pipeline. **1070** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-08-04 | CCR7+ activated dendritic cells are essential for spontaneous and immunotherapy-driven anti-tumor immunity | Immunity | pubmed | [DOI](https://doi.org/10.1016/j.immuni.2026.07.002) |
 | 2026-08-03 | TRAIL splice variant TRAILshort disrupts T cell receptor signaling and promotes immune tolerance in vivo | Journal of Clinical Investigation | pubmed | [DOI](https://doi.org/10.1172/jci194449) |
 | 2026-07-27 | Tumor-infiltrating plasma cell profiling after PD-1 blockade reveals tumor-specific antibodies | Cancer Cell | pubmed | [DOI](https://doi.org/10.1016/j.ccell.2026.07.001) |
 | 2026-07-27 | The Dendritic Cell-based Vaccine PROTEXI leverages Antiviral CD4 T cell Memory to boost anti-tumor immune responses in mice | Nature Communications | pubmed | [DOI](https://doi.org/10.1038/s41467-026-74891-3) |
