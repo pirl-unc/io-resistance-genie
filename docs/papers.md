@@ -1,9 +1,10 @@
 # Papers
 
-Every paper seen by the pipeline. **1072** total.
+Every paper seen by the pipeline. **1073** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-09-01 | Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy | Cancer Cell | pubmed | [DOI](https://doi.org/10.1016/j.ccell.2026.08.007) |
 | 2026-08-06 | PPARα activation overcomes fibroinflammatory liver microenvironment-associated anti-PD-1 resistance in hepatocellular carcinoma by mediating GSDME-dependent pyroptosis | Nature Communications | pubmed | [DOI](https://doi.org/10.1038/s41467-026-75770-7) |
 | 2026-08-04 | CCR7+ activated dendritic cells are essential for spontaneous and immunotherapy-driven anti-tumor immunity | Immunity | pubmed | [DOI](https://doi.org/10.1016/j.immuni.2026.07.002) |
 | 2026-08-03 | TRAIL splice variant TRAILshort disrupts T cell receptor signaling and promotes immune tolerance in vivo | Journal of Clinical Investigation | pubmed | [DOI](https://doi.org/10.1172/jci194449) |
