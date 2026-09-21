@@ -1,21 +1,26 @@
 # Papers
 
-Every paper seen by the pipeline. **1074** total.
+Every paper seen by the pipeline. **1080** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
 | 2026-09-09 | PLA2G2D in tumour-draining lymph nodes regulates anti-tumour immunity | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10954-1) |
 | 2026-09-01 | Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy | Cancer Cell | pubmed | [DOI](https://doi.org/10.1016/j.ccell.2026.08.007) |
+| 2026-09-01 | ADAR1 Deficiency in Pancreatic Cancer Cells Potentiates cDC1 Activation and Promotes Sensitization to Immunotherapy | Cancer Immunology Research | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42308348/) [DOI](https://doi.org/10.1158/2326-6066.CIR-25-1626) |
+| 2026-09-01 | Mitochondrial Complex I Subunit NDUFA9 Governs NK Cell Metabolic Fitness and Anti-Tumor Immunity in Glioblastoma | Cancer Discovery | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/41944586/) [DOI](https://doi.org/10.1158/2159-8290.CD-25-0643) |
 | 2026-08-06 | PPARα activation overcomes fibroinflammatory liver microenvironment-associated anti-PD-1 resistance in hepatocellular carcinoma by mediating GSDME-dependent pyroptosis | Nature Communications | pubmed | [DOI](https://doi.org/10.1038/s41467-026-75770-7) |
 | 2026-08-04 | CCR7+ activated dendritic cells are essential for spontaneous and immunotherapy-driven anti-tumor immunity | Immunity | pubmed | [DOI](https://doi.org/10.1016/j.immuni.2026.07.002) |
 | 2026-08-03 | TRAIL splice variant TRAILshort disrupts T cell receptor signaling and promotes immune tolerance in vivo | Journal of Clinical Investigation | pubmed | [DOI](https://doi.org/10.1172/jci194449) |
 | 2026-08-01 | Cancer Cell–Intrinsic SSBP4 Enables Tumor Immune Evasion by Promoting Cholesterol Biosynthesis | Cancer Immunology Research | pubmed | [DOI](https://doi.org/10.1158/2326-6066.CIR-25-1312) |
+| 2026-08-01 | Iron-mediated ferroptosis limits CAR T cell persistence and antitumor efficacy in solid tumors | Nature Cancer | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42270901/) [DOI](https://doi.org/10.1038/s43018-026-01187-2) |
+| 2026-08-01 | Targeting ERO1A enhances antitumor immune response by recruiting CD8+ T cells and synergizing with PD-L1 blockade in liver cancer | Cancer Immunology Research | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42644613/) [DOI](https://doi.org/10.1158/2326-6066.CIR-25-1471) |
 | 2026-07-27 | Tumor-infiltrating plasma cell profiling after PD-1 blockade reveals tumor-specific antibodies | Cancer Cell | pubmed | [DOI](https://doi.org/10.1016/j.ccell.2026.07.001) |
 | 2026-07-27 | The Dendritic Cell-based Vaccine PROTEXI leverages Antiviral CD4 T cell Memory to boost anti-tumor immune responses in mice | Nature Communications | pubmed | [DOI](https://doi.org/10.1038/s41467-026-74891-3) |
 | 2026-07-23 | Distinct thymic pDC populations promote tumor immune tolerance through complementary mechanisms | Science Advances | pubmed | [DOI](https://doi.org/10.1126/sciadv.adx9864) |
 | 2026-07-22 | mTORC1 suppression by Trp53 mutation drives resistance to immune checkpoint blockade | Cell Death and Disease | pubmed | [DOI](https://doi.org/10.1038/s41419-026-09067-4) |
 | 2026-07-13 | MEK-dependent bioenergetic demand drives terminal CD8+ T cell exhaustion | Immunity | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42442358/) [DOI](https://doi.org/10.1016/j.immuni.2026.06.012) |
 | 2026-07-09 | The CARM1 epigenetic enzyme inhibits cross-presenting dendritic cell function in cancer immunity | Science | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42424445/) [DOI](https://doi.org/10.1126/science.aea1200) |
+| 2026-07-09 | USP30-AS1-encoded micropeptide UEIS suppresses cGAS-STING-driven type I interferon signaling in macrophages to promote immunotherapy resistance | Nature Cancer | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42426285/) [DOI](https://doi.org/10.1038/s43018-026-01195-2) |
 | 2026-07-08 | Diet–microbiome synergy underlies obesity-associated immunotherapy efficacy | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10750-x) |
 | 2026-07-03 | Generalizable AI predicts immunotherapy outcomes across cancers and treatments | Nature Medicine | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/40385399/) [DOI](https://doi.org/10.1038/s41591-026-04502-7) |
 | 2026-07-02 | Single-cell multi-omics analysis reveals heterogeneity and plasticity of neutrophil states in response to immunotherapies |  | biorxiv | [DOI](https://doi.org/10.64898/2026.07.02.735691) |
@@ -37,6 +42,7 @@ Every paper seen by the pipeline. **1074** total.
 | 2026-05-06 | Non-invasive profiling of the tumour microenvironment with spatial ecotypes | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10452-4) |
 | 2026-05-05 | Reprogramming T cell-myeloid crosstalk overcomes immune resistance in colorectal cancer | Cell Reports Medicine | pubmed | [DOI](https://doi.org/10.1016/j.xcrm.2026.102786) |
 | 2026-05-01 | Citraconate preserves T cell stemness and antitumor immunity | Science Immunology | pubmed | [DOI](https://doi.org/10.1126/sciimmunol.adz0348) |
+| 2026-05-01 | Macrophage ALDH2 drives immunotherapy resistance through metabolic-epigenetic silencing of CXCL9 | Nature Communications | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42168200/) [DOI](https://doi.org/10.1038/s41467-026-73234-6) |
 | 2026-04-30 | Distinct in vivo dynamics of donor-derived stem cell memory CAR T cells post-allogeneic HSCT relapse | Cell | pubmed | [DOI](https://doi.org/10.1016/j.cell.2026.03.047) |
 | 2026-04-28 | Dual targeting of PI3Kγ and STING overcomes regulatory B cell- and myeloid cell-driven immune suppression in pancreatic cancer | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01158-7) |
 | 2026-04-21 | KSR2 functions as a metabolic checkpoint for anti-PD-1 resistance by reprogramming glucose metabolism | Cancer Immunology, Immunotherapy | pubmed | [DOI](https://doi.org/10.1007/s00262-026-04394-z) |
