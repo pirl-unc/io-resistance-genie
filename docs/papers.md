@@ -1,9 +1,10 @@
 # Papers
 
-Every paper seen by the pipeline. **1080** total.
+Every paper seen by the pipeline. **1081** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-09-17 | PDS0101 With Pembrolizumab in HPV16-Positive Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma: A Phase 2 Nonrandomized Clinical Trial | JAMA Oncology | pubmed | [DOI](https://doi.org/10.1001/jamaoncol.2026.3492) |
 | 2026-09-09 | PLA2G2D in tumour-draining lymph nodes regulates anti-tumour immunity | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10954-1) |
 | 2026-09-01 | Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy | Cancer Cell | pubmed | [DOI](https://doi.org/10.1016/j.ccell.2026.08.007) |
 | 2026-09-01 | ADAR1 Deficiency in Pancreatic Cancer Cells Potentiates cDC1 Activation and Promotes Sensitization to Immunotherapy | Cancer Immunology Research | pubmed | [PMID](https://pubmed.ncbi.nlm.nih.gov/42308348/) [DOI](https://doi.org/10.1158/2326-6066.CIR-25-1626) |
