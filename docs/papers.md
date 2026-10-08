@@ -1,9 +1,11 @@
 # Papers
 
-Every paper seen by the pipeline. **1081** total.
+Every paper seen by the pipeline. **1083** total.
 
 | Date | Title | Journal | Source | Links |
 | --- | --- | --- | --- | --- |
+| 2026-10-08 | Tumor-intrinsic SIRPα drives anti-PD-1 resistance in esophageal cancer by coordinating proliferative dominance and T-cell exhaustion: A target for combinatorial immunotherapy | BMC Medicine | pubmed | [DOI](https://doi.org/10.1186/s12916-026-05213-z) |
+| 2026-10-06 | Intestinal epithelial GSK3β governs fumarate-dependent neutrophil reprogramming to promote colorectal cancer | Nature Cancer | pubmed | [DOI](https://doi.org/10.1038/s43018-026-01253-9) |
 | 2026-09-17 | PDS0101 With Pembrolizumab in HPV16-Positive Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma: A Phase 2 Nonrandomized Clinical Trial | JAMA Oncology | pubmed | [DOI](https://doi.org/10.1001/jamaoncol.2026.3492) |
 | 2026-09-09 | PLA2G2D in tumour-draining lymph nodes regulates anti-tumour immunity | Nature | pubmed | [DOI](https://doi.org/10.1038/s41586-026-10954-1) |
 | 2026-09-01 | Tumor immune microenvironment remodeling predicts response to checkpoint inhibitor therapy | Cancer Cell | pubmed | [DOI](https://doi.org/10.1016/j.ccell.2026.08.007) |
